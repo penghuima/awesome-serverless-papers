@@ -28,20 +28,34 @@
     - [ISCA](#isca)
       - [2021](#2021-2)
         - [1.Confidential Serverless Made Efficient with Plug-In Enclaves [1]](#1confidential-serverless-made-efficient-with-plug-in-enclaves-1)
+    - [FSE/ESEC](#fseesec)
+      - [2021](#2021-3)
+        - [1.An empirical study on challenges of application development in serverless computing [8]](#1an-empirical-study-on-challenges-of-application-development-in-serverless-computing-8)
+        - [2.Automating serverless deployments for DevOps organizations [1]](#2automating-serverless-deployments-for-devops-organizations-1)
+    - [SOSP](#sosp)
+      - [2021](#2021-4)
+        - [1.Boki: Stateful Serverless Computing with Shared Logs [7]](#1boki-stateful-serverless-computing-with-shared-logs-7)
+        - [2.Faster and Cheaper Serverless Computing on Harvested Resources [8]](#2faster-and-cheaper-serverless-computing-on-harvested-resources-8)
+        - [3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes  [9]](#3flashcube-fast-provisioning-of-serverless-functions-with-streamlined-container-runtimes--9)
+    - [OSDI](#osdi)
+      - [2021](#2021-5)
+        - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads [1]](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads-1)
+      - [2020](#2020-2)
+        - [1.Fault-tolerant and transactional stateful serverless workflows [4]](#1fault-tolerant-and-transactional-stateful-serverless-workflows-4)
   - [期刊](#期刊)
     - [TC](#tc)
       - [2022](#2022-1)
         - [1.λDNN: Achieving Predictable Distributed DNN Training With Serverless Architectures [3]](#1λdnn-achieving-predictable-distributed-dnn-training-with-serverless-architectures-3)
     - [TPDS](#tpds)
-      - [2021](#2021-3)
+      - [2021](#2021-6)
         - [1.Modeling and Optimization of Performance and Cost of Serverless Applications [6]](#1modeling-and-optimization-of-performance-and-cost-of-serverless-applications-6)
-      - [2020](#2020-2)
+      - [2020](#2020-3)
         - [1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform [5]](#1automated-fine-grained-cpu-cap-control-in-serverless-computing-platform-5)
         - [2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud [3]](#2an-event-driven-approach-to-serverless-seismic-imaging-in-the-cloud-3)
 - [CCFB](#ccfb)
   - [会议](#会议-1)
     - [SoCC](#socc)
-      - [2021](#2021-4)
+      - [2021](#2021-7)
         - [1.Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications](#1faat-a-transparent-auto-scaling-cache-for-serverless-applications)
         - [2.Atoll: A Scalable Low-Latency Serverless Platform](#2atoll-a-scalable-low-latency-serverless-platform)
         - [3.Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms](#3kraken-adaptive-container-provisioning-for-deploying-dynamic-dags-in-serverless-platforms)
@@ -51,7 +65,7 @@
         - [7.ServerMore: Opportunistic Execution of Serverless Functions in the Cloud](#7servermore-opportunistic-execution-of-serverless-functions-in-the-cloud)
         - [8.On Merits and Viability of Multi-Cloud Serverless](#8on-merits-and-viability-of-multi-cloud-serverless)
         - [9.Speedo: Fast dispatch and orchestration of serverless workflows](#9speedo-fast-dispatch-and-orchestration-of-serverless-workflows)
-      - [2020](#2020-3)
+      - [2020](#2020-4)
         - [1.Wukong: a scalable and locality-enhanced framework for serverless parallel computing](#1wukong-a-scalable-and-locality-enhanced-framework-for-serverless-parallel-computing)
         - [2.Characterizing serverless platforms with serverlessbench](#2characterizing-serverless-platforms-with-serverlessbench)
         - [3.Photons: lambdas on a diet](#3photons-lambdas-on-a-diet)
@@ -64,47 +78,47 @@
         - [2.Cirrus: a Serverless Framework for End-to-end ML Workflows](#2cirrus-a-serverless-framework-for-end-to-end-ml-workflows)
         - [3.Practical Cloud Workloads for Serverless FaaS](#3practical-cloud-workloads-for-serverless-faas)
     - [CLUSTER](#cluster)
-      - [2021](#2021-5)
+      - [2021](#2021-8)
         - [1.Tackling Cold Start of Serverless Applications by Efficient and Adaptive Container Runtime Reusing [8]](#1tackling-cold-start-of-serverless-applications-by-efficient-and-adaptive-container-runtime-reusing-8)
         - [2.Supporting Elastic Compaction of LSM-tree with a FaaS Cluster [1]](#2supporting-elastic-compaction-of-lsm-tree-with-a-faas-cluster-1)
     - [ICDCS](#icdcs)
-      - [2021](#2021-6)
+      - [2021](#2021-9)
         - [1.Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms [10]](#1defuse-a-dependency-guided-function-scheduler-to-mitigate-cold-starts-on-faas-platforms-10)
         - [2.Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning [1]](#2gillis-serving-large-neural-networks-in-serverless-functions-with-automatic-model-partitioning-1)
         - [3.Poster: Function Delivery Network: Extending Serverless to Heterogeneous Computing](#3poster-function-delivery-network-extending-serverless-to-heterogeneous-computing)
         - [4.A Multi-Tenant Framework for Cloud Container Services](#4a-multi-tenant-framework-for-cloud-container-services)
-      - [2020](#2020-4)
+      - [2020](#2020-5)
         - [1.λ-NIC: Interactive Serverless Compute on Programmable SmartNICs [2]](#1λ-nic-interactive-serverless-compute-on-programmable-smartnics-2)
         - [2.Serverless Straggler Mitigation using Error-Correcting Codes](#2serverless-straggler-mitigation-using-error-correcting-codes)
         - [3.Characterizing Bottlenecks in Scheduling Microservices on Serverless Platforms](#3characterizing-bottlenecks-in-scheduling-microservices-on-serverless-platforms)
     - [EuroSys](#eurosys)
-      - [2021](#2021-7)
+      - [2021](#2021-10)
         - [1.OFC: an opportunistic caching system for FaaS platforms](#1ofc-an-opportunistic-caching-system-for-faas-platforms)
-      - [2020](#2020-5)
+      - [2020](#2020-6)
         - [1.A fault-tolerance shim for serverless computing](#1a-fault-tolerance-shim-for-serverless-computing)
         - [2.SEUSS: skip redundant paths to make serverless fast](#2seuss-skip-redundant-paths-to-make-serverless-fast)
     - [ICPP](#icpp)
-      - [2021](#2021-8)
+      - [2021](#2021-11)
         - [1.AMPS-Inf: Automatic Model Partitioning for Serverless Inference with Cost Efficiency](#1amps-inf-automatic-model-partitioning-for-serverless-inference-with-cost-efficiency)
     - [IPDPS](#ipdps)
-      - [2021](#2021-9)
+      - [2021](#2021-12)
         - [1.Astra: Autonomous Serverless Analytics with Cost-Efficiency and QoS-Awareness.](#1astra-autonomous-serverless-analytics-with-cost-efficiency-and-qos-awareness)
-      - [2020](#2020-6)
+      - [2020](#2020-7)
         - [1.Amoeba: QoS-Awareness and Reduced Resource Usage of Microservices with Serverless Computing](#1amoeba-qos-awareness-and-reduced-resource-usage-of-microservices-with-serverless-computing)
     - [HPDC](#hpdc)
-      - [2021](#2021-10)
+      - [2021](#2021-13)
         - [1.A Serverless Framework for Distributed Bulk Metadata Extraction](#1a-serverless-framework-for-distributed-bulk-metadata-extraction)
         - [2.LaSS: Running Latency Sensitive Serverless Computations at the Edge](#2lass-running-latency-sensitive-serverless-computations-at-the-edge)
 - [CCFC](#ccfc)
   - [会议](#会议-2)
     - [HPCC](#hpcc)
-      - [2021](#2021-11)
+      - [2021](#2021-14)
         - [1.Descriptive and Predictive Analysis of Aggregating Functions in Serverless Clouds: the Case of Video Streaming](#1descriptive-and-predictive-analysis-of-aggregating-functions-in-serverless-clouds-the-case-of-video-streaming)
     - [HiPC](#hipc)
-      - [2021](#2021-12)
+      - [2021](#2021-15)
         - [1.FaaSter: Accelerated Functions-as-a-Service with Heterogeneous GPUs](#1faaster-accelerated-functions-as-a-service-with-heterogeneous-gpus)
     - [CCGRID](#ccgrid)
-      - [2021](#2021-13)
+      - [2021](#2021-16)
         - [1.Data-driven scheduling in serverless computing to reduce response time [10]](#1data-driven-scheduling-in-serverless-computing-to-reduce-response-time-10)
         - [2.Deadline-aware Dynamic Resource Management in Serverless Computing Environments [10]](#2deadline-aware-dynamic-resource-management-in-serverless-computing-environments-10)
         - [3.Benchmarking Serverless Workloads on Kubernetes [10]](#3benchmarking-serverless-workloads-on-kubernetes-10)
@@ -115,7 +129,7 @@
         - [8.Scheduling Containers Rather Than Functions for Function-as-a-Service](#8scheduling-containers-rather-than-functions-for-function-as-a-service)
         - [9.Virtual Device Model extending NGSI-LD for FaaS at the Edge [1]](#9virtual-device-model-extending-ngsi-ld-for-faas-at-the-edge-1)
         - [10.QoS aware FaaS platform [10]](#10qos-aware-faas-platform-10)
-      - [2020](#2020-7)
+      - [2020](#2020-8)
         - [1.Performance Optimization for Edge-Cloud Serverless Platforms via Dynamic Task Placement](#1performance-optimization-for-edge-cloud-serverless-platforms-via-dynamic-task-placement)
         - [2.Cost-Effective Malware Detection as a Service Over Serverless Cloud Using Deep Reinforcement Learning](#2cost-effective-malware-detection-as-a-service-over-serverless-cloud-using-deep-reinforcement-learning)
       - [2019](#2019-1)
@@ -125,7 +139,7 @@
         - [1.Adaptive Function Launching Acceleration in Serverless Computing Platforms [10]](#1adaptive-function-launching-acceleration-in-serverless-computing-platforms-10)
   - [期刊](#期刊-1)
     - [JGC](#jgc)
-      - [2021](#2021-14)
+      - [2021](#2021-17)
         - [1.Deployment Management and Topology Discovery of Microservice Applications in the Multicloud Environment [5]](#1deployment-management-and-topology-discovery-of-microservice-applications-in-the-multicloud-environment-5)
         - [2.Serverless Workflows for Containerised Applications in the Cloud Continuum [7]](#2serverless-workflows-for-containerised-applications-in-the-cloud-continuum-7)
         - [3.Highly Complex Resource Scheduling for Stochastic Demands in Heterogeneous Clouds [6]](#3highly-complex-resource-scheduling-for-stochastic-demands-in-heterogeneous-clouds-6)
@@ -318,6 +332,81 @@
 **摘要：**
 
 无服务器计算已经成为现代云计算中的一个事实。无服务器函数可能会处理来自客户端的敏感数据。**使用硬件 enclave 保护这样的函数不受不信任的云的影响，对用户的隐私有吸引力**。在这项工作中，我们在SGX enclave中运行现有的无服务器应用程序，并观察到**性能下降**可高达5.6倍，甚至422.6倍。我们的调查发现，这些减速与架构特征有关，主要来自于分页的 enclave 初始化。利用我们对开销分析的洞察力，我们重新审视了SGX的硬件设计，并对其 enclave 模型做了最小的修改。我们用一个新的基元-区域-插件 enclave 来扩展SGX，这些 enclave 可以被映射到现有的 enclave 中，以重用各函数之间已被证实的共同状态。通过重新映射插件 enclave，enclave 允许就地处理，以避免函数链中昂贵的数据移动。实验表明，我们的设计将飞地函数的延迟降低了94.74-99.57%，并将自动缩放的吞吐量提高了19-179倍。
+
+### FSE/ESEC
+
+#### 2021
+
+> 2021.8.23-28
+
+##### 1.An empirical study on challenges of application development in serverless computing [8]
+
+**摘要：**
+
+无服务器计算是一种新兴的云计算范式，在视频处理和机器学习等广泛的应用中获得了关注。这种新范式可以让开发者在函数的粒度上专注于基于 serverless 计算的应用（简称 serverless-based applications）的逻辑开发，从而将开发者从繁琐且容易出错的基础设施管理中解放出来。同时，也给基于 serverless 的应用的设计、实现和部署带来了新的挑战，目前的 serverless 计算平台还远远不能令人满意。然而，据我们所知，这些挑战尚未得到很好的研究。为了填补这一知识空白，**本文首次全面研究了从开发人员的角度理解开发基于无服务器的应用程序所面临的挑战。我们从 Stack Overflow（开发者热门问答网站）中挖掘和分析了 22,731 个相关问题，展示了无服务器计算的日益流行趋势和开发者的高难度水平。**通过对 619 个抽样问题的人工检查，我们构建了开发人员遇到的挑战的分类，并报告了一系列发现和可操作的含义。包括应用程序开发人员、研究人员和云提供商在内的利益相关者可以利用这些发现和影响来更好地理解和进一步探索无服务器计算范式。
+
+##### 2.Automating serverless deployments for DevOps organizations [1]
+
+**摘要：**
+
+DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付和运营 (SDO) 性能。理想情况下，跨职能的 DevOps 团队独立部署他们的服务，但一个服务的正确运行往往需要其他服务，需要协调以确保正确的部署顺序。此问题目前通过集中部署或跨团队的手动带外通信（例如，通过电话、聊天或电子邮件）来解决。不幸的是，两者都与团队的独立性相矛盾，阻碍了 SDO 的性能——这也是 DevOps 最初被采用的原因。 
+
+在这项工作中，我们对 73 位 IT 专业人员进行了一项研究，结果表明，在实践中，即使他们希望通过完全自动化的方法获得更好的 SDO 性能，他们也会通过手动协调来进行正确的部署。**为了解决这个问题，我们提出了 µs ([mju:z] “muse”)，这是一种新颖的 IaC 系统，以完全去中心化的方式自动化部署协调，与今天的解决方案相比，仍然保持与 DevOps 实践的兼容性。**我们实现了 µs，证明它有效地实现了自动化协调，引入了可忽略的定义开销，没有性能开销，并且广泛适用，如 64 个第三方 IaC 项目的迁移所示。
+
+### SOSP
+
+#### 2021
+
+> 2021.10.26-29
+
+##### 1.Boki: Stateful Serverless Computing with Shared Logs [7]
+
+**摘要：**
+
+**Boki 是一个新的无服务器运行时，它将共享日志 API 导出到无服务器函数。 Boki 共享日志使有状态的无服务器应用程序能够以持久性、一致性和容错性来管理其状态**。 Boki 共享日志实现了高吞吐量和低延迟。关键促成因素是 **metalog，这是一种允许 Boki 独立处理排序、一致性和容错的新机制**。 metallog 以高吞吐量对共享日志记录进行排序，并提供读取一致性，同时允许服务提供商以不同方式优化共享日志的写入和读取路径。为了展示共享日志对有状态无服务器应用程序的价值，我们构建了 Boki 支持库来实现容错工作流、持久对象存储和消息队列。我们的评估表明，共享日志可以将重要的无服务器工作负载加速高达 4.7 倍。
+
+##### 2.Faster and Cheaper Serverless Computing on Harvested Resources [8]
+
+**摘要：**
+
+无服务器计算因其易于编程、快速弹性和细粒度计费而变得越来越流行。但是，无服务器提供商仍需要为托管其平台的虚拟机 (VM) 配置、管理和支付 IaaS 提供商的费用。这将无服务器平台的成本与底层虚拟机的成本联系在一起。显着降低成本的一种方法是使用备用资源，云供应商以大幅折扣租用这些资源。 **Harvest VM 提供了如此廉价的资源：它们会增长和缩小以获取主机服务器中所有未分配的 CPU 内核，但可能会被驱逐以腾出空间容纳更昂贵的 VM**。因此，使用 Harvest VM 运行无服务器平台会带来两个必须小心管理的主要挑战：VM 驱逐和每个 VM 中动态变化的资源。
+
+在这项工作中，**我们探讨了在 Harvest VM 上托管无服务器（功能即服务或简称 FaaS）平台的挑战和好处。我们描述了 Microsoft Azure 的无服务器工作负载和 Harvest VM，并设计了一个无服务器负载均衡器，它可以感知 Harvest VM 中的驱逐和资源变化。我们修改了广泛使用的开源无服务器平台 OpenWhisk，以监控收获的资源并相应地平衡负载，并对其进行实验评估**。我们的结果表明，采用收获的资源可以提高效率并降低成本。在相同的成本预算下，与使用专用资源相比，在收获的资源上运行无服务器平台可实现 2.2 到 9.0 倍的吞吐量。在使用相同数量的资源时，由于更好的负载平衡，在收获的资源上运行无服务器平台可以节省 48% 到 89% 的成本，同时延迟更低。
+
+##### 3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes  [9]
+
+**摘要：**
+
+无服务器函数的快速配置对于无服务器平台来说非常重要。**尽管轻量级沙箱（例如容器）仅包含必要的文件和库，但冷启动仍需要最多几秒钟才能完成。这种缓慢的配置会延长无服务器函数的响应时间，并对用户体验产生负面影响**。**本文分析了这种放缓的主要原因，并介绍了一个有效的容器化框架 FlashCube。 FlashCube 不是从头开始构建容器，而是通过一组预先创建的通用容器部件（例如，命名空间、cgroup 和语言运行时）快速有效地组装它**。此外，FlashCube 的用户空间实现使其轻松适用于现有的商品无服务器平台。我们的初步评估表明，FlashCube 可以在不到 10 毫秒的时间内快速配置容器化功能（而使用 Docker 容器的时间约为 400 毫秒）。
+
+### OSDI
+
+#### 2021
+
+> 2021.07.14-16
+
+##### 1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads [1]
+
+**摘要:**
+
+图神经网络 (GNN) 支持对结构化图数据进行深度学习。有两个主要的 GNN 训练障碍：1）它依赖于具有许多 GPU 的高端服务器，这些 GPU 的购买和维护成本很高，以及 2）GPU 上有限的内存无法扩展到当今的十亿边图。**本文介绍了 Dorylus：一种用于训练 GNN 的分布式系统。独特的是，Dorylus 可以利用无服务器计算以低成本提高可扩展性。 **
+
+指导我们设计的关键见解是**计算分离**。计算分离使得构建一个深度的、有界的异步管道成为可能，其中图和张量并行任务可以完全重叠，有效地隐藏了 Lambdas 引起的网络延迟。在数千个 Lambda 线程的帮助下，Dorylus 将 GNN 训练扩展到十亿边图。目前，**对于大型图，CPU 服务器提供的每美元性能优于 GPU 服务器。与仅使用 CPU 服务器进行训练相比，仅在 CPU 服务器上使用 Lambda 可提供高达 2.75✕ 的每美元性能**。具体来说，对于海量稀疏图，Dorylus 比 GPU 服务器快 1.22✕，便宜 4.83✕。与现有的基于采样的系统相比，Dorylus 的速度提高了 3.8✕，成本降低了 10.7✕。
+
+#### 2020
+
+> 2020.11.04-06
+
+##### 1.Fault-tolerant and transactional stateful serverless workflows [4]
+
+**摘要：**
+
+**本文介绍了 Beldi，这是一个用于编写和组合容错和事务有状态无服务器函数的库和运行时系统。** Beldi 
+在现有提供商上运行，允许开发人员编写需要容错和事务语义的复杂有状态应用程序，而无需处理负载
+平衡或维护虚拟机等任务。 Beldi 的贡献包括使用新的数据结构、事务协议、函数调用和垃圾收集扩展 
+Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成的框架以在每个无服务器函数对其自己
+的数据拥有主权的联合环境中工作。我们在 Beldi 上实现了三个应用程序，包括电影评论服务、旅行预
+订系统和社交媒体网站。我们对 1,000 个 AWS Lambda 的评估表明，Beldi 的方法有效且经济实惠。
 
 ## 期刊
 

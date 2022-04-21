@@ -109,16 +109,38 @@
       - [2021](#2021-13)
         - [1.A Serverless Framework for Distributed Bulk Metadata Extraction](#1a-serverless-framework-for-distributed-bulk-metadata-extraction)
         - [2.LaSS: Running Latency Sensitive Serverless Computations at the Edge](#2lass-running-latency-sensitive-serverless-computations-at-the-edge)
+    - [ICWS](#icws)
+      - [2021](#2021-14)
+        - [1.A Measurement Study on Serverless Workflow Services [5]](#1a-measurement-study-on-serverless-workflow-services-5)
+    - [Middleware](#middleware)
+      - [2021](#2021-15)
+        - [1.SeBS: a serverless benchmark suite for function-as-a-service computing [9]](#1sebs-a-serverless-benchmark-suite-for-function-as-a-service-computing-9)
+        - [2.FaaSTCC: efficient transactional causal consistency for serverless computing [2]](#2faastcc-efficient-transactional-causal-consistency-for-serverless-computing-2)
+      - [2020](#2020-8)
+        - [1.Prebaking Functions to Warm the Serverless Cold Start [8]](#1prebaking-functions-to-warm-the-serverless-cold-start-8)
+        - [2.SplitServe: Efficiently Splitting Apache Spark Jobs Across FaaS and IaaS [5]](#2splitserve-efficiently-splitting-apache-spark-jobs-across-faas-and-iaas-5)
+        - [3.Sledge: a Serverless-first, Light-weight Wasm Runtime for the Edge [5]](#3sledge-a-serverless-first-light-weight-wasm-runtime-for-the-edge-5)
+        - [4.Fifer: Tackling Resource Underutilization in the Serverless Era [9]](#4fifer-tackling-resource-underutilization-in-the-serverless-era-9)
+        - [5.Xanadu: Mitigating cascading cold starts in serverless function chain deployments [10]](#5xanadu-mitigating-cascading-cold-starts-in-serverless-function-chain-deployments-10)
+      - [2019](#2019-1)
+        - [1.On the FaaS Track: Building Stateful Distributed Applications with Serverless Architectures [4]](#1on-the-faas-track-building-stateful-distributed-applications-with-serverless-architectures-4)
+    - [HOTOS](#hotos)
+      - [2021](#2021-16)
+        - [1.From warm to hot starts: leveraging runtimes for the serverless era [4]](#1from-warm-to-hot-starts-leveraging-runtimes-for-the-serverless-era-4)
+        - [2.From cloud computing to sky computing [6]](#2from-cloud-computing-to-sky-computing-6)
+        - [3.The RESTless cloud [4]](#3the-restless-cloud-4)
+      - [2017](#2017)
+        - [1.Will Serverless End the Dominance of Linux in the Cloud? [6]](#1will-serverless-end-the-dominance-of-linux-in-the-cloud-6)
 - [CCFC](#ccfc)
   - [会议](#会议-2)
     - [HPCC](#hpcc)
-      - [2021](#2021-14)
+      - [2021](#2021-17)
         - [1.Descriptive and Predictive Analysis of Aggregating Functions in Serverless Clouds: the Case of Video Streaming](#1descriptive-and-predictive-analysis-of-aggregating-functions-in-serverless-clouds-the-case-of-video-streaming)
     - [HiPC](#hipc)
-      - [2021](#2021-15)
+      - [2021](#2021-18)
         - [1.FaaSter: Accelerated Functions-as-a-Service with Heterogeneous GPUs](#1faaster-accelerated-functions-as-a-service-with-heterogeneous-gpus)
     - [CCGRID](#ccgrid)
-      - [2021](#2021-16)
+      - [2021](#2021-19)
         - [1.Data-driven scheduling in serverless computing to reduce response time [10]](#1data-driven-scheduling-in-serverless-computing-to-reduce-response-time-10)
         - [2.Deadline-aware Dynamic Resource Management in Serverless Computing Environments [10]](#2deadline-aware-dynamic-resource-management-in-serverless-computing-environments-10)
         - [3.Benchmarking Serverless Workloads on Kubernetes [10]](#3benchmarking-serverless-workloads-on-kubernetes-10)
@@ -129,17 +151,17 @@
         - [8.Scheduling Containers Rather Than Functions for Function-as-a-Service](#8scheduling-containers-rather-than-functions-for-function-as-a-service)
         - [9.Virtual Device Model extending NGSI-LD for FaaS at the Edge [1]](#9virtual-device-model-extending-ngsi-ld-for-faas-at-the-edge-1)
         - [10.QoS aware FaaS platform [10]](#10qos-aware-faas-platform-10)
-      - [2020](#2020-8)
+      - [2020](#2020-9)
         - [1.Performance Optimization for Edge-Cloud Serverless Platforms via Dynamic Task Placement](#1performance-optimization-for-edge-cloud-serverless-platforms-via-dynamic-task-placement)
         - [2.Cost-Effective Malware Detection as a Service Over Serverless Cloud Using Deep Reinforcement Learning](#2cost-effective-malware-detection-as-a-service-over-serverless-cloud-using-deep-reinforcement-learning)
-      - [2019](#2019-1)
+      - [2019](#2019-2)
         - [1.Beyond Load Balancing: Package-Aware Scheduling for Serverless Platforms [10]](#1beyond-load-balancing-package-aware-scheduling-for-serverless-platforms-10)
     - [ICPADS](#icpads)
-      - [2019](#2019-2)
+      - [2019](#2019-3)
         - [1.Adaptive Function Launching Acceleration in Serverless Computing Platforms [10]](#1adaptive-function-launching-acceleration-in-serverless-computing-platforms-10)
   - [期刊](#期刊-1)
     - [JGC](#jgc)
-      - [2021](#2021-17)
+      - [2021](#2021-20)
         - [1.Deployment Management and Topology Discovery of Microservice Applications in the Multicloud Environment [5]](#1deployment-management-and-topology-discovery-of-microservice-applications-in-the-multicloud-environment-5)
         - [2.Serverless Workflows for Containerised Applications in the Cloud Continuum [7]](#2serverless-workflows-for-containerised-applications-in-the-cloud-continuum-7)
         - [3.Highly Complex Resource Scheduling for Stochastic Demands in Heterogeneous Clouds [6]](#3highly-complex-resource-scheduling-for-stochastic-demands-in-heterogeneous-clouds-6)
@@ -769,6 +791,122 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 无服务器计算已经成为在云中运行短暂计算的新范式。由于其处理物联网工作负载的能力，人们对在边缘运行无服务器功能产生了相当大的兴趣。然而，**边缘的约束性和工作负载的延迟敏感性给无服务器平台带来了许多挑战**。在本文中，我们介绍了**LaSS，一个使用模型驱动的方法在边缘资源上运行延迟敏感的无服务器计算的平台**。LaSS使用基于排队的原则性方法来确定对每个托管功能的适当分配，并根据工作负载的动态变化自动扩展分配的资源。LaSS使用公平分享的分配方法，保证在过载的情况下为每个功能分配最小的资源。此外，它利用基于容器放空和终止的资源回收方法，将资源从超额配置的功能中重新分配给不足配置的功能。我们在OpenWhisk无服务器边缘集群上实现了我们方法的原型，并进行了详细的实验评估。我们的结果表明，LaSS可以准确地预测无服务器功能在高动态工作负载下所需的资源，并在数百毫秒内重新配置容器容量，同时保持公平份额的分配保证。
 
 > [关于serverless的研讨会](https://dblp.uni-trier.de/db/conf/hpdc/hips2021.html)
+
+### ICWS
+
+#### 2021
+
+> 2021.09.05-10
+
+##### 1.A Measurement Study on Serverless Workflow Services [5]
+
+**摘要：**
+
+主要云提供商越来越多地推出其无服务器工作流服务来编排无服务器功能，从而有效地构建复杂的应用程序。有必要进行全面的研究，以帮助开发人员了解优缺点，并在这些无服务器工作流服务中做出更好的选择。然而，这些 serverless 工作流服务的特点并没有得到系统的分析。为了填补知识空白，我们对四种主流的无服务器工作流服务进行了全面的测量研究，重点关注特性和性能。首先，我们回顾他们的官方文档，从编程模型、状态管理等六个维度提取他们的特征。然后，我们比较他们的性能（即函数的执行时间、工作流的执行时间、工作流的编排开销时间）在考虑到工作流的活动复杂性和数据流复杂性以及无服务器功能的功能复杂性的各种设置下。我们的发现和启示可以帮助开发人员和云提供商提高他们的开发效率和用户体验。
+
+### Middleware
+
+#### 2021
+
+> 2021.12.6-10
+
+##### 1.SeBS: a serverless benchmark suite for function-as-a-service computing [9]
+
+**摘要：**
+
+函数即服务 (FaaS) 是未来云服务最有前途的方向之一，无服务器函数已快速成为构建可扩展且具有成本效益的微服务和应用程序的新中间件。然而，快速发展的技术阻碍了可重复性，并且缺乏标准化的基准测试套件导致临时解决方案和微基准测试被用于无服务器研究，进一步复杂化研究解决方案的元分析和比较。为了应对这一挑战，**我们提出了 Serverless Benchmark Suite：第一个 FaaS 计算基准，系统地涵盖了广泛的云资源和应用程序**。我们的基准包括代表性工作负载的规范、随附的实施和评估基础设施，以及促进可重复性和可解释性的评估方法。**我们证明了 FaaS 执行环境的抽象模型确保了我们的基准对 AWS、Azure 和 Google Cloud 等多个商业提供商的适用性**。我们的工作为无服务器系统的实验评估提供便利，并提供标准化、可靠和不断发展的中间件 FaaS 平台的性能、效率、可扩展性和可靠性评估方法。
+
+> 开源组件：[spcl/serverless-benchmarks: SeBS: serverless benchmarking suite for automatic performance analysis of FaaS platforms. (github.com)](https://github.com/spcl/serverless-benchmarks)
+
+##### 2.FaaSTCC: efficient transactional causal consistency for serverless computing [2]
+
+**摘要：**
+
+在本文中，**我们研究了允许在支持事务因果一致性 (TCC) 的情况下增强 FaaS 中间件的机制**。乍一看，为 FaaS 应用程序提供 TCC 似乎很容易实现，因为 FaaS 模式不会阻止应用程序选择具有所需属性的存储服务。**不幸的是，大多数 TCC 存储服务仅确保单个客户端进程的一致性，而 FaaS 应用程序由多个独立的工作进程执行**。因此，需要协调工作人员，这项任务可能是开销的重要来源。我们提出了一种新的架构来支持 FaaS 中的 TCC，名为 FaaSTCC，它显着降低了协调开销。 FaaSTCC 通过使用缓存层增加工作人员并实施最大化缓存使用率的新机制来实现这一目标。首先，我们的存储层向缓存层提供了一个承诺，它设定了一个范围，保证缓存检索到的版本是一致的。其次，在 FaaSTCC 中，函数使用快照间隔进行协调，支持读取快照的延迟识别，增加使用缓存值的机会。我们已经实施并通过实验评估了 FaaSTCC。我们的结果表明，与以前的工作相比，FaaSTCC 的平均延迟降低了 5 倍，尾部延迟降低了 6 倍。
+
+#### 2020
+
+> 2020.12.07-11
+
+##### 1.Prebaking Functions to Warm the Serverless Cold Start [8]
+
+**摘要：**
+
+函数即服务 (FaaS) 平台承诺为云计算提供更简单的编程模型，其中开发人员专注于编写其应用程序。相比之下，平台提供商负责资源管理和管理。由于 FaaS 用户是根据函数的执行来计费的，因此平台提供商有一种自然的动机，即不以平台为代价保持闲置资源的运行。但是，这种策略可能会导致冷启动问题，其中一个函数的执行被延迟，因为没有准备好的资源来承载执行。冷启动可能需要数百毫秒到几秒的时间，并且对于某些应用程序来说是一个令人望而却步且令人痛苦的缺点。**这项工作描述并评估了一种启动函数的技术，该技术从先前执行的函数进程中恢复快照。我们基于 CRIU 进程检查点/恢复 Linux 工具开发了该技术的原型。我们通过运行将其启动时间与标准 Unix 进程创建/启动过程进行比较的实验来评估此原型。**我们分析了以下三个函数：i）“无操作”函数，ii）Image Resizer 函数，以及 iii）渲染 Markdown 文件的函数。获得的结果表明，该技术可以将函数副本的启动时间提高 40%（在“无操作”函数的最坏情况下），图像调整器的启动时间提高 71%。进一步分析表明，运行时初始化是一个关键因素，我们通过基于不同代码大小的综合生成函数进行敏感性分析来证实这一点。这些实验表明，决定何时创建函数的快照至关重要。当创建暖函数的快照时，预烘焙技术实现的加速比更高：对于小型合成函数，加速比从 127.45% 提高到 403.96%；而对于更大的综合函数，这个比率从 121.07% 增加到 1932.49%。
+
+##### 2.SplitServe: Efficiently Splitting Apache Spark Jobs Across FaaS and IaaS [5]
+
+**摘要：**
+
+**由于与虚拟机 (VM) 相比，它们具有更低的启动延迟和更精细的定价，Amazon Lambda 和其他云函数 (CF) 已被确定为处理简单、无状态工作负载中的意外峰值的理想候选者**。但是，目前尚不清楚 CF 在自动扩展涉及跨分布式应用程序组件的重要状态传输的复杂工作负载方面是否同样有效。我们发现，通过精心设计，**当前可用的 CF 确实可以用于复杂的工作负载**。为了证明这一点，**我们设计并实现了 SplitServe，它是 Apache Spark 的增强版。如果现有 VM 上没有足够的执行程序可用于新到达的延迟敏感作业，SplitServe 能够使用 CF 快速弥补 VM 中的这一不足，从而避免新请求的 VM 的启动延迟**。如果在性能或成本方面需要，当新请求的 VM 或现有 VM 上的执行程序确实可用时，SplitServe 能够将正在进行的工作从 CF 转移到它们。我们使用四种不同的工作负载（在基于 VM 的执行程序和 CF 或仅 CF 的混合）上对 SplitServe 的实验评估表明，对于具有少量到适度改组的工作负载，它可以将执行时间提高多达 (a) 55%，并且(b) 与仅基于 VM 的自动缩放相比，具有大量 shuffle 的工作负载占 31%。
+
+##### 3.Sledge: a Serverless-first, Light-weight Wasm Runtime for the Edge [5]
+
+**摘要：**
+
+具有实时延迟限制的新兴物联网应用程序需要在边缘运行的新数据处理系统。无服务器计算提供了一种新的引人注目的范例，用户可以执行一个小型应用程序，而无需处理服务器配置和资源管理的操作问题。尽管有各种现有的商业和开源无服务器平台（利用虚拟机和容器），**但这些解决方案对于资源受限的边缘系统来说太重了（由于大内存占用和高调用时间）**。此外，专注于每个客户端的短期运行计算的无服务器工作负载并不适合现有的通用计算系统。
+
+在本文中，**我们介绍了 Sledge 的设计和实现——一种新颖且高效的基于 WebAssembly 的边缘无服务器框架**。 Sledge 针对支持无服务器工作负载的独特属性进行了优化：**需要高密度多租户、低启动时间、突发的客户端请求率和短暂的计算**。 Sledge 通过提供 (i) 优化的调度策略和针对短期计算的有效工作分配，以及 (ii) 使用我们自己的基于 WebAssembly 的软件故障隔离基础设施实现的轻量级功能隔离模型来解决这些限制。这些轻量级沙箱旨在支持高密度计算：具有快速启动和拆卸时间来处理高客户端请求率。对具有不同工作负载和实际无服务器应用程序的 Sledge 进行的广泛评估证明了为边缘设计的无服务器优先运行时的有效性。与最快的开源无服务器框架之一 Nuclio 相比，Sledge 支持高达 4 倍的吞吐量和 4 倍的延迟。
+
+##### 4.Fifer: Tackling Resource Underutilization in the Serverless Era [9]
+
+**摘要：**
+
+数据中心见证了为基于微服务的应用程序采用无服务器函数的快速增长。这些微服务中的绝大多数通常跨度不到一秒，具有严格的 SLO 要求，并根据应用程序的要求链接在一起。上述特征带来了一系列新挑战，**尤其是在容器配置和管理方面，因为在无服务器平台中采用的最先进的资源管理框架倾向于着眼于类似于传统单体应用程序的基于微服务的应用程序。因此，这些框架遭受微服务不可知的调度和巨大的容器过度配置，特别是在工作负载波动期间，从而导致资源利用率低下**。 
+
+在这项工作中，我们使用由 Kubernetes 和 Brigade 无服务器框架管理的多节点集群上的各种工作负载来量化上述缺点。为了解决这些问题，**我们提出了 Fifer——一种自适应资源管理框架，可有效管理无服务器平台上的函数链**。关键思想是使 **Fifer (i) 通过使用函数感知容器扩展和智能请求批处理将打包作业有效地分箱到更少的容器中来提高使用意识，以及 (ii) 同时通过主动生成容器以避免冷启动，从而符合 SLO -starts，从而最大限度地减少整体响应延迟**。结合这些优势，与无服务器平台采用的最先进的调度程序相比，Fifer 将容器利用率和集群范围的能耗分别提高了 4 倍和 31%，而不会影响 SLO。
+
+##### 5.Xanadu: Mitigating cascading cold starts in serverless function chain deployments [10]
+
+**摘要：**
+
+将任务组织为工作流是扩展无服务器计算框架适用性的基本特征。**现有的无服务器平台要么对函数链（作为函数组合的工作流）不可知，要么依赖于无服务器框架的幼稚供应和管理机制——例如，它们在工作流中每个函数的触发器到达之后供应资源为工作流中的每个函数强制设置延迟**。在这项工作中，我们专注于缓解级联冷启动问题——根据工作流规范触发一系列无服务器函数时的延迟开销。我们首先确定跨多个商业服务器平台和云提供商的冷启动情况下级联效应的性质和程度。为了减轻这些级联开销，我们设计和开发了一些优化，这些优化内置在我们的工具 Xanadu 中。 Xanadu 根据所需的运行时隔离要求提供多个实例化选项，并支持有或没有明确的工作流规范的函数链接。 **Xanadu 解决级联冷启动问题的优化是建立在资源的推测性和即时供应之上的**。我们对 Xanadu 系统的评估表明，**以最低的成本开销几乎完全消除了级联冷启动，优于可用的最先进平台。即使是相对较短的工作流程，与 Knative 相比，Xanadu 也将平台开销降低了近 18 倍，与 Apache Openwhisk 相比降低了 10 倍**。
+
+#### 2019
+
+> 2019.12.9-13
+
+##### 1.On the FaaS Track: Building Stateful Distributed Applications with Serverless Architectures [4]
+
+**摘要：**
+
+无服务器计算是一种新兴的范式，它极大地简化了云资源的使用，并且非常适合许多任务。最值得注意的是，功能即服务 (FaaS) 使程序员能够将云应用程序开发为可以独立运行和扩展的单独功能。然而，由于 FaaS 中存储和计算资源的分解，需要对可变状态和同步进行细粒度支持的应用程序（例如机器学习和科学计算）很难构建。 在这项工作中，我们展示了 Crucial，这是一个使用无服务器架构对高度并发的有状态应用程序进行编程的系统。它的编程模型保持了 FaaS 的简单性，并允许轻松地将多线程算法移植到这个新环境。 Crucial 建立在 FaaS 类似于数据中心规模的并发编程的关键见解之上。因此，分布式共享内存层是无服务器中细粒度状态管理和协调需求的正确答案。我们在微基准和各种应用程序的帮助下验证我们的系统。特别是，我们实现了两种常见的机器学习算法：k-means 聚类和逻辑回归。在这两种情况下，Crucial 都获得了与同等 Spark 集群更优或可比的性能。
+
+### HOTOS
+
+#### 2021
+
+> 2021.6.1-3
+
+##### 1.From warm to hot starts: leveraging runtimes for the serverless era [4]
+
+**摘要：**
+
+无服务器计算模型利用 JavaScript 和 Java 等高级语言来提高云编程的抽象级别。然而，当今基于无状态短寿命函数的无服务器计算平台设计导致现代运行时错失了通过 JIT 编译和代码分析等技术优化无服务器函数的机会。
+
+在本文中，我们展示了现代无服务器平台，例如 AWS Lambda，并没有充分利用语言运行时优化。我们发现在热容器上运行的大量函数调用是使用未优化的代码（热启动）执行的，导致性能下降几个数量级。
+
+我们探索利用遍布潜在数千个节点的运行时知识来分析和优化代码的想法。为此，我们提出了 Ignite，这是一个无服务器平台，可以跨机器编排运行时，以便从一开始就运行优化的代码（热启动）。我们提供的证据表明，运行时编排有可能通过在数千个无服务器功能上运行优化代码来大大降低无服务器工作负载的成本和延迟。
+
+##### 2.From cloud computing to sky computing [6]
+
+**摘要：**
+
+我们考虑云计算的未来，并询问我们如何将其引导到我们称为天空计算的更连贯的服务。障碍比技术更经济，我们建议将互惠对等作为关键的启用步骤。
+
+##### 3.The RESTless cloud [4]
+
+**摘要：**
+
+云提供商 API 已成为构成公共云的仓库规模计算机的实际操作系统接口。与单服务器操作系统一样，它们为这些大型机器提供资源分配、保护、通信路径、命名和调度。云提供商 API 还提供各种操作系统不具备的功能，例如大数据分析、机器学习模型训练或工厂自动化。某处，潜伏在这个服务群中，有一个操作系统接口连接到一台非常大的计算机，即今天的应用程序开发人员所针对的计算机。**这台计算机不像单个服务器那样工作，但它也不是像互联网那样的分散分布式系统。这是介于两者之间的东西。现在是从众多云提供商 API（最好是可移植的 API）中提炼和完善连贯的“云系统接口”的时候了**。在本文中，我们将讨论什么进入，什么被排除，以及为这些决定提供依据的原则。
+
+#### 2017
+
+##### 1.Will Serverless End the Dominance of Linux in the Cloud? [6]
+
+**摘要：**
+
+从云诞生之日起，运行多租户工作负载就给 Linux 内核的抽象带来了压力。在通过虚拟化绕过其抽象多年后，内核以本机容器抽象作为响应，该抽象正急切地应用于云中。在本文中，我们指出历史正在重演：随着无服务器计算的引入，即使是原生容器抽象也不适合。我们表明，**使用 unikernels 绕过内核可以产生至少 6 倍的延迟和吞吐量**。面对比以往任何时候都更复杂的内核和相对要求不高的计算模型，我们必须重新考虑内核是否应该尝试适应，我们应该继续绕过内核，或者是否终于是时候为这个重要的尝试新的原生操作系统了未来的云工作负载。
 
 # CCFC
 

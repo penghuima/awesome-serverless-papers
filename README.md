@@ -28,6 +28,9 @@
     - [ISCA](#isca)
       - [2021](#2021-2)
         - [1.Confidential Serverless Made Efficient with Plug-In Enclaves [1]](#1confidential-serverless-made-efficient-with-plug-in-enclaves-1)
+    - [FAST](#fast)
+      - [2020](#2020-2)
+        - [1.InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache](#1infinicache-exploiting-ephemeral-serverless-functions-to-build-a-cost-effective-memory-cache)
     - [FSE/ESEC](#fseesec)
       - [2021](#2021-3)
         - [1.An empirical study on challenges of application development in serverless computing [8]](#1an-empirical-study-on-challenges-of-application-development-in-serverless-computing-8)
@@ -40,17 +43,17 @@
     - [OSDI](#osdi)
       - [2021](#2021-5)
         - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads [1]](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads-1)
-      - [2020](#2020-2)
+      - [2020](#2020-3)
         - [1.Fault-tolerant and transactional stateful serverless workflows [4]](#1fault-tolerant-and-transactional-stateful-serverless-workflows-4)
     - [NSDI](#nsdi)
       - [2021](#2021-6)
         - [1.Caerus: NIMBLE Task Scheduling for Serverless Analytics](#1caerus-nimble-task-scheduling-for-serverless-analytics)
-      - [2020](#2020-3)
+      - [2020](#2020-4)
         - [1.Firecracker: Lightweight Virtualization for Serverless Applications](#1firecracker-lightweight-virtualization-for-serverless-applications)
       - [2019](#2019)
         - [1.Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure](#1shuffling-fast-and-slow-scalable-analytics-on-serverless-infrastructure)
     - [VLDB](#vldb)
-      - [2020](#2020-4)
+      - [2020](#2020-5)
         - [1.Cloudburst: Stateful Functions-as-a-Service](#1cloudburst-stateful-functions-as-a-service)
       - [2019](#2019-1)
         - [1.Stateful Functions as a Service in Action](#1stateful-functions-as-a-service-in-action)
@@ -61,7 +64,7 @@
     - [TPDS](#tpds)
       - [2021](#2021-7)
         - [1.Modeling and Optimization of Performance and Cost of Serverless Applications [6]](#1modeling-and-optimization-of-performance-and-cost-of-serverless-applications-6)
-      - [2020](#2020-5)
+      - [2020](#2020-6)
         - [1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform [5]](#1automated-fine-grained-cpu-cap-control-in-serverless-computing-platform-5)
         - [2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud [3]](#2an-event-driven-approach-to-serverless-seismic-imaging-in-the-cloud-3)
 - [CCFB](#ccfb)
@@ -77,7 +80,7 @@
         - [7.ServerMore: Opportunistic Execution of Serverless Functions in the Cloud](#7servermore-opportunistic-execution-of-serverless-functions-in-the-cloud)
         - [8.On Merits and Viability of Multi-Cloud Serverless](#8on-merits-and-viability-of-multi-cloud-serverless)
         - [9.Speedo: Fast dispatch and orchestration of serverless workflows](#9speedo-fast-dispatch-and-orchestration-of-serverless-workflows)
-      - [2020](#2020-6)
+      - [2020](#2020-7)
         - [1.Wukong: a scalable and locality-enhanced framework for serverless parallel computing](#1wukong-a-scalable-and-locality-enhanced-framework-for-serverless-parallel-computing)
         - [2.Characterizing serverless platforms with serverlessbench](#2characterizing-serverless-platforms-with-serverlessbench)
         - [3.Photons: lambdas on a diet](#3photons-lambdas-on-a-diet)
@@ -99,14 +102,14 @@
         - [2.Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning [1]](#2gillis-serving-large-neural-networks-in-serverless-functions-with-automatic-model-partitioning-1)
         - [3.Poster: Function Delivery Network: Extending Serverless to Heterogeneous Computing](#3poster-function-delivery-network-extending-serverless-to-heterogeneous-computing)
         - [4.A Multi-Tenant Framework for Cloud Container Services](#4a-multi-tenant-framework-for-cloud-container-services)
-      - [2020](#2020-7)
+      - [2020](#2020-8)
         - [1.λ-NIC: Interactive Serverless Compute on Programmable SmartNICs [2]](#1λ-nic-interactive-serverless-compute-on-programmable-smartnics-2)
         - [2.Serverless Straggler Mitigation using Error-Correcting Codes](#2serverless-straggler-mitigation-using-error-correcting-codes)
         - [3.Characterizing Bottlenecks in Scheduling Microservices on Serverless Platforms](#3characterizing-bottlenecks-in-scheduling-microservices-on-serverless-platforms)
     - [EuroSys](#eurosys)
       - [2021](#2021-11)
         - [1.OFC: an opportunistic caching system for FaaS platforms](#1ofc-an-opportunistic-caching-system-for-faas-platforms)
-      - [2020](#2020-8)
+      - [2020](#2020-9)
         - [1.A fault-tolerance shim for serverless computing](#1a-fault-tolerance-shim-for-serverless-computing)
         - [2.SEUSS: skip redundant paths to make serverless fast](#2seuss-skip-redundant-paths-to-make-serverless-fast)
     - [ICPP](#icpp)
@@ -115,7 +118,7 @@
     - [IPDPS](#ipdps)
       - [2021](#2021-13)
         - [1.Astra: Autonomous Serverless Analytics with Cost-Efficiency and QoS-Awareness.](#1astra-autonomous-serverless-analytics-with-cost-efficiency-and-qos-awareness)
-      - [2020](#2020-9)
+      - [2020](#2020-10)
         - [1.Amoeba: QoS-Awareness and Reduced Resource Usage of Microservices with Serverless Computing](#1amoeba-qos-awareness-and-reduced-resource-usage-of-microservices-with-serverless-computing)
     - [HPDC](#hpdc)
       - [2021](#2021-14)
@@ -128,7 +131,7 @@
       - [2021](#2021-16)
         - [1.SeBS: a serverless benchmark suite for function-as-a-service computing [9]](#1sebs-a-serverless-benchmark-suite-for-function-as-a-service-computing-9)
         - [2.FaaSTCC: efficient transactional causal consistency for serverless computing [2]](#2faastcc-efficient-transactional-causal-consistency-for-serverless-computing-2)
-      - [2020](#2020-10)
+      - [2020](#2020-11)
         - [1.Prebaking Functions to Warm the Serverless Cold Start [8]](#1prebaking-functions-to-warm-the-serverless-cold-start-8)
         - [2.SplitServe: Efficiently Splitting Apache Spark Jobs Across FaaS and IaaS [5]](#2splitserve-efficiently-splitting-apache-spark-jobs-across-faas-and-iaas-5)
         - [3.Sledge: a Serverless-first, Light-weight Wasm Runtime for the Edge [5]](#3sledge-a-serverless-first-light-weight-wasm-runtime-for-the-edge-5)
@@ -175,7 +178,7 @@
         - [8.Scheduling Containers Rather Than Functions for Function-as-a-Service](#8scheduling-containers-rather-than-functions-for-function-as-a-service)
         - [9.Virtual Device Model extending NGSI-LD for FaaS at the Edge [1]](#9virtual-device-model-extending-ngsi-ld-for-faas-at-the-edge-1)
         - [10.QoS aware FaaS platform [10]](#10qos-aware-faas-platform-10)
-      - [2020](#2020-11)
+      - [2020](#2020-12)
         - [1.Performance Optimization for Edge-Cloud Serverless Platforms via Dynamic Task Placement](#1performance-optimization-for-edge-cloud-serverless-platforms-via-dynamic-task-placement)
         - [2.Cost-Effective Malware Detection as a Service Over Serverless Cloud Using Deep Reinforcement Learning](#2cost-effective-malware-detection-as-a-service-over-serverless-cloud-using-deep-reinforcement-learning)
       - [2019](#2019-5)
@@ -382,6 +385,16 @@
 **摘要：**
 
 无服务器计算已经成为现代云计算中的一个事实。无服务器函数可能会处理来自客户端的敏感数据。**使用硬件 enclave 保护这样的函数不受不信任的云的影响，对用户的隐私有吸引力**。在这项工作中，我们在SGX enclave中运行现有的无服务器应用程序，并观察到**性能下降**可高达5.6倍，甚至422.6倍。我们的调查发现，这些减速与架构特征有关，主要来自于分页的 enclave 初始化。利用我们对开销分析的洞察力，我们重新审视了SGX的硬件设计，并对其 enclave 模型做了最小的修改。我们用一个新的基元-区域-插件 enclave 来扩展SGX，这些 enclave 可以被映射到现有的 enclave 中，以重用各函数之间已被证实的共同状态。通过重新映射插件 enclave，enclave 允许就地处理，以避免函数链中昂贵的数据移动。实验表明，我们的设计将飞地函数的延迟降低了94.74-99.57%，并将自动缩放的吞吐量提高了19-179倍。
+
+### FAST
+
+#### 2020
+
+##### 1.InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache
+
+**摘要：**
+
+互联网规模的网络应用正变得越来越存储密集，并在很大程度上依赖于内存中的对象缓存以达到所需的I/O性能。我们认为，新兴的无服务器计算范式为对象缓存提供了一个非常合适的、具有成本效益的平台。我们提出了InfiniCache，这是第一个完全建立并部署在无服务器函数之上的内存中对象缓存系统。InfiniCache利用并协调了无服务器函数的内存资源，以实现弹性的按使用量付费的缓存。InfiniCache的设计结合了擦除编码、智能计费持续时间控制和高效的数据备份机制，以最大化数据可用性和成本效益，同时平衡丢失缓存状态和性能的风险。我们在AWS Lambda上实现了InfiniCache，并表明它。(1) 与AWS ElastiCache相比，在仅有大对象的生产工作负载中，实现了31-96倍的租户方成本节约，(2) 可以有效地在每个一小时的窗口中提供95.4%的数据可用性，(3) 实现了典型内存缓存中看到的比较性能。
 
 ### FSE/ESEC
 

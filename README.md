@@ -87,6 +87,7 @@
         - [7.ServerMore: Opportunistic Execution of Serverless Functions in the Cloud](#7servermore-opportunistic-execution-of-serverless-functions-in-the-cloud)
         - [8.On Merits and Viability of Multi-Cloud Serverless](#8on-merits-and-viability-of-multi-cloud-serverless)
         - [9.Speedo: Fast dispatch and orchestration of serverless workflows](#9speedo-fast-dispatch-and-orchestration-of-serverless-workflows)
+        - [10.Cloud-Scale Runtime Verification of Serverless Applications [10]](#10cloud-scale-runtime-verification-of-serverless-applications-10)
       - [2020](#2020-7)
         - [1.Wukong: a scalable and locality-enhanced framework for serverless parallel computing](#1wukong-a-scalable-and-locality-enhanced-framework-for-serverless-parallel-computing)
         - [2.Characterizing serverless platforms with serverlessbench](#2characterizing-serverless-platforms-with-serverlessbench)
@@ -704,10 +705,17 @@ Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成�
 注：VSP 的提出有以下的理论基础：(1) 无服务器计算函数通常是轻量级的，因此可以“无痛”地在多家云计算提供商之间部署和迁移服务；(2) 存在较多开源的无服务器计算框架；(3) 已有的工作研究无服务器计算中函数性能的可预测性，有助于优化服务厂商的选择。
 
 ##### 9.Speedo: Fast dispatch and orchestration of serverless workflows
+> 视频链接：https://dl.acm.org/doi/abs/10.1145/3472883.3486977
 
 **摘要：**
 
 将云应用结构化为相互作用的细粒度微服务的集合，使其具有可扩展性，并提供了对应用部分进行热升级的灵活性。目前无服务器计算（FaaS）的化身及其动态资源分配和自动扩展能力使其成为此类应用的首选部署模式。 随着微服务的粒度接近几毫秒的执行时间，再加上每秒接近数万个请求的负载，拥有低于一毫秒的低调度延迟对于跟上线路速率至关重要。当这些微服务是构成应用程序的工作流的一部分时，协调微服务执行顺序的协调器也需要以微秒级的延迟运行。 我们的观察显示，调度/编排延迟的最重要组成部分是请求从网络进入和离开用户空间所需的时间。由于今天的SmartNIC上存在大量的低功耗内核，要跟上这些高线速和严格的延迟预期，一种方法是在SmartNIC上靠近网络运行调度器和编排器。 FaaS调度器/协调器的短时短暂状态和低CPU突发要求的运行特性使它们成为从服务器卸载到NIC核心的理想候选者。这也带来了释放服务器CPU的其他好处。 我们在基于ASIC的Netronome Agilio智能网卡上实现了Speedo，我们的综合评估表明，Speedo在每秒10K个请求的负载下，将调度延迟从~150ms降至~140μs。
+
+##### 10.Cloud-Scale Runtime Verification of Serverless Applications [10]
+
+**摘要：**
+
+无服务器平台旨在简化云应用程序的部署、扩展和管理。无服务器应用程序本质上是分布式的，并且使用短暂的临时进程执行。使用短暂的临时进程简化了应用程序的扩展和管理，但也意味着**现有的监控分布式系统和检测错误的方法不能应用于无服务器应用程序** 。在本文中，我们提出了 Watchtower，**这是一个能够对无服务器应用程序进行运行时监控的框架。 Watchtower 将程序属性作为输入，并且可以检测应用程序违反这些属性的情况。我们设计 Watchtower 以最大限度地减少应用程序更改，并以与应用程序相同的速率进行扩展。** 我们通过检测库而不是应用程序代码来实现前者，而后者通过将 Watchtower 构建为无服务器应用程序来实现。一旦发现错误，开发人员可以使用 Watchtower 调试器来识别和解决错误的根本原因。
 
 #### 2020
 

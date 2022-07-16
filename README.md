@@ -67,6 +67,9 @@
       - [2020](#2020-6)
         - [1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform [5]](#1automated-fine-grained-cpu-cap-control-in-serverless-computing-platform-5)
         - [2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud [3]](#2an-event-driven-approach-to-serverless-seismic-imaging-in-the-cloud-3)
+    - [TON](#ton)
+      - [2022](#2022-2)
+        - [1.CharmSeeker: Automated Pipeline Configuration for Serverless Video Processing](#1charmseeker-automated-pipeline-configuration-for-serverless-video-processing)
 - [CCFB](#ccfb)
   - [Conference](#conference-1)
     - [SoCC](#socc)
@@ -153,7 +156,7 @@
         - [1.Serverless Computing: One Step Forward, Two Steps Back](#1serverless-computing-one-step-forward-two-steps-back)
   - [Journal](#journal-1)
     - [SPE](#spe)
-      - [2022](#2022-2)
+      - [2022](#2022-3)
         - [1.Container lifecycle-aware scheduling for serverless computing](#1container-lifecycle-aware-scheduling-for-serverless-computing)
       - [2021](#2021-19)
         - [1.Edge-adaptable serverless acceleration for machine learning Internet of Things applications](#1edge-adaptable-serverless-acceleration-for-machine-learning-internet-of-things-applications)
@@ -196,6 +199,21 @@
   - [arXiv](#arxiv)
       - [2019](#2019-7)
         - [1.Cloud Programming Simplified: A Berkeley View on Serverless Computing](#1cloud-programming-simplified-a-berkeley-view-on-serverless-computing)
+      - [2022](#2022-4)
+        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
+  - [Journal](#journal-3)
+    - [Proceedings of the ACM on Measurement and Analysis of Computing Systems [J]](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems-j)
+      - [2022](#2022-5)
+      - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows)
+    - [Proceedings of the VLDB Endowment](#proceedings-of-the-vldb-endowment)
+      - [2022](#2022-6)
+        - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows-1)
+    - [Software: Practice and Experience](#software-practice-and-experience)
+      - [2021](#2021-24)
+        - [1.AuctionWhisk: Using an auction-inspired approach for function placement in serverless fog platforms](#1auctionwhisk-using-an-auction-inspired-approach-for-function-placement-in-serverless-fog-platforms)
+    - [ACM Computing Surveys](#acm-computing-surveys)
+      - [2022](#2022-7)
+        - [1.A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions](#1a-holistic-view-on-resource-management-in-serverless-computing-environments-taxonomy-and-future-directions)
 > 几家出版社
 >
 > **ACM**  美国计算机协会（Association for Computing Machinery; [ACM](https://baike.baidu.com/item/ACM/64774)），成立于1947年，是一个国际性的科技教育组织，是世界上第一个科学性及教育性计算机学会，总部设在美国纽约。有很多特别兴趣小组（Special Interest Groups; SIGs）：包括信息技术37个细分领域的特别兴趣小组供会员选择加入
@@ -556,6 +574,16 @@ Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成�
 **摘要：**
 
 为高性能计算 (HPC) 调整云是一项具有挑战性的任务，因为 HPC 应用程序的软件依赖于快速的网络连接并且对硬件故障很敏感。因此，在许多情况下，使用云基础设施重建传统的 HPC 集群是一种将 HPC 应用程序迁移到云的不可行解决方案。作为通用提升和移位方法的替代方法，我们考虑了地震成像的特定应用，并展示了一种无服务器和事件驱动的方法，用于在云中运行该问题的大规模实例。我们的工作流程不是永久运行的计算实例，而是基于具有高吞吐量批处理计算和事件驱动计算的无服务器架构，其中计算资源只有在使用时才会运行。我们证明了这种方法非常灵活，并允许弹性和嵌套级别的并行化，包括用于求解基础偏微分方程的域分解。虽然事件驱动的方法会在计算资源反复重启时引入一些开销，但它本质上为实例关闭提供了弹性，并通过避免空闲实例来显着降低成本，从而使云成为本地集群的可行替代方案大尺度地震成像。
+
+### TON
+
+#### 2022
+
+##### 1.CharmSeeker: Automated Pipeline Configuration for Serverless Video Processing
+
+**摘要：**
+
+视频处理在广泛的基于云的应用程序中起着至关重要的作用。它通常涉及多个流水线阶段，如果正确配置以匹配视频的成本和延迟约束，则非常适合最新的细粒度无服务器计算范例。然而，现有的配置工具主要是为具有一般工作负载的传统虚拟机集群开发的。本文介绍了 CharmSeeker，这是一种用于无服务器视频处理管道的自动配置调整工具。我们首先仔细研究了现代无服务器平台上视频处理的关键步骤和性能瓶颈。然后，我们**确定处理管道的配置空间，并利用精心设计的序列贝叶斯优化搜索方案来确定有希望的配置** 。我们进一步解决了将我们的解决方案集成到实际系统中的实际挑战，并使用 AWS Lambda 开发原型。评估结果表明，CharmSeeker 可以找出最佳或接近最佳的配置，将相对处理时间提高到 408.77%。与最先进的解决方案相比，它还更健壮且可扩展到各种视频处理管道。
 
 # CCFB
 
@@ -1174,3 +1202,57 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 **摘要：**
 
 无服务器云计算处理几乎所有的系统管理操作，使程序员更容易使用云。它提供了一个界面，大大简化了云计算的编程，并代表了一种与从汇编语言到高级编程语言的过渡相类似的进化。本文简要介绍了云计算的历史，包括对2009年《伯克利云计算观》论文的预测的说明，解释了无服务器计算的动机，描述了拉伸无服务器当前极限的应用，然后列出了无服务器计算发挥其全部潜力所需的障碍和研究机会。正如2009年的论文指出了云计算的挑战，并预测这些挑战将得到解决，云计算的使用将加速，我们预测这些问题是可以解决的，无服务器计算将发展到主导云计算的未来。
+
+#### 2022
+
+##### 2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training
+
+**摘要：**
+
+函数即服务 (FaaS) 引起了人们对如何“驯服”无服务器计算以支持特定领域用例的兴趣，例如数据密集型应用程序和机器学习 (ML) 等等。最近，已经实施了几个系统来训练 ML 模型。当然，这些研究文章是朝着正确方向迈出的重要一步。**但是，它们并没有完全回答无服务器 ML 训练何时比传统的“服务式”计算更具成本效益这一棘手问题** 。为了帮助完成这项工作，我们提出了 MLLess，**这是一个基于 FaaS 的 ML 训练原型，构建在 IBM Cloud Functions 之上。** 为了提高成本效率，MLLess 针对无服务器计算的特点实施了两项创新优化：一方面，一个显着性过滤器，使间接通信更有效，另一方面，一个扩展自动调谐器，以减少受益于 FaaS 亚秒计费模型（通常每 100 毫秒），从而降低成本。我们的结果证明，对于表现出快速收敛的稀疏 ML 模型（例如稀疏逻辑回归和矩阵分解），MLLess 可以比 serverful ML 系统快 15 倍，而且**成本** 更低。此外，我们的结果表明，MLLess 可以轻松扩展到越来越大的无服务器工作者队伍。
+
+## Journal
+
+### Proceedings of the ACM on Measurement and Analysis of Computing Systems [J]
+
+#### 2022
+
+#### 1.Netherite: efficient execution of serverless workflows
+
+**摘要：**
+
+我们描述了**一家主要云提供商的无服务器 DAG 的生产工作负载**。我们的分析强调了限制性能的两个主要因素：（a）在 DAG 中的无服务器函数之间**缺乏有效的通信方法**，以及（b）当 DAG 阶段调**用一组并行函数时，这些函数必须在开始下一个 DAG 阶段之前完成**.为了解决这些限制，我们提出了 WISEFUSE，这是一种针对用户指定的延迟目标或预算为无服务器 DAG 生成优化执行计划的自动化方法。我们引入了三个优化：**(1) Fusion 将串联函数组合在一个 VM 中，以减少级联函数之间的通信开销。 (2) Bundling 在一个 VM 中执行一组函数的并行调用，以改善并行工作者之间的资源共享，以减少 skew。 (3) 资源分配为 DAG 中的每个函数或函数组分配正确的 VM 大小，以减少 E2E 延迟和成本。** 我们实施 WISEFUSE 以使用具有不同 DAG 结构、内存占用和中间数据大小的三个流行的无服务器应用程序对其进行实验性评估。与竞争方法和其他替代方案相比，WISEFUSE 在端到端延迟和成本方面有显着改善。具体来说，对于机器学习管道，WISEFUSE 在不增加成本的情况下，实现了比 Photons 低 67%、比 Faastlane 低 39%、比 SONIC 低 90% 的 P95 延迟。
+
+### Proceedings of the VLDB Endowment
+
+#### 2022
+
+##### 1.Netherite: efficient execution of serverless workflows
+
+**摘要：**
+
+无服务器是云服务架构师的热门选择，因为它可以以最少的开发人员工作量提供可扩展性和基于负载的计费。函数即服务 (FaaS) 最初是无状态的，但**新兴框架添加了有状态抽象。例如，广泛使用的 Durable Functions (DF) 允许开发人员以选择的编程语言编写高级无服务器应用程序，包括可靠的工作流和参与者** 。 **DF 隐式且持续地持久化应用程序的状态和进度** ，这极大地简化了开发，但会造成 IOps 瓶颈。
+
+为了提高效率，我们引入了 Netherite，这是一种用于在弹性集群上执行无服务器工作流的新颖架构。 **Netherite 将众多应用程序对象分组到较少数量的分区中，并通过管道传输每个分区的状态持久性** 。这改善了延迟和吞吐量，因为它使工作流步骤能够对提交进行分组，即使是因果相关的。此外，Netherite 利用 FASTER 的混合日志方法来支持大于内存的应用程序状态，并实现计算主机之间的高效分区移动。
+
+我们的评估表明，(a) Netherite 比原始 DF 引擎实现了更低的延迟和更高的吞吐量，在某些情况下提高了一个数量级以上，并且 (b) Netherite 的延迟低于一些常用的替代方案，例如 AWS Step Functions或云存储触发器。
+
+### Software: Practice and Experience
+
+#### 2021
+
+##### 1.AuctionWhisk: Using an auction-inspired approach for function placement in serverless fog platforms
+
+**摘要：**
+
+函数即服务 (FaaS) 范式作为包含云和边缘节点的雾环境的计算模型具有很大的潜力，因为可以在整个雾连续体中以细粒度的方式调度计算请求。**当资源受限边缘的请求率超过容量限制时，需要将一些函数卸载到云端。在本文中，我们提出了一种受拍卖启发的方法，其中应用程序开发人员对资源进行投标，而雾节点在本地决定执行哪些函数以及卸载哪些函数以最大化收入。** 与当前许多在雾中放置函数的方法不同，我们的方法可以在线和分散的方式工作。我们还展示了我们的概念验证原型 AuctionWhisk，它说明了如何在真实的 FaaS 平台中实施这种方法。通过大量的模拟运行和系统实验，我们表明过载节点的收益可以在不丢弃函数请求的情况下最大化。
+
+### ACM Computing Surveys
+
+#### 2022
+
+##### 1.A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions
+
+**摘要：**
+
+近年来，无服务器计算已成为云应用程序的一种有吸引力的部署选项。这种计算模型的独特之处包括快速自动扩展、强大的隔离性、细粒度的计费选项以及访问自主处理资源管理决策的大规模服务生态系统。由于这些特征，这种模型也越来越多地被探索用于地理分布的边缘和雾计算网络中的部署。计算资源的有效管理一直受到研究人员的广泛关注。**对资源供应、分配、调度、监控和扩展的整个过程自动化的需求导致需要专门关注无服务器模型下的资源管理** 。在本文中，我们确定了涵盖无服务器环境中更广泛的资源管理概念的主要方面，并提出了影响这些方面的元素分类法，包括系统设计的特征、工作负载属性和利益相关者的期望。我们全面了解跨边缘、雾和云计算网络部署的无服务器环境。我们还使用此分类法分析了讨论无服务器资源管理方面的现有工作。本文进一步确定了文献中的空白，并强调了未来提高该计算模型能力的研究方向。

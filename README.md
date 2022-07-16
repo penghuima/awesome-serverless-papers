@@ -213,8 +213,11 @@
     - [IEEE International Conference on Fog and Edge Computing (ICFEC)](#ieee-international-conference-on-fog-and-edge-computing-icfec)
       - [2022](#2022-9)
         - [1.FaDO: FaaS Functions and Data Orchestrator for Multiple Serverless Edge-Cloud Clusters](#1fado-faas-functions-and-data-orchestrator-for-multiple-serverless-edge-cloud-clusters)
+    - [IEEE Cloud Summit](#ieee-cloud-summit)
+      - [2020](#2020-13)
+        - [1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing [10]](#1faas2f-a-framework-for-defining-execution-sla-in-serverless-computing-10)
   - [Journal](#journal-3)
-    - [Proceedings of the ACM on Measurement and Analysis of Computing Systems [J]](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems-j)
+    - [Proceedings of the ACM on Measurement and Analysis of Computing Systems](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems)
       - [2022](#2022-10)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows)
     - [Proceedings of the VLDB Endowment](#proceedings-of-the-vldb-endowment)
@@ -1266,7 +1269,7 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 **摘要：**
 
-最先进的无服务器平台使用硬编码的调度策略，**不知道函数可能的拓扑约束。** 在调度函数时考虑这些约束可以显着提高性能，例如，最小化加载时间或数据访问延迟。当在新兴的多云和边缘云连续系统中考虑时，这个问题变得更加紧迫，在这些系统中，只有特定的节点才能访问专门的本地资源。为了解决这个问题，我们提出了一种用于定义无服务器调度策略的声明性语言，以表达对调度程序和执行节点的拓扑结构的约束。我们将我们的方法实现为 OpenWhisk 平台的扩展，并展示我们的扩展与普通 OpenWhisk 相当或优于普通 OpenWhisk 的相关场景
+最先进的无服务器平台使用硬编码的调度策略，**不知道函数可能的拓扑约束。** 在调度函数时考虑这些约束可以显着提高性能，例如，最小化加载时间或数据访问延迟。当在新兴的多云和边缘云连续系统中考虑时，这个问题变得更加紧迫，在这些系统中，只有特定的节点才能访问专门的本地资源。为了解决这个问题，我们提出了一种用于定义无服务器调度策略的声明性语言，以表达对调度程序和执行节点的拓扑结构的约束。我们将我们的方法实现为 OpenWhisk 平台的扩展，并展示我们的扩展与普通 OpenWhisk 相当或优于普通 OpenWhisk 的相关场景。
 
 ## Conference
 
@@ -1280,9 +1283,19 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 函数即服务 (FaaS) 是一种极具吸引力的云计算模型，可简化应用程序的开发和部署。但是，当前的无服务器计算平台在调度函数时不考虑数据放置。随着对边缘云连续体、多云和多无服务器应用程序的需求不断增长，这个缺陷意味着无服务器技术仍然不适合媒体流等对延迟敏感的操作。这项工作通过展示一个名为 FaDO 的工具提出了一个解决方案：FaaS Functions and Data Orchestrator，**该工具旨在允许跨位于不同位置（例如边缘和云中）的多服务器无服务器计算集群进行数据感知功能调度。**  FaDO 通过基于标头的 HTTP 反向代理工作，并使用三种负载平衡算法：1) 最少连接，2) 循环，以及 3) 随机基于集合在合适的无服务器计算集群中对函数的调用进行负载平衡存储策略。 FaDO 进一步为用户提供了对无服务器计算集群存储的抽象，允许用户通过统一的接口跨不同的存储服务与数据进行交互。此外，用户可以配置自动和策略感知的粒度数据复制，使 FaDO 在遵守位置限制的同时跨集群传播数据。负载测试结果表明，它能够对高吞吐量工作负载进行负载平衡，将函数放置在其数据附近，而不会产生任何显着的性能开销
 
+### IEEE Cloud Summit
+
+#### 2020
+
+##### 1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing [10]
+
+**摘要：**
+
+无服务器计算的出现为向云用户交付计算资源带来了重大进步。随着基础架构、平台和执行环境的抽象化，这些层的管理开销转移到了云提供商身上。因此，云用户可以专注于应用层，同时依靠云提供商来配置和操作底层。此外，自动缩放和高可用性等理想功能由云提供商实现，并由用户代码采用，无需额外开销。尽管取得了这些进步，但随着应用程序从单片独立部署过渡到无服务器计算的短暂和无状态微服务模型，必须克服重大挑战。这些挑战与无服务器计算的概念和实现模型的独特性有关。在本文中，**我们研究了无服务器函数执行的服务水平协议 (SLA) 的建模。我们强调无服务器 SLA 与早期云交付模型的根本区别。然后，我们提出了一种根据函数执行的资源利用指纹来定义无服务器函数的 SLA 的方法，以及一种评估执行是否符合该 SLA 的方法** 。最后，我们展示了我们提出的方法的经验验证，该方法能够以超过 76% 和高达 100% 的准确度检测执行 SLA 违规。
+
 ## Journal
 
-### Proceedings of the ACM on Measurement and Analysis of Computing Systems [J]
+### Proceedings of the ACM on Measurement and Analysis of Computing Systems 
 
 #### 2022
 

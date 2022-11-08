@@ -13,6 +13,10 @@
       - [2020](#2020)
         - [1.Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting [5]](#1catalyzer-sub-millisecond-startup-for-serverless-computing-with-initialization-less-booting-5)
     - [USENIX ATC](#usenix-atc)
+      - [2022](#2022-1)
+        - [1.RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing](#1rund-a-lightweight-secure-container-runtime-for-high-density-deployment-and-high-concurrency-startup-in-serverless-computing)
+        - [2.Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing](#2help-rather-than-recycle-alleviating-cold-startup-in-serverless-computing-through-inter-function-container-sharing)
+        - [3.Tetris: Memory-efficient Serverless Inference through Tensor Sharing](#3tetris-memory-efficient-serverless-inference-through-tensor-sharing)
       - [2021](#2021-1)
         - [1.SONIC: Application-aware Data Passing for Chained Serverless Applications [3]](#1sonic-application-aware-data-passing-for-chained-serverless-applications-3)
         - [2.FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute [7]](#2faasnet-scalable-and-fast-provisioning-of-custom-serverless-container-runtimes-at-alibaba-cloud-function-compute-7)
@@ -58,21 +62,21 @@
       - [2019](#2019-1)
         - [1.Stateful Functions as a Service in Action](#1stateful-functions-as-a-service-in-action)
     - [INFOCOM](#infocom)
-      - [2022](#2022-1)
+      - [2022](#2022-2)
         - [1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows [10]](#1stepconf-slo-aware-dynamic-resource-configuration-for-serverless-function-workflows-10)
   - [Journal](#journal)
     - [TC](#tc)
-      - [2022](#2022-2)
+      - [2022](#2022-3)
         - [1.λDNN: Achieving Predictable Distributed DNN Training With Serverless Architectures [3]](#1λdnn-achieving-predictable-distributed-dnn-training-with-serverless-architectures-3)
     - [TPDS](#tpds)
-      - [2022](#2022-3)
+      - [2022](#2022-4)
       - [2021](#2021-7)
         - [1.Modeling and Optimization of Performance and Cost of Serverless Applications [6]](#1modeling-and-optimization-of-performance-and-cost-of-serverless-applications-6)
       - [2020](#2020-6)
         - [1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform [5]](#1automated-fine-grained-cpu-cap-control-in-serverless-computing-platform-5)
         - [2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud [3]](#2an-event-driven-approach-to-serverless-seismic-imaging-in-the-cloud-3)
     - [TON](#ton)
-      - [2022](#2022-4)
+      - [2022](#2022-5)
         - [1.CharmSeeker: Automated Pipeline Configuration for Serverless Video Processing](#1charmseeker-automated-pipeline-configuration-for-serverless-video-processing)
 - [CCFB](#ccfb)
   - [Conference](#conference-1)
@@ -129,7 +133,7 @@
       - [2020](#2020-10)
         - [1.Amoeba: QoS-Awareness and Reduced Resource Usage of Microservices with Serverless Computing](#1amoeba-qos-awareness-and-reduced-resource-usage-of-microservices-with-serverless-computing)
     - [HPDC](#hpdc)
-      - [2022](#2022-5)
+      - [2022](#2022-6)
         - [1.Benchmarking the Data Layer Across Serverless Platforms](#1benchmarking-the-data-layer-across-serverless-platforms)
       - [2021](#2021-14)
         - [1.A Serverless Framework for Distributed Bulk Metadata Extraction](#1a-serverless-framework-for-distributed-bulk-metadata-extraction)
@@ -163,7 +167,7 @@
         - [1.Serverless Computing: One Step Forward, Two Steps Back](#1serverless-computing-one-step-forward-two-steps-back)
   - [Journal](#journal-1)
     - [SPE](#spe)
-      - [2022](#2022-6)
+      - [2022](#2022-7)
         - [1.Container lifecycle-aware scheduling for serverless computing](#1container-lifecycle-aware-scheduling-for-serverless-computing)
       - [2021](#2021-19)
         - [1.Edge-adaptable serverless acceleration for machine learning Internet of Things applications](#1edge-adaptable-serverless-acceleration-for-machine-learning-internet-of-things-applications)
@@ -177,7 +181,7 @@
       - [2021](#2021-21)
         - [1.FaaSter: Accelerated Functions-as-a-Service with Heterogeneous GPUs](#1faaster-accelerated-functions-as-a-service-with-heterogeneous-gpus)
     - [CCGRID](#ccgrid)
-      - [2022](#2022-7)
+      - [2022](#2022-8)
         - [1.Pushing Serverless to the Edge with WebAssembly Runtimes](#1pushing-serverless-to-the-edge-with-webassembly-runtimes)
         - [2.Tiny Autoscalers for Tiny Workloads: Dynamic CPU Allocation for Serverless Functions](#2tiny-autoscalers-for-tiny-workloads-dynamic-cpu-allocation-for-serverless-functions)
         - [3.KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge](#3kneescale-efficient-resource-scaling-for-serverless-computing-at-the-edge)
@@ -218,36 +222,36 @@
   - [arXiv](#arxiv)
       - [2019](#2019-7)
         - [1.Cloud Programming Simplified: A Berkeley View on Serverless Computing](#1cloud-programming-simplified-a-berkeley-view-on-serverless-computing)
-      - [2022](#2022-8)
-        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
       - [2022](#2022-9)
+        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
+      - [2022](#2022-10)
         - [3.Topology-aware Serverless Function-Execution Scheduling [10]](#3topology-aware-serverless-function-execution-scheduling-10)
   - [Conference](#conference-3)
     - [IEEE International Conference on Fog and Edge Computing (ICFEC)](#ieee-international-conference-on-fog-and-edge-computing-icfec)
-      - [2022](#2022-10)
+      - [2022](#2022-11)
         - [1.FaDO: FaaS Functions and Data Orchestrator for Multiple Serverless Edge-Cloud Clusters](#1fado-faas-functions-and-data-orchestrator-for-multiple-serverless-edge-cloud-clusters)
     - [IEEE Cloud Summit](#ieee-cloud-summit)
       - [2020](#2020-13)
         - [1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing [10]](#1faas2f-a-framework-for-defining-execution-sla-in-serverless-computing-10)
   - [Journal](#journal-3)
     - [Proceedings of the ACM on Measurement and Analysis of Computing Systems](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems)
-      - [2022](#2022-11)
+      - [2022](#2022-12)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows)
     - [Proceedings of the VLDB Endowment](#proceedings-of-the-vldb-endowment)
-      - [2022](#2022-12)
+      - [2022](#2022-13)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows-1)
     - [Software: Practice and Experience](#software-practice-and-experience)
       - [2021](#2021-24)
         - [1.AuctionWhisk: Using an auction-inspired approach for function placement in serverless fog platforms](#1auctionwhisk-using-an-auction-inspired-approach-for-function-placement-in-serverless-fog-platforms)
         - [2.Container lifecycle-aware scheduling for serverless computing](#2container-lifecycle-aware-scheduling-for-serverless-computing)
     - [ACM Computing Surveys](#acm-computing-surveys)
-      - [2022](#2022-13)
+      - [2022](#2022-14)
         - [1.A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions](#1a-holistic-view-on-resource-management-in-serverless-computing-environments-taxonomy-and-future-directions)
     - [Information Systems](#information-systems)
-      - [2022](#2022-14)
+      - [2022](#2022-15)
         - [1.Transactions across serverless functions leveraging stateful dataflows](#1transactions-across-serverless-functions-leveraging-stateful-dataflows)
     - [IEEE Transactions on Services Computing](#ieee-transactions-on-services-computing)
-      - [2022](#2022-15)
+      - [2022](#2022-16)
         - [1.Serverless Computing: State-of-the-Art, Challenges and Opportunities](#1serverless-computing-state-of-the-art-challenges-and-opportunities)
 > 几家出版社
 >
@@ -351,9 +355,25 @@
 
 ### USENIX ATC
 
-> | 摘要截止日期       | 最终纸质文件截止日期 |
-> | ------------------ | -------------------- |
-> | 2022 年 1 月 13 日 | 2022 年 6 月 9 日    |
+> 摘要截止日期 2023.01.05
+
+#### 2022
+
+> 2022.7.11-7.13
+
+##### 1.RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing
+
+在微型虚拟机（VM）中承载单个容器的**安全容器**现在被用于无服务器计算，容器是通过微型虚拟机隔离的。由于无服务器平台中的用户函数是细粒度的，因此对高密度的容器部署和高并发的容器启动有很高的要求，以提高资源利用率和用户体验。我们的调查显示，整个软件堆栈，包括**主机操作系统中的 cgroup、来宾操作系统和用于函数工作负载的容器 rootfs，共同导致了低部署密度和高并发时的慢启动性能。**因此，我们提出并实现了一个轻量级的安全容器运行时，命名为 RunD，通过一个整体的 guest-to-host 的解决方案来解决上述问题。通过 RunD，在一秒钟内可以启动超过 200 个安全容器，在一个拥有 384GB 内存的节点上可以部署超过 2500 个安全容器。采用 RunD 作为阿里巴巴无服务器容器运行时，支持高密度部署和高并发的启动。
+
+##### 2.Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing
+
+在无服务器计算中，每个函数的调用都是在容器（或虚拟机）中执行的，而容器的冷启动会导致长时间的响应延迟。我们**观察到，一些函数受到容器冷启动的影响，而其他函数的温暖容器则处于闲置状态。基于这一观察，除了为一个函数从头开始启动一个新的容器外，我们建议通过重新利用另一个函数的温暖但闲置的容器来缓解冷启动的影响。**我们实现了一个容器管理方案，名为 Pagurus，以实现这一目的。Pagurus 包括一个函数内管理器，用于将闲置的热容器替换成其他函数可以使用的容器，而不引入额外的安全问题；一个函数间调度器，用于在函数间调度容器；以及一个集群级的共享感知函数平衡器，用于平衡不同节点的工作负载。使用 Azure 无服务器追踪的实验表明，Pagurus 减轻了 84.6% 的冷启动，如果减轻了冷启动延迟，则从数百毫秒减少到 16 毫秒。
+
+##### 3.Tetris: Memory-efficient Serverless Inference through Tensor Sharing
+
+执行复杂的、内存密集型的深度学习推理服务对无服务器计算框架是一个重大挑战，它将密集地部署和维护推理模型的高吞吐量。我们观察到无服务器推理系统中由于大尺寸模型和高数据冗余而导致的过度内存消耗问题。
+
+我们提出了 Tetris，这是一个迎合推理服务的无服务器平台，它的内存占用率要低一个数量级。Tetris 的设计仔细考虑了运行时和张量的广泛内存共享。它支持通过批处理和并发执行的组合优化来最小化运行时冗余，并使用轻量级和安全的张量映射机制来消除来自相同或不同函数的实例之间的张量冗余。我们的综合评估表明，Tetris 为推理服务节省了高达 93% 的内存占用，并在不影响延迟的情况下将函数密度提高了 30 倍。
 
 #### 2021
 

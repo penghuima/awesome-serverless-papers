@@ -84,6 +84,13 @@
 - [CCFB](#ccfb)
   - [Conference](#conference-1)
     - [SoCC](#socc)
+      - [2022](#2022-6)
+        - [1.Owl: performance-aware scheduling for resource-efficient function-as-a-service cloud](#1owl-performance-aware-scheduling-for-resource-efficient-function-as-a-service-cloud)
+        - [2.QFaaS: accelerating and securing serverless cloud networks with QUIC](#2qfaas-accelerating-and-securing-serverless-cloud-networks-with-quic)
+        - [3.Cypress: input size-sensitive container provisioning and request scheduling for serverless platforms](#3cypress-input-size-sensitive-container-provisioning-and-request-scheduling-for-serverless-platforms)
+        - [4.Hermod: principled and practical scheduling for serverless functions](#4hermod-principled-and-practical-scheduling-for-serverless-functions)
+        - [5.SIMPPO: a scalable and incremental online learning framework for serverless resource management](#5simppo-a-scalable-and-incremental-online-learning-framework-for-serverless-resource-management)
+        - [6.SimLess: simulate serverless workflows and their twins and siblings in federated FaaS](#6simless-simulate-serverless-workflows-and-their-twins-and-siblings-in-federated-faas)
       - [2021](#2021-9)
         - [1.Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications](#1faat-a-transparent-auto-scaling-cache-for-serverless-applications)
         - [2.Atoll: A Scalable Low-Latency Serverless Platform](#2atoll-a-scalable-low-latency-serverless-platform)
@@ -136,7 +143,7 @@
       - [2020](#2020-10)
         - [1.Amoeba: QoS-Awareness and Reduced Resource Usage of Microservices with Serverless Computing](#1amoeba-qos-awareness-and-reduced-resource-usage-of-microservices-with-serverless-computing)
     - [HPDC](#hpdc)
-      - [2022](#2022-6)
+      - [2022](#2022-7)
         - [1.Benchmarking the Data Layer Across Serverless Platforms](#1benchmarking-the-data-layer-across-serverless-platforms)
       - [2021](#2021-15)
         - [1.A Serverless Framework for Distributed Bulk Metadata Extraction](#1a-serverless-framework-for-distributed-bulk-metadata-extraction)
@@ -170,7 +177,7 @@
         - [1.Serverless Computing: One Step Forward, Two Steps Back](#1serverless-computing-one-step-forward-two-steps-back)
   - [Journal](#journal-1)
     - [SPE](#spe)
-      - [2022](#2022-7)
+      - [2022](#2022-8)
         - [1.Container lifecycle-aware scheduling for serverless computing](#1container-lifecycle-aware-scheduling-for-serverless-computing)
       - [2021](#2021-20)
         - [1.Edge-adaptable serverless acceleration for machine learning Internet of Things applications](#1edge-adaptable-serverless-acceleration-for-machine-learning-internet-of-things-applications)
@@ -184,7 +191,7 @@
       - [2021](#2021-22)
         - [1.FaaSter: Accelerated Functions-as-a-Service with Heterogeneous GPUs](#1faaster-accelerated-functions-as-a-service-with-heterogeneous-gpus)
     - [CCGRID](#ccgrid)
-      - [2022](#2022-8)
+      - [2022](#2022-9)
         - [1.Pushing Serverless to the Edge with WebAssembly Runtimes](#1pushing-serverless-to-the-edge-with-webassembly-runtimes)
         - [2.Tiny Autoscalers for Tiny Workloads: Dynamic CPU Allocation for Serverless Functions](#2tiny-autoscalers-for-tiny-workloads-dynamic-cpu-allocation-for-serverless-functions)
         - [3.KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge](#3kneescale-efficient-resource-scaling-for-serverless-computing-at-the-edge)
@@ -225,56 +232,44 @@
   - [arXiv](#arxiv)
       - [2019](#2019-7)
         - [1.Cloud Programming Simplified: A Berkeley View on Serverless Computing](#1cloud-programming-simplified-a-berkeley-view-on-serverless-computing)
-      - [2022](#2022-9)
-        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
       - [2022](#2022-10)
+        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
+      - [2022](#2022-11)
         - [3.Topology-aware Serverless Function-Execution Scheduling [10]](#3topology-aware-serverless-function-execution-scheduling-10)
   - [Conference](#conference-3)
     - [IEEE International Conference on Fog and Edge Computing (ICFEC)](#ieee-international-conference-on-fog-and-edge-computing-icfec)
-      - [2022](#2022-11)
+      - [2022](#2022-12)
         - [1.FaDO: FaaS Functions and Data Orchestrator for Multiple Serverless Edge-Cloud Clusters](#1fado-faas-functions-and-data-orchestrator-for-multiple-serverless-edge-cloud-clusters)
     - [IEEE Cloud Summit](#ieee-cloud-summit)
       - [2020](#2020-13)
         - [1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing [10]](#1faas2f-a-framework-for-defining-execution-sla-in-serverless-computing-10)
   - [Journal](#journal-3)
     - [Proceedings of the ACM on Measurement and Analysis of Computing Systems](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems)
-      - [2022](#2022-12)
+      - [2022](#2022-13)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows)
     - [Proceedings of the VLDB Endowment](#proceedings-of-the-vldb-endowment)
-      - [2022](#2022-13)
+      - [2022](#2022-14)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows-1)
     - [Software: Practice and Experience](#software-practice-and-experience)
       - [2021](#2021-25)
         - [1.AuctionWhisk: Using an auction-inspired approach for function placement in serverless fog platforms](#1auctionwhisk-using-an-auction-inspired-approach-for-function-placement-in-serverless-fog-platforms)
         - [2.Container lifecycle-aware scheduling for serverless computing](#2container-lifecycle-aware-scheduling-for-serverless-computing)
     - [ACM Computing Surveys](#acm-computing-surveys)
-      - [2022](#2022-14)
+      - [2022](#2022-15)
         - [1.A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions](#1a-holistic-view-on-resource-management-in-serverless-computing-environments-taxonomy-and-future-directions)
     - [Information Systems](#information-systems)
-      - [2022](#2022-15)
+      - [2022](#2022-16)
         - [1.Transactions across serverless functions leveraging stateful dataflows](#1transactions-across-serverless-functions-leveraging-stateful-dataflows)
     - [IEEE Transactions on Services Computing](#ieee-transactions-on-services-computing)
-      - [2022](#2022-16)
+      - [2022](#2022-17)
         - [1.Serverless Computing: State-of-the-Art, Challenges and Opportunities](#1serverless-computing-state-of-the-art-challenges-and-opportunities)
-> 几家出版社
->
-> **ACM**  美国计算机协会（Association for Computing Machinery; [ACM](https://baike.baidu.com/item/ACM/64774)），成立于 1947 年，是一个国际性的科技教育组织，是世界上第一个科学性及教育性计算机学会，总部设在美国纽约。有很多特别兴趣小组（Special Interest Groups; SIGs）：包括信息技术 37 个细分领域的特别兴趣小组供会员选择加入
->
-> **IEEE** 电气与电子工程师协会（Institute of Electrical and Electronics Engineers），简称 IEEE，总部位于美国纽约，是一个国际性的电子技术与信息科学工程师的协会，也是全球最大的非营利性专业技术学会
->
-> **USENIX**  USENIX 协会是一个非营利组织，致力于支持先进的计算系统社区并扩大创新研究的范围。我们以组织会议和出版研究而闻名，但我们最大的优势在于建立计算系统社区。我们以多种方式代表我们社区的利益，包括我们与计算研究协会的专业联系。自 1975 年以来，USENIX 将致力于计算世界前沿的工程师、系统管理员、SRE、研究人员和技术人员聚集在一起。USENIX 会议已成为展示和讨论有关计算系统各个方面发展的最先进信息的重要会议场所。
->
-> **Springer** springer 是[Springer-Verlag](https://baike.baidu.com/item/Springer-Verlag)的简称，[德国](https://baike.baidu.com/item/德国/147953)Springer-Verlag(斯普林格) 出版社是世界上最大的科技出版社之一，它有着 170 多年发展历史，以出版学术性出版物而闻名于世，它也是最早将纸本期刊做成电子版发行的出版商。德国斯普林格 (Springer-Verlag) 通过 SpringerLink 系统提供其学术期刊及电子图书的在线服务，该数据库包括了各类期刊、丛书、图书、参考工具书以及回溯文档。
-
 # CCFA
 
 ## Conference
 
 ### ASPLOS
 
-> | 摘要截止日期        | 全文截止日期        |
-> | ------------------- | ------------------- |
-> | 2022 年 10 月 13 日 | 2022 年 10 月 20 日 |
+> 摘要截止日期 2022.10.20
 
 #### 2022
 
@@ -286,7 +281,7 @@
 
 **摘要：**
 
-无服务器计算是一种新兴的计算模式，它依赖于在预期执行前的 "预热 "函数，以便为用户提供更快、更经济的服务。不幸的是，**预热函数可能是不准确的，并且在预热期间会产生令人望而却步的昂贵成本（即函数保活成本）**。在本文中，**我们介绍了 IceBreaker，这是一种新颖的技术，通过用异构节点（昂贵和便宜）组成系统来减少服务时间和 "保活 "成本。IceBreaker 的做法是，根据函数的时间变化概率，动态地确定在具有成本效益类型的节点来预热函数。通过采用异构性，IceBreaker 允许在相同的成本预算下拥有更多数量的节点，因此可以保活更多数量的函数，并减少高负载时的等待时间。**我们的实际系统评估证实，IceBreaker 使用具有代表性的无服务器应用程序和行业级工作负载跟踪，将整体保持不变的成本降低了 45％，执行时间降低了 27％。IceBreaker 是第一个采用并利用昂贵和便宜节点混合的想法来改善无服务器函数的服务时间和保持成本的技术--为研究人员和从业者开辟了一条在异构服务器上进行无服务器计算的新研究途径。
+无服务器计算是一种新兴的计算模式，它依赖于在预期执行前的 "预热 "函数，以便为用户提供更快、更经济的服务。不幸的是，**预热函数可能是不准确的，并且在预热期间会产生令人望而却步的昂贵成本（即函数保活成本）**。在本文中，**我们介绍了 IceBreaker，这是一种新颖的技术，通过用异构节点（昂贵和便宜）组成系统来减少服务时间和 "保活 "成本。IceBreaker 的做法是，根据函数的时间变化概率，动态地确定在具有成本效益类型的节点来预热函数。通过采用异构性，IceBreaker 允许在相同的成本预算下拥有更多数量的节点，因此可以保活更多数量的函数，并减少高负载时的等待时间**。我们的实际系统评估证实，IceBreaker 使用具有代表性的无服务器应用程序和行业级工作负载跟踪，将整体保持不变的成本降低了 45％，执行时间降低了 27％。IceBreaker 是第一个采用并利用昂贵和便宜节点混合的想法来改善无服务器函数的服务时间和保持成本的技术--为研究人员和从业者开辟了一条在异构服务器上进行无服务器计算的新研究途径。
 
 ##### 2.INFless: a native serverless system for low-latency, high-throughput inference [3]
 
@@ -680,7 +675,39 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 
 ### SoCC
 
->2022 年截稿日期：2022.4.15
+#### 2022
+
+> 2022.11.7-11.11
+
+##### 1.Owl: performance-aware scheduling for resource-efficient function-as-a-service cloud
+
+这项工作记录了我们在阿里巴巴 FaaS 平台上改进调度器的经验。我们观察到，在**大多数 FaaS 沙箱中，内存和 CPU 都没有得到充分的利用**。一个自然的解决方案是在分配沙箱时过度配置虚拟机资源，而随之而来的争夺可能会导致性能下降并影响用户体验。更为复杂的是，FaaS 的退化可能来自外部因素，例如用户函数的失败依赖。
+
+我们设计 Owl 来实现高利用率和性能稳定性。它引入了一个可定制的规则系统，让用户指定他们对退化的容忍度，并以一种双重方法过度投入资源。(1) 对于较少调用的函数，它通过基于使用的启发式方法将资源分配到沙箱中，持续监测其性能，并对任何检测到的退化进行补救。它通过分离出一个无竞争环境，并将受影响的沙箱迁移到那里作为比较基线，来区分退化的沙箱是否受到外部影响。(2) 对于经常被调用的函数，Owl 对搭配的沙箱之间的干扰模式进行分析，并将沙箱置于分析的指导下。搭配分析的设计是为了解决分析必须在生产中进行的限制。Owl 进一步整合了闲置的沙箱，以减少资源浪费。我们在生产系统中建立了 Owl 的原型，并实施了一个有代表性的基准测试套件来评估它。结果表明，该原型可以减少 43.80% 的虚拟机成本，并有效地缓解延迟的退化，而产生的开销可以忽略不计。
+
+##### 2.QFaaS: accelerating and securing serverless cloud networks with QUIC
+
+无服务器计算大大简化了云编程。它将云租户从各种系统管理和资源管理任务中解放出来，如配置和供应。在这种新的云计算模式下，单一的单体应用被划分为独立的无状态函数，即函数即服务（FaaS），然后被协调在一起以支持复杂的业务逻辑。但是，这种增强的灵活性有一个基本的成本。现在频繁启动函数之间的内部网络连接，以支持无服务器函数，如敏捷自动缩放和函数链，从而提高通信延迟。为了减轻这一成本，目前的无服务器供应商为了性能而牺牲了安全，保持内部函数通信不加密。
+
+我们认为，**新兴的 QUIC 协议可以为这一挑战提供解决方案，该协议在广域范围内保证了 HTTP 通信的安全和加速**。我们设计了一个基于 QUIC 的 FaaS 框架，称为 QFaaS，并在 OpenFaaS 平台上实施。我们的设计明确地确保了现有的无服务器应用程序可以直接从 QFaaS 中受益，而无需修改任何应用代码。对合成函数和真实世界应用的实验表明，QFaaS 可以将单个函数和函数链的通信延迟分别降低 28% 和 40%，并为终端用户的响应时间节省多达 50 毫秒。
+
+##### 3.Cypress: input size-sensitive container provisioning and request scheduling for serverless platforms
+
+随着无服务器平台的日益普及，部署在该平台上的应用程序（app）的数量和种类也在增加。这些应用中的大多数都会处理用户提供的输入，以产生预期的结果。输入敏感分析领域的现有工作经验表明，许多此类应用的执行时间与输入大小有关，可以通过建模技术来确定。然而，**现有的无服务器资源管理框架对这些应用程序的输入规模敏感性质不了解**。我们在本文中证明，这有可能导致容器过度供应或违反端到端服务水平目标（SLO）。为了解决这个问题，我们**提出了 Cypress，一个输入尺寸敏感的资源管理框架，它可以最大限度地减少为应用程序提供的容器，同时确保高度的 SLO 合规性**。我们在 Kubernetes 管理的集群之上对 Cypress 进行了广泛的评估，使用了来自 AWS 无服务器应用库和 Open-FaaS 函数商店的 5 个应用，这些应用具有真实世界的痕迹和不同的输入大小分布。我们的实验结果表明，与最先进的框架相比，Cypress 生成的容器数量减少了 66%，从而提高了容器利用率，并将整个集群的能耗分别节省了 2.95 倍和 23%，同时保持高度的 SLO 合规性（高达 99.99%）。
+
+##### 4.Hermod: principled and practical scheduling for serverless functions
+
+无服务器计算因其提供的易用性和成本效益而迅速增长。然而，作为无服务器系统的一个重要组成部分，**函数调度**却被忽视了。我们采用第一原则方法来设计一个调度器，该调度器能够迎合现实部署中所见的无服务器函数的独特特性。我们首先沿着三个维度创建了一个调度策略的分类法。接下来，我们使用模拟来探索调度策略空间，并表明常用的特性（如延迟绑定和随机负载平衡）对于常见的执行时间分布和负载范围来说是次优的。我们使用这些见解来设计 Hermod，一个具有两个关键特性的无服务器函数调度器。首先，为了避免由于高函数执行时间可变性而导致的队头阻塞，Hermod 将早期绑定和处理器共享相结合，用于单个工作机的调度。其次，Hermod 具有成本、负载和位置意识。与纯基于负载的策略相比，它改进了低负载下的整合，在高负载下采用最小负载平衡以保持高性能，并减少了冷启动次数。我们为 Apache OpenWhisk 实现了 Hermod，并证明，对于在真实世界跟踪中观察到的函数模式，与现有的生产和最先进的研究调度程序相比，它实现了高达 85% 的函数减慢和高达 60% 的吞吐量。
+
+##### 5.SIMPPO: a scalable and incremental online learning framework for serverless resource management
+
+无服务器函数即服务（FaaS）为客户提供了更好的可编程性，但它并不是 "无服务器"，而是以云供应商更复杂的基础设施管理（如资源配置和调度）为代价。为了**保持服务水平目标（SLOs）并提高资源利用效率，最近的研究集中在应用在线学习算法，如强化学习（RL）来管理资源**。尽管应用 RL 取得了初步成功，但我们在本文中首先表明，与孤立环境相比，最先进的单代理 RL 算法（S-RL）在多租户无服务器 FaaS 平台上的 p99 函数延迟退化高达 4.8 倍，并且在训练期间无法收敛。然后，我们设计并实现了一个基于近似策略优化（SIMPPO）的可扩展和增量的多代理 RL 框架。我们的实验证明，在多租户环境中，SIMPPO 使每个 RL 代理在训练过程中有效收敛，并提供与孤立训练的 S-RL 相当的在线函数延迟性能，而且退化很小（<9.2%）。此外，与 S-RL 相比，SIMPPO 在多租户情况下将 p99 函数延迟降低了 4.5 倍。
+
+##### 6.SimLess: simulate serverless workflows and their twins and siblings in federated FaaS
+
+许多研究人员将科学无服务器工作流或函数编排（FCs）迁移到函数即服务（FaaS）上，以受益于其高可扩展性和弹性。不幸的是，联邦 FaaS 的异质性阻碍了关于运行 FC 的适当参数设置的决定。因此，科学家们必须在精确但繁琐且昂贵的实验或简单但便宜且不太精确的模拟之间做出选择。遗憾的是，相关工作要么支持在虚拟机和容器上运行的全服务器工作流的仿真模型，**要么支持个别无服务器函数的部分 FaaS 模型，这些模型侧重于执行时间，而忽略了各种联合的开销**。
+
+本文介绍了**SimLess，这是一个 FC 仿真框架，用于在多个 FaaS 提供商之间进行准确的 FC 仿真**，参数设置简单且轻量级。与使用时间序列的机器学习来预测 FC 行为的昂贵方法不同，SimLess 引入了两个轻量级的概念：（1）双胞胎，代表用相同的计算、通信和存储资源部署的相同函数，但在同一 FaaS 提供商的其他区域，以及（2）兄弟姐妹，代表用不同的计算资源部署在同一区域的相同函数。新颖的 SimLess FC 仿真模型将一个函数的往返时间分割成几个参数在双胞胎和同胞之间重用，而不一定要运行它们。我们用部署在 18 个 AWS、谷歌和 IBM 地区的两个科学 FC 评估了 SimLess。SimLess 模拟的累积开销的平均误差为 8.9%，各地区的学习和验证没有明显的差异。此外，SimLess 使用在单一地区执行的低并发 FC 的测量结果来模拟在其他地区有 2500 个函数的高并发 FC，其误差高达 9.75 %。最后，与其他仿真方法相比，SimLess 减少了 77.23% 的参数设置工作。
 
 #### 2021
 

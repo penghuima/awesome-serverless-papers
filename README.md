@@ -182,6 +182,9 @@
       - [2021](#2021-20)
         - [1.Edge-adaptable serverless acceleration for machine learning Internet of Things applications](#1edge-adaptable-serverless-acceleration-for-machine-learning-internet-of-things-applications)
         - [2.Function delivery network: Extending serverless computing for heterogeneous platforms](#2function-delivery-network-extending-serverless-computing-for-heterogeneous-platforms)
+    - [JSS](#jss)
+      - [2019](#2019-5)
+        - [1.A Mixed-Method Empirical Study of Function-as-a-Service Software Development in Industrial Practice](#1a-mixed-method-empirical-study-of-function-as-a-service-software-development-in-industrial-practice)
 - [CCFC](#ccfc)
   - [Conference](#conference-2)
     - [HPCC](#hpcc)
@@ -217,10 +220,10 @@
       - [2020](#2020-12)
         - [1.Performance Optimization for Edge-Cloud Serverless Platforms via Dynamic Task Placement](#1performance-optimization-for-edge-cloud-serverless-platforms-via-dynamic-task-placement)
         - [2.Cost-Effective Malware Detection as a Service Over Serverless Cloud Using Deep Reinforcement Learning](#2cost-effective-malware-detection-as-a-service-over-serverless-cloud-using-deep-reinforcement-learning)
-      - [2019](#2019-5)
+      - [2019](#2019-6)
         - [1.Beyond Load Balancing: Package-Aware Scheduling for Serverless Platforms [10]](#1beyond-load-balancing-package-aware-scheduling-for-serverless-platforms-10)
     - [ICPADS](#icpads)
-      - [2019](#2019-6)
+      - [2019](#2019-7)
         - [1.Adaptive Function Launching Acceleration in Serverless Computing Platforms [10]](#1adaptive-function-launching-acceleration-in-serverless-computing-platforms-10)
   - [Journal](#journal-2)
     - [JGC](#jgc)
@@ -230,7 +233,7 @@
         - [3.Highly Complex Resource Scheduling for Stochastic Demands in Heterogeneous Clouds [6]](#3highly-complex-resource-scheduling-for-stochastic-demands-in-heterogeneous-clouds-6)
 - [Others](#others)
   - [arXiv](#arxiv)
-      - [2019](#2019-7)
+      - [2019](#2019-8)
         - [1.Cloud Programming Simplified: A Berkeley View on Serverless Computing](#1cloud-programming-simplified-a-berkeley-view-on-serverless-computing)
       - [2022](#2022-10)
         - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
@@ -1195,6 +1198,14 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 **摘要：**
 
 在亚马逊的 Lambda 平台推出后，无服务器计算迅速发展。函数即服务（FaaS）是无服务器计算的一个关键推动因素，它允许将一个应用程序分解为简单、独立的函数，并在 FaaS 平台上执行。FaaS 平台负责为这些函数部署和提供资源。**今天的几个云计算应用分布在异构连接的计算资源上，并且在结构和资源要求上都是高度动态的。然而，FaaS 平台仅限于同质集群和同质函数，并且在调度前没有考虑到函数的数据访问行为**。我们介绍了**FaaS 对异构集群的扩展**，并通过分布式异构目标平台的网络支持异构函数，称为函数交付网络（FDN）。一个目标平台是一个同质节点集群和其上的 FaaS 平台的组合。FDN 提供函数交付即服务（FDaaS），将函数交付给合适的目标平台。我们展示了各种机会，如不同目标平台的特点，多个目标平台之间协作执行的可能性，以及 FDN 在实现两个目标时提供的数据本地化。通过使用我们开发的分布式目标平台基准测试工具 FDNInspector 对五个以上的分布式目标平台进行评估，展示了在调度函数时服务水平目标（SLO）要求和能源效率。在我们的评估中，在边缘目标平台上调度函数，与在高端目标平台上调度相比，在不违反 SLO 要求的情况下，总体能耗降低了 17 倍。
+
+### JSS
+
+#### 2019
+
+##### 1.A Mixed-Method Empirical Study of Function-as-a-Service Software Development in Industrial Practice
+
+FaaS 是一种可以使基础设施组件对开发人员透明化的云服务，是属于 “无服务器” 计算模型的一种。当使用FaaS产品 (如AWS Lambda) 时，开发人员只需要提供功能性的原子和短运行代码，FaaS服务提供商会按需执行和水平伸缩扩展它们。然而，对于开发人员如何使用serverless，哪些类型的应用程序适合serverless，以及相关应用程序应当基于什么样的架构样式和实践方式，至今没有系统的研究。我们采用了多种方法进行研究，包括与基于FaaS进行开发的工程师进行交流，对灰色文献进行系统分析以及在互联网上进行Web调查等。最终，我们发现，成功应用FaaS需要一种不同的思维模型——应用主要是通过组合已经存在的服务进行构建的，FaaS在其中则是充当将这些服务结合在一起的 “粘合剂”。并且，工具的可用性和成熟度，尤其是与测试和部署相关的工具，仍然是主要的困难。此外，我们发现当前的FaaS系统缺乏对函数复用的系统级支持，以及抽象和编程模型在构造较大的应用程序时受到一定的限制。最后，我们讨论了对FaaS服务提供商，软件开发人员和研究人员来说，Faas的意义是什么。
 
 # CCFC
 

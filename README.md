@@ -2,53 +2,53 @@
   - [Conference](#conference)
     - [ASPLOS](#asplos)
       - [2022](#2022)
-        - [1.IceBreaker: Warming Serverless Functions Better with Heterogeneity  [9]](#1icebreaker-warming-serverless-functions-better-with-heterogeneity--9)
-        - [2.INFless: a native serverless system for low-latency, high-throughput inference [3]](#2infless-a-native-serverless-system-for-low-latency-high-throughput-inference-3)
-        - [3.FaaSFlow: enable efficient workflow execution for function-as-a-service [3]](#3faasflow-enable-efficient-workflow-execution-for-function-as-a-service-3)
-        - [4.Serverless computing on heterogeneous computers [1]](#4serverless-computing-on-heterogeneous-computers-1)
+        - [1.IceBreaker: Warming Serverless Functions Better with Heterogeneity](#1icebreaker-warming-serverless-functions-better-with-heterogeneity)
+        - [2.INFless: a native serverless system for low-latency, high-throughput inference](#2infless-a-native-serverless-system-for-low-latency-high-throughput-inference)
+        - [3.FaaSFlow: enable efficient workflow execution for function-as-a-service](#3faasflow-enable-efficient-workflow-execution-for-function-as-a-service)
+        - [4.Serverless computing on heterogeneous computers](#4serverless-computing-on-heterogeneous-computers)
       - [2021](#2021)
-        - [1.Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices [3]](#1nightcore-efficient-and-scalable-serverless-computing-for-latency-sensitive-interactive-microservices-3)
-        - [2.FaasCache: keeping serverless computing alive with greedy-dual caching [8]](#2faascache-keeping-serverless-computing-alive-with-greedy-dual-caching-8)
-        - [3.Benchmarking, analysis, and optimization of serverless function snapshots [6]](#3benchmarking-analysis-and-optimization-of-serverless-function-snapshots-6)
+        - [1.Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices](#1nightcore-efficient-and-scalable-serverless-computing-for-latency-sensitive-interactive-microservices)
+        - [2.FaasCache: keeping serverless computing alive with greedy-dual caching](#2faascache-keeping-serverless-computing-alive-with-greedy-dual-caching)
+        - [3.Benchmarking, analysis, and optimization of serverless function snapshots](#3benchmarking-analysis-and-optimization-of-serverless-function-snapshots)
       - [2020](#2020)
-        - [1.Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting [5]](#1catalyzer-sub-millisecond-startup-for-serverless-computing-with-initialization-less-booting-5)
+        - [1.Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting](#1catalyzer-sub-millisecond-startup-for-serverless-computing-with-initialization-less-booting)
     - [USENIX ATC](#usenix-atc)
       - [2022](#2022-1)
         - [1.RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing](#1rund-a-lightweight-secure-container-runtime-for-high-density-deployment-and-high-concurrency-startup-in-serverless-computing)
         - [2.Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing](#2help-rather-than-recycle-alleviating-cold-startup-in-serverless-computing-through-inter-function-container-sharing)
         - [3.Tetris: Memory-efficient Serverless Inference through Tensor Sharing](#3tetris-memory-efficient-serverless-inference-through-tensor-sharing)
       - [2021](#2021-1)
-        - [1.SONIC: Application-aware Data Passing for Chained Serverless Applications [3]](#1sonic-application-aware-data-passing-for-chained-serverless-applications-3)
-        - [2.FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute [7]](#2faasnet-scalable-and-fast-provisioning-of-custom-serverless-container-runtimes-at-alibaba-cloud-function-compute-7)
-        - [3.Faastlane: Accelerating Function-as-a-Service Workflows [5]](#3faastlane-accelerating-function-as-a-service-workflows-5)
+        - [1.SONIC: Application-aware Data Passing for Chained Serverless Applications](#1sonic-application-aware-data-passing-for-chained-serverless-applications)
+        - [2.FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute](#2faasnet-scalable-and-fast-provisioning-of-custom-serverless-container-runtimes-at-alibaba-cloud-function-compute)
+        - [3.Faastlane: Accelerating Function-as-a-Service Workflows](#3faastlane-accelerating-function-as-a-service-workflows)
       - [2020](#2020-1)
-        - [1.Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider [10]](#1serverless-in-the-wild-characterizing-and-optimizing-the-serverless-workload-at-a-large-cloud-provider-10)
-        - [2.Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing [5]](#2faasm-lightweight-isolation-for-efficient-stateful-serverless-computing-5)
+        - [1.Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider](#1serverless-in-the-wild-characterizing-and-optimizing-the-serverless-workload-at-a-large-cloud-provider)
+        - [2.Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing](#2faasm-lightweight-isolation-for-efficient-stateful-serverless-computing)
       - [2018](#2018)
-        - [1.SOCK: Rapid Task Provisioning with Serverless-Optimized Containers [8]](#1sock-rapid-task-provisioning-with-serverless-optimized-containers-8)
+        - [1.SOCK: Rapid Task Provisioning with Serverless-Optimized Containers](#1sock-rapid-task-provisioning-with-serverless-optimized-containers)
         - [2.Peeking Behind the Curtains of Serverless Platforms](#2peeking-behind-the-curtains-of-serverless-platforms)
-        - [3.Understanding Ephemeral Storage for Serverless Analytics [4]](#3understanding-ephemeral-storage-for-serverless-analytics-4)
-        - [4.SAND: Towards High-Performance Serverless Computing [8]](#4sand-towards-high-performance-serverless-computing-8)
+        - [3.Understanding Ephemeral Storage for Serverless Analytics](#3understanding-ephemeral-storage-for-serverless-analytics)
+        - [4.SAND: Towards High-Performance Serverless Computing](#4sand-towards-high-performance-serverless-computing)
     - [ISCA](#isca)
       - [2021](#2021-2)
-        - [1.Confidential Serverless Made Efficient with Plug-In Enclaves [1]](#1confidential-serverless-made-efficient-with-plug-in-enclaves-1)
+        - [1.Confidential Serverless Made Efficient with Plug-In Enclaves](#1confidential-serverless-made-efficient-with-plug-in-enclaves)
     - [FAST](#fast)
       - [2020](#2020-2)
         - [1.InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache](#1infinicache-exploiting-ephemeral-serverless-functions-to-build-a-cost-effective-memory-cache)
     - [FSE/ESEC](#fseesec)
       - [2021](#2021-3)
-        - [1.An empirical study on challenges of application development in serverless computing [8]](#1an-empirical-study-on-challenges-of-application-development-in-serverless-computing-8)
-        - [2.Automating serverless deployments for DevOps organizations [1]](#2automating-serverless-deployments-for-devops-organizations-1)
+        - [1.An empirical study on challenges of application development in serverless computing](#1an-empirical-study-on-challenges-of-application-development-in-serverless-computing)
+        - [2.Automating serverless deployments for DevOps organizations](#2automating-serverless-deployments-for-devops-organizations)
     - [SOSP](#sosp)
       - [2021](#2021-4)
-        - [1.Boki: Stateful Serverless Computing with Shared Logs [7]](#1boki-stateful-serverless-computing-with-shared-logs-7)
-        - [2.Faster and Cheaper Serverless Computing on Harvested Resources [8]](#2faster-and-cheaper-serverless-computing-on-harvested-resources-8)
-        - [3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes  [9]](#3flashcube-fast-provisioning-of-serverless-functions-with-streamlined-container-runtimes--9)
+        - [1.Boki: Stateful Serverless Computing with Shared Logs](#1boki-stateful-serverless-computing-with-shared-logs)
+        - [2.Faster and Cheaper Serverless Computing on Harvested Resources](#2faster-and-cheaper-serverless-computing-on-harvested-resources)
+        - [3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes](#3flashcube-fast-provisioning-of-serverless-functions-with-streamlined-container-runtimes)
     - [OSDI](#osdi)
       - [2021](#2021-5)
-        - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads [1]](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads-1)
+        - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads)
       - [2020](#2020-3)
-        - [1.Fault-tolerant and transactional stateful serverless workflows [4]](#1fault-tolerant-and-transactional-stateful-serverless-workflows-4)
+        - [1.Fault-tolerant and transactional stateful serverless workflows](#1fault-tolerant-and-transactional-stateful-serverless-workflows)
     - [NSDI](#nsdi)
       - [2021](#2021-6)
         - [1.Caerus: NIMBLE Task Scheduling for Serverless Analytics](#1caerus-nimble-task-scheduling-for-serverless-analytics)
@@ -63,21 +63,22 @@
         - [1.Stateful Functions as a Service in Action](#1stateful-functions-as-a-service-in-action)
     - [INFOCOM](#infocom)
       - [2022](#2022-2)
-        - [1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows [10]](#1stepconf-slo-aware-dynamic-resource-configuration-for-serverless-function-workflows-10)
+        - [1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows](#1stepconf-slo-aware-dynamic-resource-configuration-for-serverless-function-workflows)
     - [ASE](#ase)
       - [2021](#2021-7)
         - [1.Towards a Serverless Java Runtime](#1towards-a-serverless-java-runtime)
   - [Journal](#journal)
     - [TC](#tc)
       - [2022](#2022-3)
-        - [1.λDNN: Achieving Predictable Distributed DNN Training With Serverless Architectures [3]](#1λdnn-achieving-predictable-distributed-dnn-training-with-serverless-architectures-3)
+        - [1.λDNN: Achieving Predictable Distributed DNN Training With Serverless Architectures](#1λdnn-achieving-predictable-distributed-dnn-training-with-serverless-architectures)
     - [TPDS](#tpds)
       - [2022](#2022-4)
+        - [1.Astrea: Auto-Serverless Analytics towards Cost-Efficiency and QoS-Awareness](#1astrea-auto-serverless-analytics-towards-cost-efficiency-and-qos-awareness)
       - [2021](#2021-8)
-        - [1.Modeling and Optimization of Performance and Cost of Serverless Applications [6]](#1modeling-and-optimization-of-performance-and-cost-of-serverless-applications-6)
+        - [1.Modeling and Optimization of Performance and Cost of Serverless Applications](#1modeling-and-optimization-of-performance-and-cost-of-serverless-applications)
       - [2020](#2020-6)
-        - [1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform [5]](#1automated-fine-grained-cpu-cap-control-in-serverless-computing-platform-5)
-        - [2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud [3]](#2an-event-driven-approach-to-serverless-seismic-imaging-in-the-cloud-3)
+        - [1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform](#1automated-fine-grained-cpu-cap-control-in-serverless-computing-platform)
+        - [2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud](#2an-event-driven-approach-to-serverless-seismic-imaging-in-the-cloud)
     - [TON](#ton)
       - [2022](#2022-5)
         - [1.CharmSeeker: Automated Pipeline Configuration for Serverless Video Processing](#1charmseeker-automated-pipeline-configuration-for-serverless-video-processing)
@@ -101,7 +102,7 @@
         - [7.ServerMore: Opportunistic Execution of Serverless Functions in the Cloud](#7servermore-opportunistic-execution-of-serverless-functions-in-the-cloud)
         - [8.On Merits and Viability of Multi-Cloud Serverless](#8on-merits-and-viability-of-multi-cloud-serverless)
         - [9.Speedo: Fast dispatch and orchestration of serverless workflows](#9speedo-fast-dispatch-and-orchestration-of-serverless-workflows)
-        - [10.Cloud-Scale Runtime Verification of Serverless Applications [10]](#10cloud-scale-runtime-verification-of-serverless-applications-10)
+        - [10.Cloud-Scale Runtime Verification of Serverless Applications](#10cloud-scale-runtime-verification-of-serverless-applications)
       - [2020](#2020-7)
         - [1.Wukong: a scalable and locality-enhanced framework for serverless parallel computing](#1wukong-a-scalable-and-locality-enhanced-framework-for-serverless-parallel-computing)
         - [2.Characterizing serverless platforms with serverlessbench](#2characterizing-serverless-platforms-with-serverlessbench)
@@ -116,16 +117,18 @@
         - [3.Practical Cloud Workloads for Serverless FaaS](#3practical-cloud-workloads-for-serverless-faas)
     - [CLUSTER](#cluster)
       - [2021](#2021-10)
-        - [1.Tackling Cold Start of Serverless Applications by Efficient and Adaptive Container Runtime Reusing [8]](#1tackling-cold-start-of-serverless-applications-by-efficient-and-adaptive-container-runtime-reusing-8)
-        - [2.Supporting Elastic Compaction of LSM-tree with a FaaS Cluster [1]](#2supporting-elastic-compaction-of-lsm-tree-with-a-faas-cluster-1)
+        - [1.Tackling Cold Start of Serverless Applications by Efficient and Adaptive Container Runtime Reusing](#1tackling-cold-start-of-serverless-applications-by-efficient-and-adaptive-container-runtime-reusing)
+        - [2.Supporting Elastic Compaction of LSM-tree with a FaaS Cluster](#2supporting-elastic-compaction-of-lsm-tree-with-a-faas-cluster)
     - [ICDCS](#icdcs)
+      - [2022](#2022-7)
+        - [1.Escra: Event-driven, Sub-second Container Resource Allocation](#1escra-event-driven-sub-second-container-resource-allocation)
       - [2021](#2021-11)
-        - [1.Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms [10]](#1defuse-a-dependency-guided-function-scheduler-to-mitigate-cold-starts-on-faas-platforms-10)
-        - [2.Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning [1]](#2gillis-serving-large-neural-networks-in-serverless-functions-with-automatic-model-partitioning-1)
+        - [1.Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms](#1defuse-a-dependency-guided-function-scheduler-to-mitigate-cold-starts-on-faas-platforms)
+        - [2.Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](#2gillis-serving-large-neural-networks-in-serverless-functions-with-automatic-model-partitioning)
         - [3.Poster: Function Delivery Network: Extending Serverless to Heterogeneous Computing](#3poster-function-delivery-network-extending-serverless-to-heterogeneous-computing)
         - [4.A Multi-Tenant Framework for Cloud Container Services](#4a-multi-tenant-framework-for-cloud-container-services)
       - [2020](#2020-8)
-        - [1.λ-NIC: Interactive Serverless Compute on Programmable SmartNICs [2]](#1λ-nic-interactive-serverless-compute-on-programmable-smartnics-2)
+        - [1.λ-NIC: Interactive Serverless Compute on Programmable SmartNICs](#1λ-nic-interactive-serverless-compute-on-programmable-smartnics)
         - [2.Serverless Straggler Mitigation using Error-Correcting Codes](#2serverless-straggler-mitigation-using-error-correcting-codes)
         - [3.Characterizing Bottlenecks in Scheduling Microservices on Serverless Platforms](#3characterizing-bottlenecks-in-scheduling-microservices-on-serverless-platforms)
     - [EuroSys](#eurosys)
@@ -143,18 +146,18 @@
       - [2020](#2020-10)
         - [1.Amoeba: QoS-Awareness and Reduced Resource Usage of Microservices with Serverless Computing](#1amoeba-qos-awareness-and-reduced-resource-usage-of-microservices-with-serverless-computing)
     - [HPDC](#hpdc)
-      - [2022](#2022-7)
+      - [2022](#2022-8)
         - [1.Benchmarking the Data Layer Across Serverless Platforms](#1benchmarking-the-data-layer-across-serverless-platforms)
       - [2021](#2021-15)
         - [1.A Serverless Framework for Distributed Bulk Metadata Extraction](#1a-serverless-framework-for-distributed-bulk-metadata-extraction)
         - [2.LaSS: Running Latency Sensitive Serverless Computations at the Edge](#2lass-running-latency-sensitive-serverless-computations-at-the-edge)
     - [ICWS](#icws)
       - [2021](#2021-16)
-        - [1.A Measurement Study on Serverless Workflow Services [5]](#1a-measurement-study-on-serverless-workflow-services-5)
+        - [1.A Measurement Study on Serverless Workflow Services](#1a-measurement-study-on-serverless-workflow-services)
     - [Middleware](#middleware)
       - [2021](#2021-17)
-        - [1.SeBS: a serverless benchmark suite for function-as-a-service computing [9]](#1sebs-a-serverless-benchmark-suite-for-function-as-a-service-computing-9)
-        - [2.FaaSTCC: efficient transactional causal consistency for serverless computing [2]](#2faastcc-efficient-transactional-causal-consistency-for-serverless-computing-2)
+        - [1.SeBS: a serverless benchmark suite for function-as-a-service computing](#1sebs-a-serverless-benchmark-suite-for-function-as-a-service-computing)
+        - [2.FaaSTCC: efficient transactional causal consistency for serverless computing](#2faastcc-efficient-transactional-causal-consistency-for-serverless-computing)
       - [2020](#2020-11)
         - [1.Prebaking Functions to Warm the Serverless Cold Start [8]](#1prebaking-functions-to-warm-the-serverless-cold-start-8)
         - [2.SplitServe: Efficiently Splitting Apache Spark Jobs Across FaaS and IaaS [5]](#2splitserve-efficiently-splitting-apache-spark-jobs-across-faas-and-iaas-5)
@@ -177,11 +180,14 @@
         - [1.Serverless Computing: One Step Forward, Two Steps Back](#1serverless-computing-one-step-forward-two-steps-back)
   - [Journal](#journal-1)
     - [SPE](#spe)
-      - [2022](#2022-8)
+      - [2022](#2022-9)
         - [1.Container lifecycle-aware scheduling for serverless computing](#1container-lifecycle-aware-scheduling-for-serverless-computing)
       - [2021](#2021-20)
         - [1.Edge-adaptable serverless acceleration for machine learning Internet of Things applications](#1edge-adaptable-serverless-acceleration-for-machine-learning-internet-of-things-applications)
         - [2.Function delivery network: Extending serverless computing for heterogeneous platforms](#2function-delivery-network-extending-serverless-computing-for-heterogeneous-platforms)
+    - [JSS](#jss)
+      - [2019](#2019-5)
+        - [1.A Mixed-Method Empirical Study of Function-as-a-Service Software Development in Industrial Practice](#1a-mixed-method-empirical-study-of-function-as-a-service-software-development-in-industrial-practice)
 - [CCFC](#ccfc)
   - [Conference](#conference-2)
     - [HPCC](#hpcc)
@@ -191,7 +197,7 @@
       - [2021](#2021-22)
         - [1.FaaSter: Accelerated Functions-as-a-Service with Heterogeneous GPUs](#1faaster-accelerated-functions-as-a-service-with-heterogeneous-gpus)
     - [CCGRID](#ccgrid)
-      - [2022](#2022-9)
+      - [2022](#2022-10)
         - [1.Pushing Serverless to the Edge with WebAssembly Runtimes](#1pushing-serverless-to-the-edge-with-webassembly-runtimes)
         - [2.Tiny Autoscalers for Tiny Workloads: Dynamic CPU Allocation for Serverless Functions](#2tiny-autoscalers-for-tiny-workloads-dynamic-cpu-allocation-for-serverless-functions)
         - [3.KneeScale: Efficient Resource Scaling for Serverless Computing at the Edge](#3kneescale-efficient-resource-scaling-for-serverless-computing-at-the-edge)
@@ -217,10 +223,10 @@
       - [2020](#2020-12)
         - [1.Performance Optimization for Edge-Cloud Serverless Platforms via Dynamic Task Placement](#1performance-optimization-for-edge-cloud-serverless-platforms-via-dynamic-task-placement)
         - [2.Cost-Effective Malware Detection as a Service Over Serverless Cloud Using Deep Reinforcement Learning](#2cost-effective-malware-detection-as-a-service-over-serverless-cloud-using-deep-reinforcement-learning)
-      - [2019](#2019-5)
+      - [2019](#2019-6)
         - [1.Beyond Load Balancing: Package-Aware Scheduling for Serverless Platforms [10]](#1beyond-load-balancing-package-aware-scheduling-for-serverless-platforms-10)
     - [ICPADS](#icpads)
-      - [2019](#2019-6)
+      - [2019](#2019-7)
         - [1.Adaptive Function Launching Acceleration in Serverless Computing Platforms [10]](#1adaptive-function-launching-acceleration-in-serverless-computing-platforms-10)
   - [Journal](#journal-2)
     - [JGC](#jgc)
@@ -230,38 +236,38 @@
         - [3.Highly Complex Resource Scheduling for Stochastic Demands in Heterogeneous Clouds [6]](#3highly-complex-resource-scheduling-for-stochastic-demands-in-heterogeneous-clouds-6)
 - [Others](#others)
   - [arXiv](#arxiv)
-      - [2019](#2019-7)
+      - [2019](#2019-8)
         - [1.Cloud Programming Simplified: A Berkeley View on Serverless Computing](#1cloud-programming-simplified-a-berkeley-view-on-serverless-computing)
-      - [2022](#2022-10)
-        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
       - [2022](#2022-11)
+        - [2.MLLess: Achieving Cost Efficiency in Serverless Machine Learning Training](#2mlless-achieving-cost-efficiency-in-serverless-machine-learning-training)
+      - [2022](#2022-12)
         - [3.Topology-aware Serverless Function-Execution Scheduling [10]](#3topology-aware-serverless-function-execution-scheduling-10)
   - [Conference](#conference-3)
     - [IEEE International Conference on Fog and Edge Computing (ICFEC)](#ieee-international-conference-on-fog-and-edge-computing-icfec)
-      - [2022](#2022-12)
+      - [2022](#2022-13)
         - [1.FaDO: FaaS Functions and Data Orchestrator for Multiple Serverless Edge-Cloud Clusters](#1fado-faas-functions-and-data-orchestrator-for-multiple-serverless-edge-cloud-clusters)
     - [IEEE Cloud Summit](#ieee-cloud-summit)
       - [2020](#2020-13)
         - [1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing [10]](#1faas2f-a-framework-for-defining-execution-sla-in-serverless-computing-10)
   - [Journal](#journal-3)
     - [Proceedings of the ACM on Measurement and Analysis of Computing Systems](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems)
-      - [2022](#2022-13)
+      - [2022](#2022-14)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows)
     - [Proceedings of the VLDB Endowment](#proceedings-of-the-vldb-endowment)
-      - [2022](#2022-14)
+      - [2022](#2022-15)
         - [1.Netherite: efficient execution of serverless workflows](#1netherite-efficient-execution-of-serverless-workflows-1)
     - [Software: Practice and Experience](#software-practice-and-experience)
       - [2021](#2021-25)
         - [1.AuctionWhisk: Using an auction-inspired approach for function placement in serverless fog platforms](#1auctionwhisk-using-an-auction-inspired-approach-for-function-placement-in-serverless-fog-platforms)
         - [2.Container lifecycle-aware scheduling for serverless computing](#2container-lifecycle-aware-scheduling-for-serverless-computing)
     - [ACM Computing Surveys](#acm-computing-surveys)
-      - [2022](#2022-15)
+      - [2022](#2022-16)
         - [1.A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions](#1a-holistic-view-on-resource-management-in-serverless-computing-environments-taxonomy-and-future-directions)
     - [Information Systems](#information-systems)
-      - [2022](#2022-16)
+      - [2022](#2022-17)
         - [1.Transactions across serverless functions leveraging stateful dataflows](#1transactions-across-serverless-functions-leveraging-stateful-dataflows)
     - [IEEE Transactions on Services Computing](#ieee-transactions-on-services-computing)
-      - [2022](#2022-17)
+      - [2022](#2022-18)
         - [1.Serverless Computing: State-of-the-Art, Challenges and Opportunities](#1serverless-computing-state-of-the-art-challenges-and-opportunities)
 # CCFA
 
@@ -277,13 +283,13 @@
 >
 > 有专门的关于 serverless 的会议主题
 
-##### 1.IceBreaker: Warming Serverless Functions Better with Heterogeneity  [9]
+##### 1.IceBreaker: Warming Serverless Functions Better with Heterogeneity 
 
 **摘要：**
 
 无服务器计算是一种新兴的计算模式，它依赖于在预期执行前的 "预热 "函数，以便为用户提供更快、更经济的服务。不幸的是，**预热函数可能是不准确的，并且在预热期间会产生令人望而却步的昂贵成本（即函数保活成本）**。在本文中，**我们介绍了 IceBreaker，这是一种新颖的技术，通过用异构节点（昂贵和便宜）组成系统来减少服务时间和 "保活 "成本。IceBreaker 的做法是，根据函数的时间变化概率，动态地确定在具有成本效益类型的节点来预热函数。通过采用异构性，IceBreaker 允许在相同的成本预算下拥有更多数量的节点，因此可以保活更多数量的函数，并减少高负载时的等待时间**。我们的实际系统评估证实，IceBreaker 使用具有代表性的无服务器应用程序和行业级工作负载跟踪，将整体保持不变的成本降低了 45％，执行时间降低了 27％。IceBreaker 是第一个采用并利用昂贵和便宜节点混合的想法来改善无服务器函数的服务时间和保持成本的技术--为研究人员和从业者开辟了一条在异构服务器上进行无服务器计算的新研究途径。
 
-##### 2.INFless: a native serverless system for low-latency, high-throughput inference [3]
+##### 2.INFless: a native serverless system for low-latency, high-throughput inference
 
 **摘要：**
 
@@ -291,7 +297,7 @@
 
 虽然简单地 "修补 "通用无服务器系统并不能完全解决这个问题，但我们建议这样的系统应该将推理的特点与无服务器范式天然地结合起来。我们**提出了 INFless，这是第一个针对 ML 领域的无服务器平台。它在 CPU 和加速器之间提供了一个统一的、异构的资源抽象，并利用内置的批处理和非统一的扩展机制实现了高吞吐量。**它还通过协调管理批处理排队时间、执行时间和**冷启动率**支持低延迟。我们使用本地集群测试平台和大规模模拟来评估 INFless。实验结果表明，INFless 在系统吞吐量上优于最先进的系统 2-5 倍，满足了 ML 服务的延时目标。
 
-##### 3.FaaSFlow: enable efficient workflow execution for function-as-a-service [3]
+##### 3.FaaSFlow: enable efficient workflow execution for function-as-a-service 
 
 **摘要：**
 
@@ -299,7 +305,7 @@
 
 为此，我们**提出了一种用于无服务器工作流执行的 worker-side 工作流计划模式**。根据该设计，我们实现了 FaaSFlow，**以便在无服务器环境下实现高效的工作流执行**。**此外，我们提出了一个自适应存储库 FaaStore，它能够在同一节点上的函数之间快速传输数据，而无需通过数据库**。实验结果表明，FaaSFlow 有效地将工作流调度开销平均降低了 74.6%，数据传输开销最多降低了 95%。当网络带宽波动时，FaaSFlow-FaaStore 可以减少 23.0% 的吞吐量下降，并且能够使网络带宽的利用率提高 1.5-4 倍。
 
-##### 4.Serverless computing on heterogeneous computers [1]
+##### 4.Serverless computing on heterogeneous computers 
 
 **摘要：**
 
@@ -313,7 +319,7 @@
 
 > 2021.4.19-4.23
 
-##### 1.Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices [3]
+##### 1.Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices 
 
 摘要：
 
@@ -321,7 +327,7 @@
 
 我们展示了 **Nightcore，这是一个具有微秒级开销的无服务器函数运行时，可在函数之间提供基于容器的隔离。Nightcore 的设计仔细考虑了具有微秒级开销的各种因素，包括函数请求的调度、通信原语、I/O 的线程模型和并发函数执行。** Nightcore 目前支持用 C/C++、Go、Node.js 和 Python 编写的无服务器函数。我们的评估表明，在运行延迟敏感的交互式微服务时，Nightcore 实现了 1.36–2.93 倍更高的吞吐量和高达 69% 的尾部延迟减少。
 
-##### 2.FaasCache: keeping serverless computing alive with greedy-dual caching [8]
+##### 2.FaasCache: keeping serverless computing alive with greedy-dual caching 
 
 **摘要：**
 
@@ -329,7 +335,7 @@
 
 我们的见解是，keep-alive 类似于缓存。与当前方法相比，**我们受缓存启发的 Greedy-Dual keep-alive 策略可以有效地将冷启动开销减少 3 倍以上。重用距离和命中率曲线等缓存概念也可用于自适应的服务器资源配置**，这可以将 FaaS 提供商对现实世界动态工作负载的资源需求降低 30%。我们在基于 OpenWhisk 的 FaasCache 系统中实施基于缓存的保活和资源配置策略。我们希望我们的缓存类比为未来的 FaaS 工作负载和平台打开了更多原则和优化的保活和资源配置技术的大门。
 
-##### 3.Benchmarking, analysis, and optimization of serverless function snapshots [6]
+##### 3.Benchmarking, analysis, and optimization of serverless function snapshots 
 
 **摘要：**
 
@@ -341,7 +347,7 @@
 
 > 2020.3.18-3.20
 
-##### 1.Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting [5]
+##### 1.Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting
 
 **摘要：**
 
@@ -377,7 +383,7 @@
 
 > 2021.7.14-7.16
 
-##### 1.SONIC: Application-aware Data Passing for Chained Serverless Applications [3]
+##### 1.SONIC: Application-aware Data Passing for Chained Serverless Applications 
 
 **摘要：**
 
@@ -385,7 +391,7 @@
 
 【以上三种方法在文件大小，并行度、网络带宽不同的情况下分别是最优方法，优先考虑 VM，不可行或牺牲并行性的情况下考虑另外两种，如果并行度低，网络带宽小考虑直接传输，并行度高、网络带宽大考虑远程调用。】
 
-##### 2.FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute [7]
+##### 2.FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute 
 
 **摘要：**
 
@@ -393,7 +399,7 @@
 
 在本文中，我们设计了 FaaSNet，这是一个用于加速 FaaS 容器配置的高度可扩展的中间件系统。 **FaaSNet 由全球最大的云提供商之一阿里云函数计算的 FaaS 平台的工作负载和基础设施要求驱动**。**FaaSNet 通过轻量级的自适应函数树 (FT) 结构实现可扩展的容器配置。FaaSNet 使用高效的 I/O 按需获取机制来进一步大规模降低配置成本**。我们在阿里云函数计算中实现并集成了 FaaSNet。评估结果表明，FaaSNet：（1）在 8.3 秒内完成在 1000 个虚拟机上配置 2500 个函数容器，（2）扩展速度比阿里云当前的 FaaS 平台和最先进的 P2P 容器注册中心 (Kraken) 快 13.4 倍和 16.3 倍 和 (3) 维持突发工作负载的时间比优化基线少 75.2%。
 
-##### 3.Faastlane: Accelerating Function-as-a-Service Workflows [5]
+##### 3.Faastlane: Accelerating Function-as-a-Service Workflows 
 
 **摘要：**
 
@@ -407,13 +413,13 @@
 
 > 2020.7.15-7.17
 
-##### 1.Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider [10]
+##### 1.Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider 
 
 **摘要：**
 
 函数即服务（FaaS）作为一种在云中向无服务器后端部署计算的方式，已经越来越受欢迎。这种模式将分配和配置资源的复杂性转移给了云提供商，**云提供商必须以尽可能低的资源成本提供永远可用的资源的假象（即没有冷启动的快速函数调用）**。这样做需要供应商深入了解 FaaS 工作负载的特点。不幸的是，关于这些特征的公开信息几乎没有。因此，在本文中，我们**首先描述了 Azure Functions 的整个生产型 FaaS 工作负载的特点**。我们举例说明，大多数函数被调用的频率很低，但调用频率有 8 个数量级的范围。通过观察我们的特征，我们**提出了一个实用的资源管理策略，该策略可以大大减少函数冷启动的次数，同时花费的资源也比现行的策略少**。
 
-##### 2.Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing [5]
+##### 2.Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing 
 
 **摘要：**
 
@@ -429,7 +435,7 @@
 >
 > 2018.7.11-7.13
 
-##### 1.SOCK: Rapid Task Provisioning with Serverless-Optimized Containers [8]
+##### 1.SOCK: Rapid Task Provisioning with Serverless-Optimized Containers 
 
 无服务器计算承诺为应用程序提供成本节约和极致弹性。不幸的是，缓慢的应用和**容器初始化会损害无服务器平台上的常见延迟**。在这项工作中，我们**分析了 Linux 容器原语，确定了与存储和网络隔离有关的可扩展性瓶颈。我们还分析了 GitHub 上的 Python 应用程序，并表明导入许多流行的库会使启动时间增加约 100ms**。基于这些发现，我们实现了**SOCK，一个为无服务器工作负载优化的容器系统**。小心避免了内核的可扩展性瓶颈，使 SOCK 的速度比 Docker 提高了 18 倍。一个广义的 Zygote 配置策略产生了额外的 3 倍速度。基于 Zygotes 的更复杂的三层缓存策略使 SOCK 的速度比没有 Zygotes 的 SOCK 提高了 45 倍。相对于 AWS Lambda 和 OpenWhisk，在一个图像处理案例研究中，带有 SOCK 的 OpenLambda 分别减少了 2.8 倍和 5.3 倍的平台开销。
 
@@ -437,11 +443,11 @@
 
 无服务器计算是一种新兴的范式，其中应用程序的资源配置和扩展由第三方服务管理。例子包括 AWS Lambda、Azure Functions 和 Google Cloud Functions。**在这些服务易于使用的 API 背后是不透明的、复杂的基础设施和管理生态系统**。我们从无服务器**客户的角度**出发，进行了迄今为止最大规模的测量研究，在这三种服务中启动了超过 5 万个函数实例，以描述其架构、性能和资源管理效率。我们解释了这些平台如何使用虚拟机或容器来隔离不同账户的函数，这具有重要的安全意义。我们**从可扩展性、冷启动延迟和资源效率等方面来描述性能**，重点包括 AWS Lambda 采用类似 bin-packing 的策略来最大化虚拟机的内存利用率，在 AWS 和 Azure 中可能出现函数之间的严重争用，以及谷歌有允许客户免费使用资源的 bug。
 
-##### 3.Understanding Ephemeral Storage for Serverless Analytics [4]
+##### 3.Understanding Ephemeral Storage for Serverless Analytics 
 
 无服务器计算框架允许用户以高弹性和细粒度的资源计费启动数千个并发任务，而无需显式管理计算资源。虽然在物联网和网络微服务方面已经取得了成功，但人们对利用无服务器计算来运行**数据密集型工作**（如交互式分析）的兴趣越来越大。在**无服务器平台上运行分析工作负载的一个关键挑战是使不同执行阶段的任务能够通过共享数据存储在彼此之间有效地交流数据**。在本文中，我们**探讨了不同的云存储服务（如对象存储和分布式缓存）作为无服务器分析的远程存储的适用性**。我们的分析得出了指导无服务器云存储系统设计的关键见解，包括 Flash 存储的性能和成本效益，以满足无服务器应用的要求，以及需要一种按需付费的存储服务，以支持高度并行应用的高吞吐需求。
 
-##### 4.SAND: Towards High-Performance Serverless Computing [8]
+##### 4.SAND: Towards High-Performance Serverless Computing 
 
 无服务器计算已经成为一种新的云计算范式，在这种范式中，一个应用由可以单独管理和执行的各个函数组成。然而，**现有的无服务器平台通常在独立的容器中隔离和执行函数，并不利用函数之间的相互作用来提高性能**。这些做法导致了函数执行的高启动延迟和低效的资源使用。本文介绍了 SAND，一个新的无服务器计算系统，它**比现有的无服务器平台具有更低的延迟、更好的资源效率和更大的弹性**。为了实现这些特性，**SAND 引入了两项关键技术。1）应用层面的沙箱 2）分层的消息总线。**我们已经实现并部署了一个完整的 SAND 系统。我们的结果表明，SAND 的性能明显优于最先进的无服务器平台。例如，在一个常用的图像处理应用中，与 Apache OpenWhisk 相比，SAND 实现了 43% 的速度提升。
 
@@ -451,7 +457,7 @@
 
 > 2021.6.14-6-18
 
-##### 1.Confidential Serverless Made Efficient with Plug-In Enclaves [1]
+##### 1.Confidential Serverless Made Efficient with Plug-In Enclaves 
 
 **摘要：**
 
@@ -473,13 +479,13 @@
 
 > 2021.8.23-28
 
-##### 1.An empirical study on challenges of application development in serverless computing [8]
+##### 1.An empirical study on challenges of application development in serverless computing 
 
 **摘要：**
 
 无服务器计算是一种新兴的云计算范式，在视频处理和机器学习等广泛的应用中获得了关注。这种新范式可以让开发者在函数的粒度上专注于基于 serverless 计算的应用（简称 serverless-based applications）的逻辑开发，从而将开发者从繁琐且容易出错的基础设施管理中解放出来。同时，也给基于 serverless 的应用的设计、实现和部署带来了新的挑战，目前的 serverless 计算平台还远远不能令人满意。然而，据我们所知，这些挑战尚未得到很好的研究。为了填补这一知识空白，**本文首次全面研究了从开发人员的角度理解开发基于无服务器的应用程序所面临的挑战。我们从 Stack Overflow（开发者热门问答网站）中挖掘和分析了 22,731 个相关问题，展示了无服务器计算的日益流行趋势和开发者的高难度水平。**通过对 619 个抽样问题的人工检查，我们构建了开发人员遇到的挑战的分类，并报告了一系列发现和可操作的含义。包括应用程序开发人员、研究人员和云提供商在内的利益相关者可以利用这些发现和影响来更好地理解和进一步探索无服务器计算范式。
 
-##### 2.Automating serverless deployments for DevOps organizations [1]
+##### 2.Automating serverless deployments for DevOps organizations 
 
 **摘要：**
 
@@ -493,13 +499,13 @@ DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付�
 
 > 2021.10.26-29
 
-##### 1.Boki: Stateful Serverless Computing with Shared Logs [7]
+##### 1.Boki: Stateful Serverless Computing with Shared Logs 
 
 **摘要：**
 
 **Boki 是一个新的无服务器运行时，它将共享日志 API 导出到无服务器函数。Boki 共享日志使有状态的无服务器应用程序能够以持久性、一致性和容错性来管理其状态**。Boki 共享日志实现了高吞吐量和低延迟。关键促成因素是 **metalog，这是一种允许 Boki 独立处理排序、一致性和容错的新机制**。metallog 以高吞吐量对共享日志记录进行排序，并提供读取一致性，同时允许服务提供商以不同方式优化共享日志的写入和读取路径。为了展示共享日志对有状态无服务器应用程序的价值，我们构建了 Boki 支持库来实现容错工作流、持久对象存储和消息队列。我们的评估表明，共享日志可以将重要的无服务器工作负载加速高达 4.7 倍。
 
-##### 2.Faster and Cheaper Serverless Computing on Harvested Resources [8]
+##### 2.Faster and Cheaper Serverless Computing on Harvested Resources 
 
 **摘要：**
 
@@ -507,7 +513,7 @@ DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付�
 
 在这项工作中，**我们探讨了在 Harvest VM 上托管无服务器（函数即服务或简称 FaaS）平台的挑战和好处。我们描述了 Microsoft Azure 的无服务器工作负载和 Harvest VM，并设计了一个无服务器负载均衡器，它可以感知 Harvest VM 中的驱逐和资源变化。我们修改了广泛使用的开源无服务器平台 OpenWhisk，以监控收获的资源并相应地平衡负载，并对其进行实验评估**。我们的结果表明，采用收获的资源可以提高效率并降低成本。在相同的成本预算下，与使用专用资源相比，在收获的资源上运行无服务器平台可实现 2.2 到 9.0 倍的吞吐量。在使用相同数量的资源时，由于更好的负载平衡，在收获的资源上运行无服务器平台可以节省 48% 到 89% 的成本，同时延迟更低。
 
-##### 3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes  [9]
+##### 3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes  
 
 **摘要：**
 
@@ -519,7 +525,7 @@ DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付�
 
 > 2021.07.14-16
 
-##### 1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads [1]
+##### 1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads 
 
 **摘要：**
 
@@ -531,7 +537,7 @@ DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付�
 
 > 2020.11.04-06
 
-##### 1.Fault-tolerant and transactional stateful serverless workflows [4]
+##### 1.Fault-tolerant and transactional stateful serverless workflows 
 
 **摘要：**
 
@@ -590,7 +596,7 @@ Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成�
 
 #### 2022
 
-##### 1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows [10]
+##### 1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows 
 
 **摘要：**
 
@@ -615,7 +621,7 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 
 > 2022.01
 
-##### 1.λDNN: Achieving Predictable Distributed DNN Training With Serverless Architectures [3]
+##### 1.λDNN: Achieving Predictable Distributed DNN Training With Serverless Architectures 
 
 **摘要：**
 
@@ -627,7 +633,7 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 
 > 2022.03
 
-1.Astrea: Auto-Serverless Analytics towards Cost-Efficiency and QoS-Awareness [10]
+##### 1.Astrea: Auto-Serverless Analytics towards Cost-Efficiency and QoS-Awareness 
 
 **摘要：**
 
@@ -637,7 +643,7 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 
 > 2021.01
 
-##### 1.Modeling and Optimization of Performance and Cost of Serverless Applications [6]
+##### 1.Modeling and Optimization of Performance and Cost of Serverless Applications 
 
 **摘要：**
 
@@ -647,13 +653,13 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 
 > 2020.01
 
-##### 1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform [5]
+##### 1.Automated Fine-Grained CPU Cap Control in Serverless Computing Platform 
 
 **摘要：**
 
 无服务器计算已经成为一种新的云计算执行模型，它将用户和应用程序开发人员从显式管理“物理”资源中解放出来，将这种资源管理负担留给服务提供商。在本文中，我们研究了多租户无服务器计算平台的资源分配问题，明确考虑了**包括突然激增在内的工作负载波动**。特别是，我们调查了租户（他们的应用程序）具有不同工作负载特征的这些平台中性能下降的不同根本原因。为此，我们**开发了一个细粒度的 CPU 上限控制解决方案作为资源管理器，可以动态调整具有相同/相似性能要求的应用程序（即应用程序组）的 CPU 使用限制（或 CPU 上限）**。CPU 上限的调整主要适用于 serverless 计算平台的同地工作进程，以尽量减少资源争用，这是性能下降的主要来源。实际的调整决策是基于使用组感知调度算法的性能指标（例如，节流时间和队列长度）做出的。在我们的本地集群中进行的大量实验结果证实，即使在传入工作负载存在波动和突然激增的情况下，所提出的资源管理器也可以有效地消除显式预留计算能力的负担。我们通过将提议的资源管理器与实践中广泛使用的几种启发式方法进行比较来衡量其鲁棒性，包括增强版本的循环和最小长度队列调度策略，在实际场景驱动的各种工作负载强度下。值得注意的是，我们的资源管理器优于其他启发式方法，将偏度和平均响应时间分别降低了 44% 和 94%，同时它不会过度使用 CPU 资源。
 
-##### 2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud [3]
+##### 2.An Event-Driven Approach to Serverless Seismic Imaging in the Cloud 
 
 **摘要：**
 
@@ -784,7 +790,7 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 
 将云应用结构化为相互作用的细粒度微服务的集合，使其具有可扩展性，并提供了对应用部分进行热升级的灵活性。目前无服务器计算（FaaS）的化身及其动态资源分配和自动扩展能力使其成为此类应用的首选部署模式。随着微服务的粒度接近几毫秒的执行时间，再加上每秒接近数万个请求的负载，拥有低于一毫秒的低调度延迟对于跟上线路速率至关重要。当这些微服务是构成应用程序的工作流的一部分时，协调微服务执行顺序的协调器也需要以微秒级的延迟运行。我们的观察显示，调度/编排延迟的最重要组成部分是请求从网络进入和离开用户空间所需的时间。由于今天的 SmartNIC 上存在大量的低功耗内核，要跟上这些高线速和严格的延迟预期，一种方法是在 SmartNIC 上靠近网络运行调度器和编排器。FaaS 调度器/协调器的短时短暂状态和低 CPU 突发要求的运行特性使它们成为从服务器卸载到 NIC 核心的理想候选者。这也带来了释放服务器 CPU 的其他好处。我们在基于 ASIC 的 Netronome Agilio 智能网卡上实现了 Speedo，我们的综合评估表明，Speedo 在每秒 10K 个请求的负载下，将调度延迟从~150ms 降至~140μs。
 
-##### 10.Cloud-Scale Runtime Verification of Serverless Applications [10]
+##### 10.Cloud-Scale Runtime Verification of Serverless Applications 
 
 **摘要：**
 
@@ -878,13 +884,13 @@ Shredder 的主要挑战是安全隔离数千个租户存储函数，同时最�
 
 > 2021.9.7-10
 
-##### 1.Tackling Cold Start of Serverless Applications by Efficient and Adaptive Container Runtime Reusing [8]
+##### 1.Tackling Cold Start of Serverless Applications by Efficient and Adaptive Container Runtime Reusing 
 
 **摘要：**
 
 在过去几年中，无服务器计算由于其独特的优势，包括易于管理、自动扩展、内置容错等，已经改变了云和边缘的应用开发和部署模式。尽管如此，无服务器计算也面临着挑战，如**冷启动带来的长延迟**。在本文中，我们对无服务器框架中的冷启动进行了深入的性能分析，并提出了 HotC，一个基于容器的运行时管理框架，利用轻量级容器来缓解冷启动，提高无服务器应用程序的网络性能。**HotC 维护一个实时的容器运行时池，分析用户输入或配置文件，并提供可用的运行时供立即重用**。为了精确预测请求并有效地管理热容器，我们设计了一种结合指数平滑模型和马尔科夫链方法的自适应实时容器控制算法。我们的评估结果表明，HotC 引入的开销可以忽略不计，并且可以有效地提高云服务器和边缘设备中不同网络流量模式的各种应用的性能。
 
-##### 2.Supporting Elastic Compaction of LSM-tree with a FaaS Cluster [1]
+##### 2.Supporting Elastic Compaction of LSM-tree with a FaaS Cluster 
 
 **摘要：**
 
@@ -894,13 +900,21 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 ### ICDCS
 
-> 截稿日期：2022.1.31
+> 截稿日期：2023.1.14
+
+#### 2022
+
+
+##### 1.Escra: Event-driven, Sub-second Container Resource Allocation
+
+**摘要：**
+本文推动了容器环境中自动资源分配的极限。最近的工作是根据过去的资源使用情况，自动调整容器的CPU和内存限制。然而，这些系统都是重量级的，在粗粒度的时间尺度上运行，当预测不正确时，会导致性能不佳。我们提出了Escra，一个容器编排器，**能够为单个容器进行细粒度的、基于事件的资源分配，并通过分布式资源分配来管理容器的集合**。Escra在主机内和主机间以亚秒级的时间间隔进行资源分配，使运营商能够在不影响性能的情况下经济有效地扩展资源。我们在两种类型的容器化应用上评估Escra：**微服务和无服务器函数**。在微服务环境中，细粒度和基于事件的资源分配可以将应用的延迟降低96.9%，与当前最先进的技术相比，吞吐量增加了3.2倍。Escra可以在提高性能的同时，将第50和第99%的CPU浪费分别减少10倍和3.2倍以上。**在无服务器环境中，Escra可以将CPU预留量减少2.1倍以上，内存预留量减少2倍以上，同时保持类似的端到端性能。**
 
 #### 2021
 
 > 2021.7.7-7.10
 
-##### 1.Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms [10]
+##### 1.Defuse: A Dependency-Guided Function Scheduler to Mitigate Cold Starts on FaaS Platforms 
 
 **摘要：**
 
@@ -908,7 +922,7 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 目前，FaaS 平台采用各种调度方法来减少冷启动的发生。但是，他们没有考虑无服务器函数之间普遍存在的依赖关系。观察到使用依赖项来缓解冷启动的潜力，我们提出了 **Defuse，这是一个在 FaaS 平台上的依赖项引导的函数调度程序。具体来说，Defuse 识别了无服务器函数之间的两种依赖类型，即强依赖和弱依赖。它使用频繁模式挖掘和正点互信息分别从函数调用历史中挖掘这种依赖关系**。这样，Defuse 就构造了一个函数依赖图。可以安排图表上的连接组件（即依赖函数）以减少冷启动的发生。我们通过将 Defuse 应用于工业无服务器数据集来评估其有效性。实验结果表明，与最先进的方法相比，Defuse 可以减少 22% 的内存使用量，同时函数冷启动率降低 35%。
 
-##### 2.Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning [1]
+##### 2.Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning 
 
 **摘要：**
 
@@ -930,7 +944,7 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 > 2020.11.29-12.1
 
-##### 1.λ-NIC: Interactive Serverless Compute on Programmable SmartNICs [2]
+##### 1.λ-NIC: Interactive Serverless Compute on Programmable SmartNICs 
 
 **摘要：**
 
@@ -1042,7 +1056,7 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 > 2021.09.05-10
 
-##### 1.A Measurement Study on Serverless Workflow Services [5]
+##### 1.A Measurement Study on Serverless Workflow Services 
 
 **摘要：**
 
@@ -1054,7 +1068,7 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 > 2021.12.6-10
 
-##### 1.SeBS: a serverless benchmark suite for function-as-a-service computing [9]
+##### 1.SeBS: a serverless benchmark suite for function-as-a-service computing 
 
 **摘要：**
 
@@ -1062,7 +1076,7 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 
 > 开源组件：[spcl/serverless-benchmarks: SeBS: serverless benchmarking suite for automatic performance analysis of FaaS platforms. (github.com)](https://github.com/spcl/serverless-benchmarks)
 
-##### 2.FaaSTCC: efficient transactional causal consistency for serverless computing [2]
+##### 2.FaaSTCC: efficient transactional causal consistency for serverless computing 
 
 **摘要：**
 
@@ -1195,6 +1209,14 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 **摘要：**
 
 在亚马逊的 Lambda 平台推出后，无服务器计算迅速发展。函数即服务（FaaS）是无服务器计算的一个关键推动因素，它允许将一个应用程序分解为简单、独立的函数，并在 FaaS 平台上执行。FaaS 平台负责为这些函数部署和提供资源。**今天的几个云计算应用分布在异构连接的计算资源上，并且在结构和资源要求上都是高度动态的。然而，FaaS 平台仅限于同质集群和同质函数，并且在调度前没有考虑到函数的数据访问行为**。我们介绍了**FaaS 对异构集群的扩展**，并通过分布式异构目标平台的网络支持异构函数，称为函数交付网络（FDN）。一个目标平台是一个同质节点集群和其上的 FaaS 平台的组合。FDN 提供函数交付即服务（FDaaS），将函数交付给合适的目标平台。我们展示了各种机会，如不同目标平台的特点，多个目标平台之间协作执行的可能性，以及 FDN 在实现两个目标时提供的数据本地化。通过使用我们开发的分布式目标平台基准测试工具 FDNInspector 对五个以上的分布式目标平台进行评估，展示了在调度函数时服务水平目标（SLO）要求和能源效率。在我们的评估中，在边缘目标平台上调度函数，与在高端目标平台上调度相比，在不违反 SLO 要求的情况下，总体能耗降低了 17 倍。
+
+### JSS
+
+#### 2019
+
+##### 1.A Mixed-Method Empirical Study of Function-as-a-Service Software Development in Industrial Practice
+
+FaaS 是一种可以使基础设施组件对开发人员透明化的云服务，是属于 “无服务器” 计算模型的一种。当使用FaaS产品 (如AWS Lambda) 时，开发者为他们的函数提供原子化的、短时运行的代码，FaaS服务提供商会按需执行和水平伸缩扩展它们。然而，对于开发人员如何使用serverless，哪些类型的应用程序适合serverless，以及相关应用程序应当基于什么样的架构样式和实践方式，至今没有系统的研究。我们采用了多种方法进行研究，包括与基于FaaS进行开发的工程师进行交流，对灰色文献进行系统分析以及在互联网上进行Web调查等。最终，我们发现，成功应用FaaS需要一种不同的思维模型——应用主要是通过组合已经存在的服务进行构建的，FaaS在其中则是充当将这些服务结合在一起的 “粘合剂”。并且，工具的可用性和成熟度，尤其是与测试和部署相关的工具，仍然是主要的困难。此外，我们发现当前的FaaS系统缺乏对函数复用的系统级支持，以及抽象和编程模型在构造较大的应用程序时受到一定的限制。最后，我们讨论了对FaaS服务提供商，软件开发人员和研究人员来说，Faas的意义是什么。
 
 # CCFC
 

@@ -261,6 +261,9 @@
     - [IEEE Cloud Summit](#ieee-cloud-summit)
       - [2020](#2020-14)
         - [1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing](#1faas2f-a-framework-for-defining-execution-sla-in-serverless-computing)
+    - [Conference on Machine Learning and Systems(MLSys)](#conference-on-machine-learning-and-systemsmlsys)
+      - [2021](#2021-26)
+        - [1. FirePlace: Placing FireCracker virtual machines with hindsight imitation](#1-fireplace-placing-firecracker-virtual-machines-with-hindsight-imitation)
   - [Journal](#journal-3)
     - [Proceedings of the ACM on Measurement and Analysis of Computing Systems](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems)
       - [2022](#2022-15)
@@ -1480,6 +1483,16 @@ FaaS 是一种可以使基础设施组件对开发人员透明化的云服务，
 **摘要：**
 
 无服务器计算的出现为向云用户交付计算资源带来了重大进步。随着基础架构、平台和执行环境的抽象化，这些层的管理开销转移到了云提供商身上。因此，云用户可以专注于应用层，同时依靠云提供商来配置和操作底层。此外，自动缩放和高可用性等理想功能由云提供商实现，并由用户代码采用，无需额外开销。尽管取得了这些进步，但随着应用程序从单片独立部署过渡到无服务器计算的短暂和无状态微服务模型，必须克服重大挑战。这些挑战与无服务器计算的概念和实现模型的独特性有关。在本文中，**我们研究了无服务器函数执行的服务水平协议 (SLA) 的建模。我们强调无服务器 SLA 与早期云交付模型的根本区别。然后，我们提出了一种根据函数执行的资源利用指纹来定义无服务器函数的 SLA 的方法，以及一种评估执行是否符合该 SLA 的方法** 。最后，我们展示了我们提出的方法的经验验证，该方法能够以超过 76% 和高达 100% 的准确度检测执行 SLA 违规。
+
+### Conference on Machine Learning and Systems(MLSys)
+
+#### 2021
+
+##### 1. FirePlace: Placing FireCracker virtual machines with hindsight imitation
+
+**摘要：**
+
+虚拟机 (VM) 从共享的物理基础设施中逻辑地抽象出单用户的计算，从而构成了现代云计算的基础。这些服务的用户需要不同大小和配置的被供应商放置于不同物理机 (PMs) 上的虚拟机。同一 PM 上的 VM 共享内存和 CPU 资源，因此放置 (Placement) 不当会直接影响用户体验的质量。我们考虑放置 Firecracker VMs (一种 Micro-VM 或 μVM) - 通常用于短期任务的轻量级 VM。我们的目标是当每个 VM 到达时放置 VM，以使 PM 之间的资源使用峰值与平均值的比值达到最小。放置 VM 具有挑战性，因为我们需要从多个维度考虑资源使用，例如 CPU 、内存，并且资源使用会随着时间的推移而变化。过去解决类似问题的方法表明，预测用于放置 VM 的资源使用是可行的。我们发现，在我们的生产流量中，μVM 资源的使用是有波峰的和短暂的，且预测算法没有用处。我们针对此问题评估了强化学习 (RL) 方法，但发现现有的 RL 算法并不总是有好的性能。**我们提出了一种称为 FirePlace 的无预测算法。它使用Hindsigth优化 (HOP) 的变体来学习放置决策，我们称之 Hindsight 模仿**。我们用来自 AWS Lambda 的 μVM 使用的生产流量跟踪来评估我们的方法。FirePlace 在 100K μVM 的生产数据跟踪上比基准算法提高了 10%。
 
 ## Journal
 

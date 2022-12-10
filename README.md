@@ -64,7 +64,7 @@
     - [INFOCOM](#infocom)
       - [2022](#2022-2)
         - [1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows](#1stepconf-slo-aware-dynamic-resource-configuration-for-serverless-function-workflows)
-        - [2.Winning in the Era of Serverless Computing and Function as a Service](#2winning-in-the-era-of-serverless-computing-and-function-as-a-service)
+        - [2.Retention-Aware Container Caching for Serverless Edge Computing](#2retention-aware-container-caching-for-serverless-edge-computing)
     - [ASE](#ase)
       - [2021](#2021-7)
         - [1.Towards a Serverless Java Runtime](#1towards-a-serverless-java-runtime)
@@ -609,7 +609,7 @@ Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成�
 
 函数即服务 (FaaS) 提供了细粒度的资源供应模型，使开发人员能够构建高度弹性的云应用程序。用户请求由一系列 serverless 函数一步步处理，形成基于函数的工作流。开发人员需要为功能设置适当的资源配置，以满足服务水平目标（SLO）并节省成本。然而，开发资源配置策略具有挑战性。这主要是**因为云函数的执行经常会遇到冷启动和性能波动，这需要动态配置策略来保证 SLO。在本文中，我们介绍了 StepConf，这是一个框架，可在工作流运行时自动执行功能的资源配置。StepConf 优化了工作流中每个函数步骤的内存大小，并考虑了函数间和函数内的并行性。** 我们在 AWS Lambda 上评估 StepConf。与基线相比，实验结果表明 StepConf 在保证 SLO 的同时可以节省高达 40.9% 的成本。
 
-##### 2.Winning in the Era of Serverless Computing and Function as a Service
+##### 2.Retention-Aware Container Caching for Serverless Edge Computing
 
 无服务器边缘计算采用基于事件的模型——物联网(IoT)服务仅在被请求时才在轻量级容器中执行，这种策略可以有效的提高边缘资源利用率。不幸的是，容器的启动延迟极大地降低了物联网服务的响应能力。为了屏蔽这种延迟，容器cache需要保留资源，但是这会进一步降低资源效率。本文研究了无服务器边缘计算中感知保留的容器缓存问题。我们利用边缘平台的分布式和异构特性，并提出将容器缓存与请求分发一起优化。我们逐步揭示了这个联合优化问题可以映射到经典的滑雪租赁问题。我们首先提出了一种在线竞争算法，用于请求分布和容器缓存是基于一组精心设计的概率分布函数的情景。在此算法的基础上，我们提出了一种适用于一般情况的在线算法O-RDC，该算法通过机会分配请求的方式，将资源容量和网络延迟相结合。我们进行了大量的实验，以检查所提出的算法的性能，包括合成和真实的无服务器计算轨迹。我们的结果表明，就整体系统成本而言，ORDC优于当前无服务器计算平台的现有缓存策略，最高可达94.5%。
 

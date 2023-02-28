@@ -49,6 +49,8 @@
         - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads)
       - [2020](#2020-3)
         - [1.Fault-tolerant and transactional stateful serverless workflows](#1fault-tolerant-and-transactional-stateful-serverless-workflows)
+      - [2018](#2018-1)
+        - [1.Pocket: Elastic Ephemeral Storage for Serverless Analytics](#1pocket-elastic-ephemeral-storage-for-serverless-analytics)
     - [NSDI](#nsdi)
       - [2021](#2021-6)
         - [1.Caerus: NIMBLE Task Scheduling for Serverless Analytics](#1caerus-nimble-task-scheduling-for-serverless-analytics)
@@ -554,6 +556,16 @@ DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付�
 Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成的框架以在每个无服务器函数对其自己
 的数据拥有主权的联合环境中工作。我们在 Beldi 上实现了三个应用程序，包括电影评论服务、旅行预
 订系统和社交媒体网站。我们对 1,000 个 AWS Lambda 的评估表明，Beldi 的方法有效且经济实惠。
+
+#### 2018
+
+> 2018.10.08-10
+
+##### 1.Pocket: Elastic Ephemeral Storage for Serverless Analytics
+
+**摘要：**
+
+**本文介绍了 Pocket，一个用于在 serverless 场景下存储中间数据的高性能分布式存储系统。**无服务器计算（Serverless computing）正变得越来越受欢迎，它可以让用户快速在云中启动成千上万个短暂任务，具有高度弹性和细粒度计费的特点。这些属性使得无服务器计算在交互式数据分析方面具有吸引力。然而，在分析作业的执行阶段之间交换中间数据是一个关键的挑战，因为无服务器任务之间的直接通信很困难。自然的方法是将这些短暂数据存储在远程数据存储中。然而，现有的存储系统在弹性、性能和成本方面并不适合无服务器应用程序的需求。我们介绍了Pocket，一种弹性分布式数据存储系统，它可以自动缩放以以低成本提供应用所需的性能。Pocket在多个维度（CPU核数、网络带宽、存储容量）上动态地调整资源，并利用多种存储技术来最小化成本，同时确保应用程序在I/O方面不会成为瓶颈。我们展示了Pocket在无服务器数据分析应用程序方面实现了类似于ElastiCache Redis的性能，同时将成本降低了近60%。
 
 ### NSDI
 

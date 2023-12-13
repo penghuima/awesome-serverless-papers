@@ -138,8 +138,6 @@
         - [2.Serverless Straggler Mitigation using Error-Correcting Codes](#2serverless-straggler-mitigation-using-error-correcting-codes)
         - [3.Characterizing Bottlenecks in Scheduling Microservices on Serverless Platforms](#3characterizing-bottlenecks-in-scheduling-microservices-on-serverless-platforms)
     - [EuroSys](#eurosys)
-      - [2019](#2019-3)
-        - [1.Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment](#1replayable-execution-optimized-for-page-sharing-for-a-managed-runtime-environment)
       - [2021](#2021-13)
         - [1.OFC: an opportunistic caching system for FaaS platforms](#1ofc-an-opportunistic-caching-system-for-faas-platforms)
       - [2020](#2020-9)
@@ -998,14 +996,6 @@ LSM-tree 在许多键值存储中被广泛用作写优化存储引擎。但是�
 > 2019 年及以前没有 serverless 方向文章
 
 ### EuroSys
-
-#### 2019
-
-##### 1.Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment
-
-**摘要：**
-
-我们介绍了Replayable Execution，这是一个用于提高功能即服务（FaaS）框架效率的系统。**它利用标准内核功能，在不更改操作系统内核、语言运行时和周围的FaaS部署环境的情况下，减少内存使用并加快冷启动速度。**可重放执行利用了大多数目标应用程序的密集紧缩执行特性。它使用检查点来保存应用程序的映像，允许在容器之间共享此映像，并在服务启动时实现快速恢复。我们将Replayable Execution应用于一个具有代表性的FaaS Java框架，以创建Replayable JVM执行，该执行与预热运行时的确定性执行相结合，可减少2倍的内存占用，并将启动时间提高10倍以上。
 
 #### 2021
 

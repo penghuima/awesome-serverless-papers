@@ -20,7 +20,7 @@
       - [2023](#2023-1)
         - [1.Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks](#1sponge-fast-reactive-scaling-for-stream-processing-with-serverless-frameworks)
         - [2.On-demand Container Loading in AWS Lambda](#2on-demand-container-loading-in-aws-lambda)
-        - [3.##### 1.AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows](#3-1aquatope-qos-and-uncertainty-aware-resource-management-for-multi-stage-serverless-workflows)
+        - [3.Decentralized and Stateful Serverless Computing on the Internet Computer Blockchain](#3decentralized-and-stateful-serverless-computing-on-the-internet-computer-blockchain)
       - [2022](#2022-1)
         - [1.RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing](#1rund-a-lightweight-secure-container-runtime-for-high-density-deployment-and-high-concurrency-startup-in-serverless-computing)
         - [2.Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing](#2help-rather-than-recycle-alleviating-cold-startup-in-serverless-computing-through-inter-function-container-sharing)
@@ -420,19 +420,13 @@ AWS Lambda 是一种无服务器事件驱动的计算服务，属于有时被称
 
 自构建该系统以来，它已为超过 100 万 AWS 客户可靠地处理了数百万亿次 Lambda 调用，并对负载和基础设施故障表现出卓越的恢复能力。
 
-##### 3.##### 1.AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows
+##### 3.Decentralized and Stateful Serverless Computing on the Internet Computer Blockchain
 
 **摘要：**
 
 互联网计算机（IC）是一个基于区块链的快速高效的去中心化平台，用于执行智能合约形式的通用应用程序。换句话说，IC 服务是当前无服务器计算的对立面。与由单一实体运营的短暂、无状态功能不同，IC 通过不受信任的独立数据中心提供去中心化的有状态无服务器计算。开发人员部署有状态的罐子，为终端用户或其他罐子提供调用服务。IC的编程模型与无服务器云类似，应用程序使用 Rust 或 Python 等现代语言编写，但更加简单：状态自动维护，无需开发人员干预。
 
 在本文中，我们确定并解决了实现高效分散式有状态无服务器计算所面临的重大系统挑战：可扩展性、通过正交持久化实现的有状态执行以及确定性调度。我们介绍了IC的设计，并描述了其在过去 1.5 年中收集的运行数据及其性能。
-
-**摘要：**
-
-多阶段无服务器应用程序，即具有**多个计算和 I/O 阶段的工作流**，正日益成为 FaaS 平台的代表。尽管这些应用在细粒度可扩展性和模块化开发方面具有优势，但与以前的简单无服务器函数相比，它们在更大程度上存在性能不佳、资源效率低下和成本高昂等问题。
-
-我们介绍的Aquatope是一种**用于端到端无服务器工作流的QoS和不确定性感知资源调度器，它考虑到了FaaS平台固有的不确定性，提高了性能可预测性和资源效率**。Aquatope 使用一套可扩展且经过验证的**贝叶斯模型**，在函数调用之前创建预热容器，并在函数粒度上分配适当的资源，以**满足复杂工作流的端到端 QoS，同时最大限度地降低资源成本**。在各种分析和交互式多阶段无服务器工作负载中，Aquatope 的性能明显优于先前的系统，与其他满足 QoS 的方法相比，QoS 违反率降低了 5 倍，成本平均降低了 34%，最高降低了 52%。
 
 #### 2022
 

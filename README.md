@@ -1,6 +1,10 @@
 - [CCFA](#ccfa)
   - [Conference](#conference)
     - [ASPLOS](#asplos)
+      - [2023](#2023)
+        - [1.AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows](#1aquatope-qos-and-uncertainty-aware-resource-management-for-multi-stage-serverless-workflows)
+        - [2.BeeHive: Sub-second Elasticity for Web Services with Semi-FaaS Execution](#2beehive-sub-second-elasticity-for-web-services-with-semi-faas-execution)
+        - [3.ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning](#3elasticflow-an-elastic-serverless-training-platform-for-distributed-deep-learning)
       - [2022](#2022)
         - [1.IceBreaker: Warming Serverless Functions Better with Heterogeneity](#1icebreaker-warming-serverless-functions-better-with-heterogeneity)
         - [2.INFless: a native serverless system for low-latency, high-throughput inference](#2infless-a-native-serverless-system-for-low-latency-high-throughput-inference)
@@ -13,6 +17,10 @@
       - [2020](#2020)
         - [1.Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting](#1catalyzer-sub-millisecond-startup-for-serverless-computing-with-initialization-less-booting)
     - [USENIX ATC](#usenix-atc)
+      - [2023](#2023-1)
+        - [1.Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks](#1sponge-fast-reactive-scaling-for-stream-processing-with-serverless-frameworks)
+        - [2.On-demand Container Loading in AWS Lambda](#2on-demand-container-loading-in-aws-lambda)
+        - [3.##### 1.AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows](#3-1aquatope-qos-and-uncertainty-aware-resource-management-for-multi-stage-serverless-workflows)
       - [2022](#2022-1)
         - [1.RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing](#1rund-a-lightweight-secure-container-runtime-for-high-density-deployment-and-high-concurrency-startup-in-serverless-computing)
         - [2.Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing](#2help-rather-than-recycle-alleviating-cold-startup-in-serverless-computing-through-inter-function-container-sharing)
@@ -45,6 +53,8 @@
         - [2.Faster and Cheaper Serverless Computing on Harvested Resources](#2faster-and-cheaper-serverless-computing-on-harvested-resources)
         - [3.FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes](#3flashcube-fast-provisioning-of-serverless-functions-with-streamlined-container-runtimes)
     - [OSDI](#osdi)
+      - [2023](#2023-2)
+        - [1.Automated Verification of Idempotence for Stateful Serverless Applications](#1automated-verification-of-idempotence-for-stateful-serverless-applications)
       - [2021](#2021-5)
         - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads)
       - [2020](#2020-3)
@@ -88,6 +98,14 @@
 - [CCFB](#ccfb)
   - [Conference](#conference-1)
     - [SoCC](#socc)
+      - [2023](#2023-3)
+        - [1.Golgi: Performance-Aware, Resource-Efficient Function Scheduling for Serverless Computing](#1golgi-performance-aware-resource-efficient-function-scheduling-for-serverless-computing)
+        - [2.Function as a Function](#2function-as-a-function)
+        - [3.Parrotfish: Parametric Regression for Optimizing Serverless Functions](#3parrotfish-parametric-regression-for-optimizing-serverless-functions)
+        - [4.AsyFunc: A High-Performance and Resource-Efficient Serverless Inference System via Asymmetric Functions](#4asyfunc-a-high-performance-and-resource-efficient-serverless-inference-system-via-asymmetric-functions)
+        - [5.How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads](#5how-does-it-function-characterizing-long-term-trends-in-production-serverless-workloads)
+        - [6.The Gap Between Serverless Research and Real-world Systems](#6the-gap-between-serverless-research-and-real-world-systems)
+        - [7.Chitu: Accelerating Serverless Workflows with Asynchronous State Replication Pipelines](#7chitu-accelerating-serverless-workflows-with-asynchronous-state-replication-pipelines)
       - [2022](#2022-6)
         - [1.Owl: performance-aware scheduling for resource-efficient function-as-a-service cloud](#1owl-performance-aware-scheduling-for-resource-efficient-function-as-a-service-cloud)
         - [2.QFaaS: accelerating and securing serverless cloud networks with QUIC](#2qfaas-accelerating-and-securing-serverless-cloud-networks-with-quic)
@@ -277,7 +295,28 @@
 
 ### ASPLOS
 
-> 摘要截止日期 2022.10.20
+#### 2023
+
+##### 1.AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows
+
+**摘要：**
+
+多阶段无服务器应用程序，即具有**多个计算和 I/O 阶段的工作流**，正日益成为 FaaS 平台的代表。尽管这些应用在细粒度可扩展性和模块化开发方面具有优势，但与以前的简单无服务器函数相比，它们在更大程度上存在性能不佳、资源效率低下和成本高昂等问题。
+
+我们介绍的Aquatope是一种**用于端到端无服务器工作流的QoS和不确定性感知资源调度器，它考虑到了FaaS平台固有的不确定性，提高了性能可预测性和资源效率**。Aquatope 使用一套可扩展且经过验证的**贝叶斯模型**，在函数调用之前创建预热容器，并在函数粒度上分配适当的资源，以**满足复杂工作流的端到端 QoS，同时最大限度地降低资源成本**。在各种分析和交互式多阶段无服务器工作负载中，Aquatope 的性能明显优于先前的系统，与其他满足 QoS 的方法相比，QoS 违反率降低了 5 倍，成本平均降低了 34%，最高降低了 52%。
+
+##### 2.BeeHive: Sub-second Elasticity for Web Services with Semi-FaaS Execution
+
+**摘要：**
+
+函数即服务（FaaS）是一种新兴的云计算范式，由于其有望快速自动扩展细粒度功能，因此有望提供强大的弹性。虽然 FaaS 对具有良好并行性和动态工作负载的应用很有吸引力，但本文指出，由于现有单体应用（如网络服务）的复杂性，要将其改造成 FaaS 并不容易。 **为了缩小复杂网络服务与 FaaS 之间的差距，本文提出了一种基于运行时的半 FaaS 执行模型，它能动态地从应用程序中提取耗时的代码片段（闭包），并将其卸载到 FaaS 平台上执行。** 它进一步提出了半FaaS卸载框架BeeHive，该框架依靠托管运行时提供基于回退的执行模型，解决了传统FaaS卸载机制的性能问题。同时，BeeHive的运行时系统以用户透明的方式选择卸载候选对象，并支持分布式环境中高效的对象共享、内存管理和故障恢复。使用各种网络应用程序进行的评估表明，BeeHive支持的半FaaS执行可在AWS Lambda等商业化FaaS平台上实现亚秒级资源调配，比云计算领域的其他扩展方法高出两个数量级。
+
+##### 3.ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning
+
+**摘要：**
+
+本文提出了用于分布式深度学习的弹性无服务器训练平台 ElasticFlow。ElasticFlow 提供的无服务器界面有两个显著特点：(i) 用户只需指定作业的深度神经网络（DNN）模型和超参数，而无需指定 GPU 的数量；(ii) 用户只需指定作业的截止日期，而无需指定占用 GPU 的时间。与现有的以服务器为中心的平台相比，**ElasticFlow 在满足截止日期要求方面提供了性能保证，同时减轻了深度学习开发人员繁琐、低级和手动的资源管理工作** 。分布式训练的特点带来了两个挑战。首先，训练吞吐量与 GPU 数量呈非线性关系。其次，扩展效率受工作者位置的影响。为了应对这些挑战，**我们提出了 "最小满意份额"（Minimum Satisfactory Share）来捕捉训练作业在截止日期前的资源使用情况**，ElasticFlow 据此执行准入控制。我们**开发了一种贪婪算法，可根据收益递减原则动态分配资源给接纳的作业。我们将 "好友分配 "应用于工作布置，以消除拓扑结构的影响**。在 128 个 GPU 集群上进行的评估结果表明，与现有解决方案相比，ElasticFlow 能将满足截止日期要求的作业数量提高 1.46-7.65 倍。
+
 
 #### 2022
 
@@ -361,7 +400,39 @@
 
 ### USENIX ATC
 
-> 摘要截止日期 2023.01.05
+#### 2023
+
+##### 1.Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks
+
+**摘要：**
+
+流工作负载处理的是实时生成的数据。这些数据通常无法预测，而且数量变化迅速。为了应对这些波动，当前系统的目标是在机器集群中动态地缩放、重新分配和迁移计算任务。虽然之前的许多工作都集中在减少预分配集群资源上的系统重新配置和状态迁移的开销上，但这些方法在以较低的运营成本满足延迟 SLO 方面仍然面临巨大挑战，尤其是在面对不可预测的突发负载时。
+
+在本文中，我们提出了一种新的流处理系统 Sponge，它能利用无服务器框架（SF）实例**对长期运行的流查询进行快速反应式扩展**。利用无服务器框架实例可在几百毫秒内快速启动的优势，Sponge 可以低延迟、低成本地吸收来自现有虚拟机的突发性、不可预测的输入负载增长。**Sponge 可有效跟踪少量指标，快速检测突发负载，并根据这些指标做出快速扩展决策**。此外，通过在编译时纳入优化逻辑，并在**运行时触发快速数据重定向和部分状态合并机制，Sponge 避免了运行时的优化和状态迁移开销**，同时将突发负载从现有虚拟机高效卸载到新的 SF 实例。我们在 AWS EC2 和 Lambda 上使用 NEXMark 基准进行的评估表明，Sponge 能对突发输入负载做出迅速反应，与虚拟机上的其他流查询扩展方法相比，第 99 百分位数尾延迟平均减少了 88%。与过度配置虚拟机以处理不可预测的突发负载的方法相比，Sponge 还将成本降低了 83%。
+
+##### 2.On-demand Container Loading in AWS Lambda
+
+**摘要：**
+
+AWS Lambda 是一种无服务器事件驱动的计算服务，属于有时被称为功能即服务（FaaS）的云计算产品类别。我们首次发布 AWS Lambda 时，功能仅限于 250MB 的代码和依赖项，并打包为一个简单的压缩归档。2020 年，我们发布了对部署大至 10GiB 的容器映像作为 Lambda 功能的支持，使客户能够将更大的代码库和依赖集带到 Lambda。**支持更大的包，同时仍能满足 Lambda 的快速扩展（单个客户每秒可添加多达 15,000 个新容器，总计可添加更多容器）、高请求率（每秒数百万个请求）、高规模（数百万个独特的工作负载）和低启动时间（低至 50 毫秒）等目标，这给我们带来了巨大的挑战** 。
+
+我们将介绍为**按需交付容器镜像而优化构建的存储和缓存系统**，以及我们在设计、构建和大规模运行该系统方面的经验。我们将重点关注安全、效率、延迟和成本方面的挑战，以及我们如何在一个结合了缓存、重复数据删除、聚合加密、擦除编码和块级需求加载的系统中应对这些挑战。
+
+自构建该系统以来，它已为超过 100 万 AWS 客户可靠地处理了数百万亿次 Lambda 调用，并对负载和基础设施故障表现出卓越的恢复能力。
+
+##### 3.##### 1.AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows
+
+**摘要：**
+
+互联网计算机（IC）是一个基于区块链的快速高效的去中心化平台，用于执行智能合约形式的通用应用程序。换句话说，IC 服务是当前无服务器计算的对立面。与由单一实体运营的短暂、无状态功能不同，IC 通过不受信任的独立数据中心提供去中心化的有状态无服务器计算。开发人员部署有状态的罐子，为终端用户或其他罐子提供调用服务。IC的编程模型与无服务器云类似，应用程序使用 Rust 或 Python 等现代语言编写，但更加简单：状态自动维护，无需开发人员干预。
+
+在本文中，我们确定并解决了实现高效分散式有状态无服务器计算所面临的重大系统挑战：可扩展性、通过正交持久化实现的有状态执行以及确定性调度。我们介绍了IC的设计，并描述了其在过去 1.5 年中收集的运行数据及其性能。
+
+**摘要：**
+
+多阶段无服务器应用程序，即具有**多个计算和 I/O 阶段的工作流**，正日益成为 FaaS 平台的代表。尽管这些应用在细粒度可扩展性和模块化开发方面具有优势，但与以前的简单无服务器函数相比，它们在更大程度上存在性能不佳、资源效率低下和成本高昂等问题。
+
+我们介绍的Aquatope是一种**用于端到端无服务器工作流的QoS和不确定性感知资源调度器，它考虑到了FaaS平台固有的不确定性，提高了性能可预测性和资源效率**。Aquatope 使用一套可扩展且经过验证的**贝叶斯模型**，在函数调用之前创建预热容器，并在函数粒度上分配适当的资源，以**满足复杂工作流的端到端 QoS，同时最大限度地降低资源成本**。在各种分析和交互式多阶段无服务器工作负载中，Aquatope 的性能明显优于先前的系统，与其他满足 QoS 的方法相比，QoS 违反率降低了 5 倍，成本平均降低了 34%，最高降低了 52%。
 
 #### 2022
 
@@ -522,6 +593,18 @@ DevOps 在跨职能团队中统一软件开发和运营，以提高软件交付�
 无服务器函数的快速配置对于无服务器平台来说非常重要。**尽管轻量级沙箱（例如容器）仅包含必要的文件和库，但冷启动仍需要最多几秒钟才能完成。这种缓慢的配置会延长无服务器函数的响应时间，并对用户体验产生负面影响**。**本文分析了这种放缓的主要原因，并介绍了一个有效的容器化框架 FlashCube。FlashCube 不是从头开始构建容器，而是通过一组预先创建的通用容器部件（例如，命名空间、cgroup 和语言运行时）快速有效地组装它**。此外，FlashCube 的用户空间实现使其轻松适用于现有的商品无服务器平台。我们的初步评估表明，FlashCube 可以在不到 10 毫秒的时间内快速配置容器化函数（而使用 Docker 容器的时间约为 400 毫秒）。
 
 ### OSDI
+
+#### 2023
+
+##### 1.Automated Verification of Idempotence for Stateful Serverless Applications
+
+**摘要：**
+
+无服务器计算已成为一种流行的云计算模式。默认情况下，当一个无服务器函数失败时，无服务器平台会重新执行该函数以容忍失败。然而，**这种基于重试的方法要求函数具有幂等性，这意味着无论重试与否，函数都应暴露相同的行为** 。这一要求对开发人员来说具有挑战性，尤其是当函数是有状态的时候。故障可能会导致函数重复读取和更新共享状态，从而破坏数据的一致性。
+
+本文介绍了 Flux，这是第一个自动验证无服务器应用程序幂等性的工具包。它提出了一个新的正确性定义--empotence一致性，规定无服务器函数的重试对用户是透明的。为了验证幂等一致性，Flux 定义了一种新特性--幂等模拟，它将并发无服务器应用程序的证明分解为单个函数的推理。此外，Flux 还扩展了现有的验证技术，实现了自动推理，使 Flux 能够识别违反幂等性的操作，并通过现有的基于日志的方法修复它们。
+
+我们用 27 个具有代表性的无服务器应用程序演示了 Flux 的功效。Flux 在 12 个应用中成功识别了以前未知的问题。开发人员确认了 8 个问题。与记录所有操作的最先进系统（即 Beldi 和 Boki）相比，Flux 的延迟降低了 6 倍，峰值吞吐量提高了 10 倍，因为它只记录已识别出的违反幂等性的操作。
 
 #### 2021
 
@@ -690,6 +773,54 @@ Java 虚拟机 (JVM) 存在众所周知的启动和预热速度慢的问题。�
 ## Conference
 
 ### SoCC
+
+#### 2023
+
+##### 1.Golgi: Performance-Aware, Resource-Efficient Function Scheduling for Serverless Computing
+
+**摘要：**
+
+本文介绍了为无服务器功能设计的新型调度系统 Golgi，其**目标是在满足功能延迟要求的同时最大限度地降低资源调配成本**。为实现这一目标，Golgi 会根据函数过去的资源使用情况，明智地超额承载函数。为确保超额承诺不会导致明显的性能下降，Golgi 确定了**九个底层指标来捕捉函数的运行时性能，** 其中包括请求负载、资源分配和共享资源争用等因素。通过这些指标，可以使用蒙德里安森林（Mondrian Forest）对函数性能进行准确预测。**蒙德里安森林是一种无需大量离线训练即可持续实时更新以获得最佳准确性的分类模型。** Golgi 采用保守的探索-开发策略进行请求路由。默认情况下，它会将请求路由到非超额承诺实例，以确保令人满意的性能。不过，在保持指定延迟 SLO 的前提下，它也会积极探索使用资源效率更高的超额分配实例的机会。Golgi 还能进行纵向扩展，动态调整超额分配实例的并发量，最大限度地提高请求吞吐量，增强系统对预测错误的鲁棒性。我们在 EC2 集群和一个小型生产集群中对 Golgi 进行了原型开发和评估。结果表明，在 EC2 集群（我们的生产集群）中，Golgi 可以满足 SLO 要求，同时将资源配置成本降低 42%（30%）。
+
+##### 2.Function as a Function
+
+**摘要：**
+
+功能即服务（FaaS）和相关的无服务器计算模式减轻了用户对资源管理的负担，并允许云平台优化引擎盖下的系统基础设施。尽管取得了重大进展，但 FaaS 基础设施在提高性能和资源效率方面仍有很大空间。我们认为，如果我们愿意重新审视 FaaS 编程模型和系统软件设计，就有可能在保持安全隔离的同时提高性能和资源效率。我们提出的 "蒲公英"（Dandelion）是一种全新的 FaaS 系统，它通**过将无服务器函数视为纯函数来重新思考编程模型，从而明确地将计算和 I/O 分离开来。这种新的编程模型实现了轻量级但安全的函数执行系统。**它还使函数更适合硬件加速，并实现了数据流感知的函数协调。与 Firecracker 相比，我们的 Dandelion 初始原型在冷启动时的尾部延迟降低了 45 倍。对于 95% 的热函数调用，Dandelion 的峰值吞吐量提高了 5 倍。
+
+##### 3.Parrotfish: Parametric Regression for Optimizing Serverless Functions
+
+**摘要：**
+
+无服务器计算是一种新模式，旨在减轻开发人员的云管理负担。然而，无服务器功能的合理化仍然是开发人员的痛点。要确保无服务器工作负载的成本和/或性能优化，**选择正确的内存配置是必要的** 。在这项工作中，我们发现，与目前可用的黑盒优化技术相比，使用参数回归可以大大简化函数的合理化。基于这一见解，我们开发了一款名为 "鹦嘴鱼 "的工具，它能通过在线学习过程找到最优配置。它还允许用户传达对执行时间的限制，或放宽成本优化以提高性能。与最先进的工具相比，Parrotfish 的探索成本大大降低（1.81-9.96 倍），同时还能提供类似或更好的建议。
+
+##### 4.AsyFunc: A High-Performance and Resource-Efficient Serverless Inference System via Asymmetric Functions
+
+**摘要：**
+
+深度学习（DL）的最新进展催生了各种具有训练有素的 DL 模型的智能云服务。然而，要在突发工作负载下保持理想的端到端延迟并非易事，这给高性能、资源高效的推理服务提出了严峻挑战。为了应对突发情况，一些推理服务迁移到了无服务器模式，以获得快速弹性。然而，它们忽略了在扩展函数实例时耗时且耗费资源的模型加载过程的影响，导致在突发情况下保持高性能的资源效率相当低。
+
+为了解决这个问题，我们打开了 DL 模型的黑箱，发现了一个有趣的现象，即各层对计算资源的敏感度大多与其内存资源使用量不相关。受此启发，我们提出了非对称函数，即原来的正文函数（Body Function）仍然加载完整的模型以满足稳定的需求，而我们提出的轻量级影子函数（Shadow Function）只加载部分资源敏感层，以轻松应对突发需求。通过对资源敏感层进行并行计算，可以很好地满足激增的需求，但其余层只能在 Body Functions 中串行执行。我们在 Knative 的基础上实现了非对称函数，并利用新的自动缩放和调度引擎构建了名为 AsyFunc 的高性能、资源节约型推理服务系统。由生产跟踪驱动的评估结果表明，与目前的技术水平相比，AsyFunc 可分别节省 31.1% 和 32.5% 的计算和内存资源，同时还能在突发情况下提供一致的性能保证。
+
+##### 5.How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads
+
+**摘要：**
+
+本文**发布并分析了两个新的华为无服务器云跟踪** 。这些跟踪数据的时间跨度超过 7 个月，函数调用次数合计超过 1.4 万亿次。第一个跟踪来自华为内部工作负载，包含在多个华为云数据中心运行的 200 个函数的详细每秒统计数据。第二个跟踪是华为公共 FaaS 平台的代表性工作负载。该跟踪包含在单个华为数据中心运行的 5000 多个功能的每分钟到达率。我们通过描述资源消耗、冷启动时间、使用的编程语言、周期性、每秒与每分钟的突发率、相关性和流行度，展示了生产型 FaaS 平台的内部情况。我们的研究结果表明，无服务器功能的行为方式具有相当大的多样性：不同功能的请求量相差高达 9 个数量级，有些功能每天执行超过 10 亿次；调度时间、执行时间和冷启动分布相差 2 到 4 个数量级，并且具有很长的尾部；对于许多单个功能和总体水平而言，功能调用次数表现出很强的周期性。我们的分析还凸显了在估算资源预留和时间序列预测方面进一步研究的必要性，以便考虑到无服务器函数行为的巨大多样性。
+
+##### 6.The Gap Between Serverless Research and Real-world Systems
+
+**摘要：**
+
+随着云计算中无服务器计算模式的出现，研究人员探索了无服务器系统面临的许多挑战，并提出了基于快照启动等解决方案。然而，我们注意到，其中一些优化措施是基于过于简化的假设，导致不可行性并掩盖了现实世界中的问题。本文旨在从行业角度分析当前无服务器研究与现实世界系统之间的差距，并提出可能解决这些差距的新观察、挑战、机遇和见解。
+
+##### 7.Chitu: Accelerating Serverless Workflows with Asynchronous State Replication Pipelines
+
+**摘要：**
+
+无服务器工作流的特点是多阶段计算，而下游函数的运行需要访问中间状态或上游函数的输出。**由于数据访问效率低下，工作流的性能很容易受到影响。研究通过各种策略（如直接和间接方法）加速数据访问。然而，由于资源可用性等各种限制，这些方法可能会失败。** 
+
+在本文中，我们提出了异步状态复制管道（ASRP）来加速一般应用的工作流，取代当前工作流的顺序计算模式。Chitu 的构建基于对三个要点的深刻理解。首先，在编程模型层面提供了可微分数据类型（DDT），以支持增量状态共享和计算。其次，ASRP 的工作原理是实时不断地传递 DDT 对象的变化，这样下游函数就可以使用这些对象，而无需等待上游函数的结束。第三，我们对 Chitu 框架中的 DDT 和 ASRP 进行了系统设计，包括直接通信和变更传播。我们在 OpenFaaS 上实现了 Chitu，将其与流行的无服务器工作流框架进行了比较，并用三个常见案例对其进行了评估。结果表明，Chitu 可将一般无服务器工作流中的数据传输加速达 1.7 倍，并将端到端应用加速达 57%。
 
 #### 2022
 

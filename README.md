@@ -63,6 +63,8 @@
         - [1.Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](#1dorylus-affordable-scalable-and-accurate-gnn-training-with-distributed-cpu-servers-and-serverless-threads)
       - [2020](#2020-3)
         - [1.Fault-tolerant and transactional stateful serverless workflows](#1fault-tolerant-and-transactional-stateful-serverless-workflows)
+      - [2018](#2018-1)
+        - [1.Pocket: Elastic Ephemeral Storage for Serverless Analytics](#1pocket-elastic-ephemeral-storage-for-serverless-analytics)
     - [NSDI](#nsdi)
       - [2021](#2021-6)
         - [1.Caerus: NIMBLE Task Scheduling for Serverless Analytics](#1caerus-nimble-task-scheduling-for-serverless-analytics)
@@ -78,6 +80,7 @@
     - [INFOCOM](#infocom)
       - [2022](#2022-2)
         - [1.StepConf: SLO-Aware Dynamic Resource Configuration for Serverless Function Workflows](#1stepconf-slo-aware-dynamic-resource-configuration-for-serverless-function-workflows)
+        - [2.Retention-Aware Container Caching for Serverless Edge Computing](#2retention-aware-container-caching-for-serverless-edge-computing)
     - [EuroSys](#eurosys)
       - [2023](#2023-5)
         - [1.Palette Load Balancing: Locality Hints for Serverless Functions](#1palette-load-balancing-locality-hints-for-serverless-functions)
@@ -295,6 +298,9 @@
     - [IEEE Cloud Summit](#ieee-cloud-summit)
       - [2020](#2020-14)
         - [1.FaaS2F: A Framework for Defining Execution-SLA in Serverless Computing](#1faas2f-a-framework-for-defining-execution-sla-in-serverless-computing)
+    - [Conference on Machine Learning and Systems(MLSys)](#conference-on-machine-learning-and-systemsmlsys)
+      - [2021](#2021-26)
+        - [1. FirePlace: Placing FireCracker virtual machines with hindsight imitation](#1-fireplace-placing-firecracker-virtual-machines-with-hindsight-imitation)
   - [Journal](#journal-3)
     - [Proceedings of the ACM on Measurement and Analysis of Computing Systems](#proceedings-of-the-acm-on-measurement-and-analysis-of-computing-systems)
       - [2022](#2022-16)
@@ -305,6 +311,7 @@
     - [ACM Computing Surveys](#acm-computing-surveys)
       - [2022](#2022-18)
         - [1.A Holistic View on Resource Management in Serverless Computing Environments: Taxonomy and Future Directions](#1a-holistic-view-on-resource-management-in-serverless-computing-environments-taxonomy-and-future-directions)
+
 # CCFA
 
 ## Conference
@@ -666,6 +673,16 @@ Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成�
 的数据拥有主权的联合环境中工作。我们在 Beldi 上实现了三个应用程序，包括电影评论服务、旅行预
 订系统和社交媒体网站。我们对 1,000 个 AWS Lambda 的评估表明，Beldi 的方法有效且经济实惠。
 
+#### 2018
+
+> 2018.10.08-10
+
+##### 1.Pocket: Elastic Ephemeral Storage for Serverless Analytics
+
+**摘要：**
+
+**本文介绍了 Pocket，一个用于在 serverless 场景下存储中间数据的高性能分布式存储系统。**无服务器计算（Serverless computing）正变得越来越受欢迎，它可以让用户快速在云中启动成千上万个短暂任务，具有高度弹性和细粒度计费的特点。这些属性使得无服务器计算在交互式数据分析方面具有吸引力。然而，在分析作业的执行阶段之间交换中间数据是一个关键的挑战，因为无服务器任务之间的直接通信很困难。自然的方法是将这些短暂数据存储在远程数据存储中。然而，现有的存储系统在弹性、性能和成本方面并不适合无服务器应用程序的需求。我们介绍了Pocket，一种弹性分布式数据存储系统，它可以自动缩放以以低成本提供应用所需的性能。Pocket在多个维度（CPU核数、网络带宽、存储容量）上动态地调整资源，并利用多种存储技术来最小化成本，同时确保应用程序在I/O方面不会成为瓶颈。我们展示了Pocket在无服务器数据分析应用程序方面实现了类似于ElastiCache Redis的性能，同时将成本降低了近60%。
+
 ### NSDI
 
 #### 2021
@@ -719,6 +736,10 @@ Olive (OSDI 2016) 中基于日志的容错方法。它们还包括调整生成�
 **摘要：**
 
 函数即服务 (FaaS) 提供了细粒度的资源供应模型，使开发人员能够构建高度弹性的云应用程序。用户请求由一系列 serverless 函数一步步处理，形成基于函数的工作流。开发人员需要为功能设置适当的资源配置，以满足服务水平目标（SLO）并节省成本。然而，开发资源配置策略具有挑战性。这主要是**因为云函数的执行经常会遇到冷启动和性能波动，这需要动态配置策略来保证 SLO。在本文中，我们介绍了 StepConf，这是一个框架，可在工作流运行时自动执行功能的资源配置。StepConf 优化了工作流中每个函数步骤的内存大小，并考虑了函数间和函数内的并行性。** 我们在 AWS Lambda 上评估 StepConf。与基线相比，实验结果表明 StepConf 在保证 SLO 的同时可以节省高达 40.9% 的成本。
+
+##### 2.Retention-Aware Container Caching for Serverless Edge Computing
+
+无服务器边缘计算采用基于事件的模型——物联网(IoT)服务仅在被请求时才在轻量级容器中执行，这种策略可以有效的提高边缘资源利用率。不幸的是，容器的启动延迟极大地降低了物联网服务的响应能力。为了屏蔽这种延迟，容器cache需要保留资源，但是这会进一步降低资源效率。本文研究了无服务器边缘计算中感知保留的容器缓存问题。我们利用边缘平台的分布式和异构特性，并提出将容器缓存与请求分发一起优化。我们逐步揭示了这个联合优化问题可以映射到经典的滑雪租赁问题。我们首先提出了一种在线竞争算法，用于请求分布和容器缓存是基于一组精心设计的概率分布函数的情景。在此算法的基础上，我们提出了一种适用于一般情况的在线算法O-RDC，该算法通过机会分配请求的方式，将资源容量和网络延迟相结合。我们进行了大量的实验，以检查所提出的算法的性能，包括合成和真实的无服务器计算轨迹。我们的结果表明，就整体系统成本而言，ORDC优于当前无服务器计算平台的现有缓存策略，最高可达94.5%。
 
 ### EuroSys
 
@@ -1711,6 +1732,16 @@ FaaS 是一种可以使基础设施组件对开发人员透明化的云服务，
 **摘要：**
 
 无服务器计算的出现为向云用户交付计算资源带来了重大进步。随着基础架构、平台和执行环境的抽象化，这些层的管理开销转移到了云提供商身上。因此，云用户可以专注于应用层，同时依靠云提供商来配置和操作底层。此外，自动缩放和高可用性等理想功能由云提供商实现，并由用户代码采用，无需额外开销。尽管取得了这些进步，但随着应用程序从单片独立部署过渡到无服务器计算的短暂和无状态微服务模型，必须克服重大挑战。这些挑战与无服务器计算的概念和实现模型的独特性有关。在本文中，**我们研究了无服务器函数执行的服务水平协议 (SLA) 的建模。我们强调无服务器 SLA 与早期云交付模型的根本区别。然后，我们提出了一种根据函数执行的资源利用指纹来定义无服务器函数的 SLA 的方法，以及一种评估执行是否符合该 SLA 的方法** 。最后，我们展示了我们提出的方法的经验验证，该方法能够以超过 76% 和高达 100% 的准确度检测执行 SLA 违规。
+
+### Conference on Machine Learning and Systems(MLSys)
+
+#### 2021
+
+##### 1. FirePlace: Placing FireCracker virtual machines with hindsight imitation
+
+**摘要：**
+
+虚拟机 (VM) 从共享的物理基础设施中逻辑地抽象出单用户的计算，从而构成了现代云计算的基础。这些服务的用户需要不同大小和配置的被供应商放置于不同物理机 (PMs) 上的虚拟机。同一 PM 上的 VM 共享内存和 CPU 资源，因此放置 (Placement) 不当会直接影响用户体验的质量。我们考虑放置 Firecracker VMs (一种 Micro-VM 或 μVM) - 通常用于短期任务的轻量级 VM。我们的目标是当每个 VM 到达时放置 VM，以使 PM 之间的资源使用峰值与平均值的比值达到最小。放置 VM 具有挑战性，因为我们需要从多个维度考虑资源使用，例如 CPU 、内存，并且资源使用会随着时间的推移而变化。过去解决类似问题的方法表明，预测用于放置 VM 的资源使用是可行的。我们发现，在我们的生产流量中，μVM 资源的使用是有波峰的和短暂的，且预测算法没有用处。我们针对此问题评估了强化学习 (RL) 方法，但发现现有的 RL 算法并不总是有好的性能。**我们提出了一种称为 FirePlace 的无预测算法。它使用Hindsigth优化 (HOP) 的变体来学习放置决策，我们称之 Hindsight 模仿**。我们用来自 AWS Lambda 的 μVM 使用的生产流量跟踪来评估我们的方法。FirePlace 在 100K μVM 的生产数据跟踪上比基准算法提高了 10%。
 
 ## Journal
 
